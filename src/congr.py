@@ -18,7 +18,7 @@ def generate_file_metadata(dir_path):
     for root, dirs, files in os.walk(dir_path):
         # Create a node for the directory
         dir_node = URIRef(ex + quote(root, safe=''))
-        g.add((dir_node, RDF.type, gist.Directory))
+        g.add((dir_node, RDF.type, gist.Container))
         g.add((dir_node, ex.name, Literal(os.path.basename(root), datatype=XSD.string)))
         g.add((dir_node, ex.path, Literal(root, datatype=XSD.string)))
 
