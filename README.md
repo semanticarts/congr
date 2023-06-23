@@ -1,7 +1,9 @@
 Content Grapher (congr)
 =====
 
-Dave wrote: 
+![gist logo](./media/conger-on-a-file-cabinet-210x210.png)
+
+Dave wrote:
 
 The task is to turn our content into triples and integrate it with our structured data.  
 
