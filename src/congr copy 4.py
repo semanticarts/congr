@@ -8,10 +8,7 @@ from urllib.parse import quote
 gist = Namespace("https://w3id.org/semanticarts/gist/")
 ex = Namespace("http://example.org/files/") # Namespace for our file metadata
 
-def short_hash(input_string):
-    return hashlib.sha256(input_string.encode()).hexdigest()[:10]
-
-def long_hash(file_path):
+def hash_file(file_path):
     hasher = hashlib.sha256()
     with open(file_path, 'rb') as afile:
         buf = afile.read()
@@ -26,16 +23,14 @@ def generate_file_metadata(dir_path):
     # Use os.walk() to cover subdirectories as well
     for root, dirs, files in os.walk(dir_path):
         # Create a node for the directory
-        dir_hash = short_hash(root + str(os.path.getmtime(root)))
-        dir_node = URIRef(ex + "_Directory_" + quote(root, safe='') + "_" + dir_hash)
+        dir_node = URIRef(ex + quote(root, safe=''))
         g.add((dir_node, RDF.type, gist.Directory))
         g.add((dir_node, ex.name, Literal(os.path.basename(root), datatype=XSD.string)))
         g.add((dir_node, ex.path, Literal(root, datatype=XSD.string)))
 
         # Create a node for the parent directory
         parent_dir_path = os.path.dirname(root)
-        parent_dir_hash = short_hash(parent_dir_path + str(os.path.getmtime(parent_dir_path)))
-        parent_dir_node = URIRef(ex + "_Directory_" + quote(parent_dir_path, safe='') + "_" + parent_dir_hash)
+        parent_dir_node = URIRef(ex + quote(parent_dir_path, safe=''))
         if parent_dir_path != dir_path:  # Exclude the root directory
             g.add((dir_node, gist.isMemberOf, parent_dir_node))
 
@@ -44,8 +39,7 @@ def generate_file_metadata(dir_path):
 
             if os.path.isfile(file_path):
                 # Create a node for the file
-                file_hash = short_hash(file_path + str(os.path.getmtime(file_path)))
-                file_node = URIRef(ex + "_Content_" + quote(filename, safe='') + "_" + file_hash)
+                file_node = URIRef(ex + quote(filename, safe=''))
 
                 # Add triples to the graph
                 g.add((file_node, RDF.type, gist.Content))
@@ -61,8 +55,8 @@ def generate_file_metadata(dir_path):
                     g.add((file_node, ex.mime_type, Literal(mime_type, datatype=XSD.string)))
 
                 # Add file hash
-                fingerprint = long_hash(file_path)
-                g.add((file_node, ex.fingerprint, Literal(fingerprint, datatype=XSD.string)))
+                file_hash = hash_file(file_path)
+                g.add((file_node, ex.fingerprint, Literal(file_hash, datatype=XSD.string)))
 
                 # Add relationship between directory and file
                 g.add((file_node, gist.isMemberOf, dir_node))

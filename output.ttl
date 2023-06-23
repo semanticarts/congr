@@ -1,43 +1,63 @@
-@prefix dat: <http://data.semanticarts.com/congr/> .
 @prefix gist: <https://w3id.org/semanticarts/gist/> .
+@prefix ns1: <http://example.org/files/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-dat:_Content_Antipatterns%20-%20SC.doc_f8527be61a a gist:Content ;
-    dat:creation_time "2023-06-22T10:15:15.895738"^^xsd:dateTime ;
-    dat:directory "C:\\Users\\StevenChalem\\congr-test"^^xsd:string ;
-    dat:fingerprint "f8527be61a76d36c97eb193d67da318c04f88c17169f34797d12517bd466507f"^^xsd:string ;
-    dat:mime_type "application/msword"^^xsd:string ;
-    dat:modification_time "2023-06-22T10:15:16.440000"^^xsd:dateTime ;
-    dat:name "Antipatterns - SC.doc"^^xsd:string ;
-    dat:size 43520 ;
-    gist:isMemberOf dat:C%3A%5CUsers%5CStevenChalem%5Ccongr-test .
+ns1:_Content_Antipatterns%20-%20SC%20-%20Copy.doc_ee5d10a325 a gist:Content ;
+    ns1:creation_time "2023-06-23T13:30:08.610756"^^xsd:dateTime ;
+    ns1:directory "C:\\Users\\StevenChalem\\congr-test\\media"^^xsd:string ;
+    ns1:fingerprint "06cb9321fd119442406f2bf5ef28f39c33e5b0292d9eb2ce2971a7c41edd1709"^^xsd:string ;
+    ns1:mime_type "application/msword"^^xsd:string ;
+    ns1:modification_time "2023-06-22T10:15:16.440000"^^xsd:dateTime ;
+    ns1:name "Antipatterns - SC - Copy.doc"^^xsd:string ;
+    ns1:size 43520 ;
+    gist:isMemberOf ns1:_Directory_C%3A%5CUsers%5CStevenChalem%5Ccongr-test%5Cmedia_688eaae6f4 .
 
-dat:_Content_Coffee%20Shop%20Ontology.png_5798235b61 a gist:Content ;
-    dat:creation_time "2023-05-23T11:07:38.087996"^^xsd:dateTime ;
-    dat:directory "C:\\Users\\StevenChalem\\congr-test\\media"^^xsd:string ;
-    dat:fingerprint "5798235b6199af3e048086262aeb2fd396279cef09cef0070fa27ebaa003f99d"^^xsd:string ;
-    dat:mime_type "image/png"^^xsd:string ;
-    dat:modification_time "2023-05-23T11:07:38.521611"^^xsd:dateTime ;
-    dat:name "Coffee Shop Ontology.png"^^xsd:string ;
-    dat:size 1364637 ;
-    gist:isMemberOf dat:C%3A%5CUsers%5CStevenChalem%5Ccongr-test%5Cmedia .
+ns1:_Content_Antipatterns%20-%20SC.doc_a1f3cc8acb a gist:Content ;
+    ns1:creation_time "2023-06-23T13:29:57.605533"^^xsd:dateTime ;
+    ns1:directory "C:\\Users\\StevenChalem\\congr-test\\media"^^xsd:string ;
+    ns1:fingerprint "06cb9321fd119442406f2bf5ef28f39c33e5b0292d9eb2ce2971a7c41edd1709"^^xsd:string ;
+    ns1:mime_type "application/msword"^^xsd:string ;
+    ns1:modification_time "2023-06-22T10:15:16.440000"^^xsd:dateTime ;
+    ns1:name "Antipatterns - SC.doc"^^xsd:string ;
+    ns1:size 43520 ;
+    gist:isMemberOf ns1:_Directory_C%3A%5CUsers%5CStevenChalem%5Ccongr-test%5Cmedia_688eaae6f4 .
 
-dat:_Content_baby%20caught%20in%20flowchart.png_552163749b a gist:Content ;
-    dat:creation_time "2023-06-05T15:31:49.688691"^^xsd:dateTime ;
-    dat:directory "C:\\Users\\StevenChalem\\congr-test\\media"^^xsd:string ;
-    dat:fingerprint "552163749b3b99aa959a8c14dbb77add3e990582088203f69bc18b9cb276054c"^^xsd:string ;
-    dat:mime_type "image/png"^^xsd:string ;
-    dat:modification_time "2023-06-05T15:31:50.121633"^^xsd:dateTime ;
-    dat:name "baby caught in flowchart.png"^^xsd:string ;
-    dat:size 1556317 ;
-    gist:isMemberOf dat:C%3A%5CUsers%5CStevenChalem%5Ccongr-test%5Cmedia .
+ns1:_Content_Antipatterns%20-%20SC.doc_f8527be61a a gist:Content ;
+    ns1:creation_time "2023-06-22T10:15:15.895738"^^xsd:dateTime ;
+    ns1:directory "C:\\Users\\StevenChalem\\congr-test"^^xsd:string ;
+    ns1:fingerprint "06cb9321fd119442406f2bf5ef28f39c33e5b0292d9eb2ce2971a7c41edd1709"^^xsd:string ;
+    ns1:mime_type "application/msword"^^xsd:string ;
+    ns1:modification_time "2023-06-22T10:15:16.440000"^^xsd:dateTime ;
+    ns1:name "Antipatterns - SC.doc"^^xsd:string ;
+    ns1:size 43520 ;
+    gist:isMemberOf ns1:_Directory_C%3A%5CUsers%5CStevenChalem%5Ccongr-test_d00cff84b1 .
 
-dat:C%3A%5CUsers%5CStevenChalem%5Ccongr-test a gist:Container ;
-    dat:name "congr-test"^^xsd:string ;
-    dat:path "C:\\Users\\StevenChalem\\congr-test"^^xsd:string ;
-    gist:isMemberOf dat:C%3A%5CUsers%5CStevenChalem .
+ns1:_Content_Coffee%20Shop%20Ontology.png_5798235b61 a gist:Content ;
+    ns1:creation_time "2023-05-23T11:07:38.087996"^^xsd:dateTime ;
+    ns1:directory "C:\\Users\\StevenChalem\\congr-test\\media"^^xsd:string ;
+    ns1:fingerprint "ec60b71b6232d53c8fdf0056df0f0466704e58976efb2a06930f0fbbc1396fde"^^xsd:string ;
+    ns1:mime_type "image/png"^^xsd:string ;
+    ns1:modification_time "2023-05-23T11:07:38.521611"^^xsd:dateTime ;
+    ns1:name "Coffee Shop Ontology.png"^^xsd:string ;
+    ns1:size 1364637 ;
+    gist:isMemberOf ns1:_Directory_C%3A%5CUsers%5CStevenChalem%5Ccongr-test%5Cmedia_688eaae6f4 .
 
-dat:C%3A%5CUsers%5CStevenChalem%5Ccongr-test%5Cmedia a gist:Container ;
-    dat:name "media"^^xsd:string ;
-    dat:path "C:\\Users\\StevenChalem\\congr-test\\media"^^xsd:string .
+ns1:_Content_baby%20caught%20in%20flowchart.png_552163749b a gist:Content ;
+    ns1:creation_time "2023-06-05T15:31:49.688691"^^xsd:dateTime ;
+    ns1:directory "C:\\Users\\StevenChalem\\congr-test\\media"^^xsd:string ;
+    ns1:fingerprint "5f80a65a6539e068c826fb2e2cdc62ec923e48279953a5ac81467185de57776b"^^xsd:string ;
+    ns1:mime_type "image/png"^^xsd:string ;
+    ns1:modification_time "2023-06-05T15:31:50.121633"^^xsd:dateTime ;
+    ns1:name "baby caught in flowchart.png"^^xsd:string ;
+    ns1:size 1556317 ;
+    gist:isMemberOf ns1:_Directory_C%3A%5CUsers%5CStevenChalem%5Ccongr-test%5Cmedia_688eaae6f4 .
+
+ns1:_Directory_C%3A%5CUsers%5CStevenChalem%5Ccongr-test_d00cff84b1 a gist:Directory ;
+    ns1:name "congr-test"^^xsd:string ;
+    ns1:path "C:\\Users\\StevenChalem\\congr-test"^^xsd:string ;
+    gist:isMemberOf ns1:_Directory_C%3A%5CUsers%5CStevenChalem_fa5d350e3c .
+
+ns1:_Directory_C%3A%5CUsers%5CStevenChalem%5Ccongr-test%5Cmedia_688eaae6f4 a gist:Directory ;
+    ns1:name "media"^^xsd:string ;
+    ns1:path "C:\\Users\\StevenChalem\\congr-test\\media"^^xsd:string .
 

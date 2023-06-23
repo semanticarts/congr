@@ -32,7 +32,7 @@ def generate_file_metadata(dir_path):
             g.add((file_node, ex.directory, Literal(os.path.dirname(file_path), datatype=XSD.string)))
 
     # Serialize the graph in turtle format
-    g.serialize(format='turtle', destination='output.ttl')
+    g.serialize(format='turtle', destination='output1.ttl')
 
 generate_file_metadata('C:\\Users\\StevenChalem\\congr-test')
 # generate_file_metadata('C:\\Users\\StevenChalem\\git')
