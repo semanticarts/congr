@@ -37,8 +37,7 @@ These are the files and directories scanned for testing.
 
 - C:\Users\StevenChalem\congr-test\
     - Antipatterns_SC.doc
+    - Antipatterns_SC_Copy.doc
     - media\
         - Antipatterns_SC.doc
-        - Antipatterns_SC_Copy.doc
         - baby-caught-in-flowchart.png
-        - CoffeeShopOntology.png
