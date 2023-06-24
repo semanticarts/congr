@@ -1,7 +1,10 @@
 Content Grapher (congr)
 =====
 
-![gist logo](./media/conger-on-a-file-cabinet-210x210.png)
+![conger on a file cabinet](./media/conger-on-a-file-cabinet-210x210.png)
+
+Requirements
+-----
 
 Dave wrote:
 
@@ -26,3 +29,16 @@ The next several chunks can be done in almost any order, but to give you a hint 
 The objective is to be able to be in new SA system and click on a project and get all the important documents related to that project, or click on a person and get all the documents that person authored, or all the documents that person was named in.  
 
 PS we have about 500K files on the shared folder.  Most are worth indexing.  Some need to be purged as being early drafts on old projects.  Some are sensitive (employee evals and the like)
+
+Test Directory
+-----
+
+These are the files and directories scanned for testing.
+
+- C:\Users\StevenChalem\congr-test\
+    - Antipatterns - SC.doc
+    - media\
+        - Antipatterns - SC.doc
+        - Antipatterns - SC Copy.doc
+        - baby caught in flowchart.png
+        - Coffee Shop Ontology.png
