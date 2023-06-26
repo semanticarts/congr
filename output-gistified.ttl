@@ -1,0 +1,38 @@
+# Program output edited for gistiness
+
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix congr3: <https://data.semanticarts.com/congr/> .
+@prefix congr: <https://ontologies.semanticarts.com/congr/> .
+@prefix gist: <https://w3id.org/semanticarts/gist/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix congrx: <https://taxonomies.semanticarts/congr/> .
+
+# C-Box
+congrx:_MediaType_applicationMsWord  rdf:type gist:MediaType .
+congrx:_MediaType_applicationExcel  rdf:type gist:MediaType .
+congrx:_MediaType_imagePng  rdf:type gist:MediaType .
+congrx:_MediaType_utf8  rdf:type gist:MediaType .
+
+# A-Box
+congr3:_Content_Antipatterns_SC.doc_1d1c5eff4a a gist:Content ;
+    congr:createDateTime "2023-06-22T10:15:15.895738"^^xsd:dateTime ;
+    congr:fingerprint "06cb9321fd119442406f2bf5ef28f39c33e5b0292d9eb2ce2971a7c41edd1709"^^xsd:string ;
+    congr:hasMediaType  congrx:_MediaType_applicationMsWord ;
+    congr:modifyDateTime "2023-06-22T10:15:16.440000"^^xsd:dateTime ;
+    gist:name "Antipatterns_SC.doc"^^xsd:string ;
+    gist:hasMagnitude congr3:_InformationQuantity_Antipatterns_SC.doc_1d1c5eff4a ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Ccongr-test_3eb6121421 .
+
+congr3:_InformationQuantity_Antipatterns_SC.doc_1d1c5eff4a  gist:hasUnitOfMeasure:xsd.byte ;
+    gist:hasValue "43520"^^xsd:integer .
+
+# Excluded remaining files
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Ccongr-test%5Cmedia_95cf8b3b81 a gist:Collection ;
+    gist:name "media"^^xsd:string ;
+    congr:pathString "C:\\Users\\StevenChalem\\congr-test\\media"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Ccongr-test_3eb6121421 a gist:Collection ;
+    gist:name "congr-test"^^xsd:string ;
+    congr:pathString "C:\\Users\\StevenChalem\\congr-test"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem_fa5d350e3c .
