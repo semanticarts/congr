@@ -15,9 +15,13 @@ def spacetime_hash(input_string):
 
 def content_hash(file_path):
     hasher = hashlib.sha256()
-    with open(file_path, 'rb') as afile:
-        buf = afile.read()
-        hasher.update(buf)
+    try:
+        with open(file_path, 'rb') as afile:
+            for chunk in iter(lambda: afile.read(4096), b''):
+                hasher.update(chunk)
+    except IOError as e:
+        print(f"Couldn't read {file_path}: {e}")
+        return None
     return hasher.hexdigest()
 
 def generate_file_metadata(starting_dir_path, include_files, create_fingerprints, output_file='congr-output.ttl'):
@@ -37,7 +41,7 @@ def generate_file_metadata(starting_dir_path, include_files, create_fingerprints
             file_path = os.path.join(root, filename)
 
             if os.path.isfile(file_path) and include_files:
-                file_location_hash = spacetime_hash(file_path + str(os.path.getmtime(file_path)))
+                file_location_hash = spacetime_hash(file_path + str(os.path.getctime(file_path)))
                 file_node = URIRef(congr3 + "_Content_" + quote(filename, safe='') + "_" + file_location_hash)
 
                 g.add((file_node, RDF.type, gist.Content))
@@ -62,7 +66,7 @@ def generate_file_metadata(starting_dir_path, include_files, create_fingerprints
                     g.add((file_node, congr.fingerprint, Literal(fingerprint, datatype=XSD.string)))
 
                 if root != starting_dir_path:
-                    dir_hash = spacetime_hash(root + str(os.path.getmtime(root)))
+                    dir_hash = spacetime_hash(root + str(os.path.getctime(root)))
                     dir_node = URIRef(congr3 + "_Directory_" + quote(os.path.basename(root), safe='') + "_" + dir_hash)
                     g.add((dir_node, RDF.type, gist.Collection))
                     g.add((dir_node, gist.name, Literal(os.path.basename(root), datatype=XSD.string)))
