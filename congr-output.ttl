@@ -3,605 +3,659 @@
 @prefix gist: <https://w3id.org/ontology/semanticarts/gist/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-congr3:_Directory_01_c957d8d3a6 a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\01"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "01"^^xsd:string .
-
-congr3:_Directory_02_3323328b7a a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\02"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "02"^^xsd:string .
-
-congr3:_Directory_03_79cd30846d a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\03"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "03"^^xsd:string .
-
-congr3:_Directory_07_ebaa7882e1 a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\07"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "07"^^xsd:string .
-
-congr3:_Directory_09_5c59148198 a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\09"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "09"^^xsd:string .
-
-congr3:_Directory_0b_ba111b6534 a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\0b"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "0b"^^xsd:string .
-
-congr3:_Directory_0d_d6496087af a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\0d"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "0d"^^xsd:string .
-
-congr3:_Directory_16_8faf27811b a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\16"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "16"^^xsd:string .
-
-congr3:_Directory_19_bc6f29ba08 a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\19"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "19"^^xsd:string .
-
-congr3:_Directory_1a_89589ec06a a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\1a"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "1a"^^xsd:string .
-
-congr3:_Directory_1b_7e84b3917a a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\1b"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "1b"^^xsd:string .
-
-congr3:_Directory_1d_90f6ef5d2a a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\1d"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "1d"^^xsd:string .
-
-congr3:_Directory_1f_39c922ba79 a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\1f"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "1f"^^xsd:string .
-
-congr3:_Directory_21_2834d1232f a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\21"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "21"^^xsd:string .
-
-congr3:_Directory_24_82582f7908 a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\24"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "24"^^xsd:string .
-
-congr3:_Directory_26_a4af275bb6 a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\26"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "26"^^xsd:string .
-
-congr3:_Directory_27_8eeab7e7ff a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\27"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "27"^^xsd:string .
-
-congr3:_Directory_2b_8a4100fdd0 a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\2b"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "2b"^^xsd:string .
-
-congr3:_Directory_2f_ffb1c10d87 a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\2f"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "2f"^^xsd:string .
-
-congr3:_Directory_32_5e7eec5a33 a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\32"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "32"^^xsd:string .
-
-congr3:_Directory_33_8230bac224 a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\33"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "33"^^xsd:string .
-
-congr3:_Directory_37_b7ff30a043 a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\37"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "37"^^xsd:string .
-
-congr3:_Directory_38_4b9357d7f3 a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\38"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "38"^^xsd:string .
-
-congr3:_Directory_39_860c15144b a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\39"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "39"^^xsd:string .
-
-congr3:_Directory_3b_1c02369128 a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\3b"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "3b"^^xsd:string .
-
-congr3:_Directory_3c_d6a1e8c955 a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\3c"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "3c"^^xsd:string .
-
-congr3:_Directory_3d_ab857cfe90 a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\3d"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "3d"^^xsd:string .
-
-congr3:_Directory_4b_ed42758280 a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\4b"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "4b"^^xsd:string .
-
-congr3:_Directory_4d_e8ab350892 a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\4d"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "4d"^^xsd:string .
-
-congr3:_Directory_51_a11a571415 a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\51"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "51"^^xsd:string .
-
-congr3:_Directory_52_2194a291f9 a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\52"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "52"^^xsd:string .
-
-congr3:_Directory_53_c981e52d5d a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\53"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "53"^^xsd:string .
-
-congr3:_Directory_5d_799cb41d10 a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\5d"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "5d"^^xsd:string .
-
-congr3:_Directory_5f_5867fca276 a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\5f"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "5f"^^xsd:string .
-
-congr3:_Directory_60_211aa98839 a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\60"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "60"^^xsd:string .
-
-congr3:_Directory_61_a6fde56cc2 a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\61"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "61"^^xsd:string .
-
-congr3:_Directory_63_377832ef65 a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\63"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "63"^^xsd:string .
-
-congr3:_Directory_64_47aafa2973 a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\64"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "64"^^xsd:string .
-
-congr3:_Directory_67_79fc41fbe2 a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\67"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "67"^^xsd:string .
-
-congr3:_Directory_6a_aab642e14a a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\6a"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "6a"^^xsd:string .
-
-congr3:_Directory_6d_5d2bc4a6e9 a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\6d"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "6d"^^xsd:string .
-
-congr3:_Directory_6e_cb686648a0 a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\6e"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "6e"^^xsd:string .
-
-congr3:_Directory_6f_6a4d57c6a8 a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\6f"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "6f"^^xsd:string .
-
-congr3:_Directory_73_ad746ed143 a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\73"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "73"^^xsd:string .
-
-congr3:_Directory_74_0582a6c8a7 a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\74"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "74"^^xsd:string .
-
-congr3:_Directory_77_a06f730bbb a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\77"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "77"^^xsd:string .
-
-congr3:_Directory_7d_f70f54f99b a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\7d"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "7d"^^xsd:string .
-
-congr3:_Directory_81_28e6313efc a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\81"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "81"^^xsd:string .
-
-congr3:_Directory_89_1e70654e2f a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\89"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "89"^^xsd:string .
-
-congr3:_Directory_8a_2e4d305f21 a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\8a"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "8a"^^xsd:string .
-
-congr3:_Directory_8b_965207cdfd a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\8b"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "8b"^^xsd:string .
-
-congr3:_Directory_8d_5e3685df41 a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\8d"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "8d"^^xsd:string .
-
-congr3:_Directory_8e_9b3cc8734d a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\8e"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "8e"^^xsd:string .
-
-congr3:_Directory_90_19dadf3983 a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\90"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "90"^^xsd:string .
-
-congr3:_Directory_92_ed30192d94 a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\92"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "92"^^xsd:string .
-
-congr3:_Directory_94_c0304ffd9c a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\94"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "94"^^xsd:string .
-
-congr3:_Directory_96_223e480aa0 a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\96"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "96"^^xsd:string .
-
-congr3:_Directory_9e_3310f86554 a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\9e"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "9e"^^xsd:string .
-
-congr3:_Directory_a2_3a44b66f05 a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\a2"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "a2"^^xsd:string .
-
-congr3:_Directory_a7_3d3c54dddb a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\a7"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "a7"^^xsd:string .
-
-congr3:_Directory_a8_b66a50d25b a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\a8"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "a8"^^xsd:string .
-
-congr3:_Directory_a9_9de4ef3f3e a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\a9"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "a9"^^xsd:string .
-
-congr3:_Directory_ab_dc1295fa64 a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\ab"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "ab"^^xsd:string .
-
-congr3:_Directory_ae_afe5b82ed5 a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\ae"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "ae"^^xsd:string .
-
-congr3:_Directory_b1_096302a175 a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\b1"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "b1"^^xsd:string .
-
-congr3:_Directory_b5_ebdad213b9 a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\b5"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "b5"^^xsd:string .
-
-congr3:_Directory_b6_02d4892ceb a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\b6"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "b6"^^xsd:string .
-
-congr3:_Directory_b7_515ceb1002 a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\b7"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "b7"^^xsd:string .
-
-congr3:_Directory_bd_c3fa7d94cd a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\bd"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "bd"^^xsd:string .
-
-congr3:_Directory_be_d001c20f67 a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\be"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "be"^^xsd:string .
-
-congr3:_Directory_c0_b981792724 a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\c0"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "c0"^^xsd:string .
-
-congr3:_Directory_c1_027311e96a a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\c1"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "c1"^^xsd:string .
-
-congr3:_Directory_c2_ae61cddf8e a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\c2"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "c2"^^xsd:string .
-
-congr3:_Directory_c3_3460342bba a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\c3"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "c3"^^xsd:string .
-
-congr3:_Directory_c6_d6f261eb5b a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\c6"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "c6"^^xsd:string .
-
-congr3:_Directory_c7_60ea48f07d a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\c7"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "c7"^^xsd:string .
-
-congr3:_Directory_cb_57e32db5b4 a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\cb"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "cb"^^xsd:string .
-
-congr3:_Directory_cc_0a083d209b a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\cc"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "cc"^^xsd:string .
-
-congr3:_Directory_cf_db92ed3cd0 a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\cf"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "cf"^^xsd:string .
-
-congr3:_Directory_congr_2d5e725da2 a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_git_a879d6f1d8 ;
-    gist:name "congr"^^xsd:string .
-
-congr3:_Directory_d0_4c18b94b1f a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\d0"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "d0"^^xsd:string .
-
-congr3:_Directory_d5_49ca82f6a0 a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\d5"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "d5"^^xsd:string .
-
-congr3:_Directory_d6_f2c13fa0e1 a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\d6"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "d6"^^xsd:string .
-
-congr3:_Directory_d9_a3763a268c a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\d9"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "d9"^^xsd:string .
-
-congr3:_Directory_dc_9a67735fc7 a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\dc"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "dc"^^xsd:string .
-
-congr3:_Directory_de_3e270087bd a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\de"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "de"^^xsd:string .
-
-congr3:_Directory_e6_03b996870c a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\e6"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "e6"^^xsd:string .
-
-congr3:_Directory_e7_171b5f6b00 a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\e7"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "e7"^^xsd:string .
-
-congr3:_Directory_e8_0f4ed38765 a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\e8"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "e8"^^xsd:string .
-
-congr3:_Directory_e9_8ff7e80e2a a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\e9"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "e9"^^xsd:string .
-
-congr3:_Directory_ea_e181cf8ff4 a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\ea"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "ea"^^xsd:string .
-
-congr3:_Directory_ec_52f93e9582 a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\ec"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "ec"^^xsd:string .
-
-congr3:_Directory_ed_608790d884 a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\ed"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "ed"^^xsd:string .
-
-congr3:_Directory_f1_715a61a514 a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\f1"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "f1"^^xsd:string .
-
-congr3:_Directory_f2_1230049b85 a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\f2"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "f2"^^xsd:string .
-
-congr3:_Directory_f4_62b4f3c556 a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\f4"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "f4"^^xsd:string .
-
-congr3:_Directory_f5_835f0b9a8c a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\f5"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "f5"^^xsd:string .
-
-congr3:_Directory_f6_073af4a34a a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\f6"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "f6"^^xsd:string .
-
-congr3:_Directory_f7_30140cffa5 a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\f7"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "f7"^^xsd:string .
-
-congr3:_Directory_fa_688caf51ad a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\fa"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "fa"^^xsd:string .
-
-congr3:_Directory_fb_b0e16988f2 a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\fb"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "fb"^^xsd:string .
-
-congr3:_Directory_fe_d60e4000c5 a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\fe"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "fe"^^xsd:string .
-
-congr3:_Directory_ff_a3052eae16 a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\ff"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "ff"^^xsd:string .
-
-congr3:_Directory_heads_46bce71cfc a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\refs\\heads"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_refs_f86788d688 ;
-    gist:name "heads"^^xsd:string .
-
-congr3:_Directory_heads_edfd886174 a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\logs\\refs\\heads"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_refs_7647a0881f ;
-    gist:name "heads"^^xsd:string .
-
-congr3:_Directory_hooks_a22bb184e7 a gist:Collection ;
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Chooks_a22bb184e7 a gist:Collection ;
     congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\hooks"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_.git_5958d86808 ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git_ac779da22c ;
     gist:name "hooks"^^xsd:string .
 
-congr3:_Directory_info_ba62de9587 a gist:Collection ;
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cinfo_ba62de9587 a gist:Collection ;
     congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\info"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_.git_5958d86808 ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git_ac779da22c ;
     gist:name "info"^^xsd:string .
 
-congr3:_Directory_info_c405dcdee7 a gist:Collection ;
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Clogs%5Crefs%5Cheads_edfd886174 a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\logs\\refs\\heads"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Clogs%5Crefs_7647a0881f ;
+    gist:name "heads"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Clogs%5Crefs%5Cremotes%5Corigin_9859d19ece a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\logs\\refs\\remotes\\origin"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Clogs%5Crefs%5Cremotes_6f98bd2bcb ;
+    gist:name "origin"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5C01_c957d8d3a6 a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\01"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "01"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5C02_3323328b7a a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\02"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "02"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5C03_79cd30846d a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\03"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "03"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5C04_ccc43ee555 a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\04"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "04"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5C05_37692ad1ce a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\05"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "05"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5C06_f4f5d15182 a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\06"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "06"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5C07_ebaa7882e1 a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\07"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "07"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5C09_5c59148198 a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\09"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "09"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5C0b_ba111b6534 a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\0b"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "0b"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5C0c_b5c8e9b1e9 a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\0c"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "0c"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5C0d_d6496087af a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\0d"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "0d"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5C16_b161c54e49 a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\16"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "16"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5C19_bc6f29ba08 a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\19"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "19"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5C1a_89589ec06a a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\1a"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "1a"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5C1b_7e84b3917a a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\1b"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "1b"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5C1d_90f6ef5d2a a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\1d"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "1d"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5C1f_39c922ba79 a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\1f"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "1f"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5C21_2834d1232f a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\21"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "21"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5C24_82582f7908 a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\24"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "24"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5C26_a4af275bb6 a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\26"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "26"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5C27_8eeab7e7ff a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\27"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "27"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5C2b_8a4100fdd0 a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\2b"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "2b"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5C2f_ffb1c10d87 a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\2f"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "2f"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5C32_5e7eec5a33 a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\32"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "32"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5C33_8230bac224 a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\33"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "33"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5C37_b7ff30a043 a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\37"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "37"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5C38_4b9357d7f3 a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\38"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "38"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5C39_860c15144b a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\39"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "39"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5C3b_1c02369128 a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\3b"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "3b"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5C3c_d6a1e8c955 a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\3c"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "3c"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5C3d_ab857cfe90 a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\3d"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "3d"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5C44_ff267ed085 a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\44"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "44"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5C4b_ed42758280 a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\4b"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "4b"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5C4d_e8ab350892 a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\4d"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "4d"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5C51_a11a571415 a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\51"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "51"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5C52_2194a291f9 a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\52"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "52"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5C53_c981e52d5d a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\53"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "53"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5C5d_799cb41d10 a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\5d"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "5d"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5C5f_5867fca276 a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\5f"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "5f"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5C60_211aa98839 a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\60"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "60"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5C61_a6fde56cc2 a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\61"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "61"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5C63_377832ef65 a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\63"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "63"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5C64_47aafa2973 a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\64"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "64"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5C67_79fc41fbe2 a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\67"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "67"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5C6a_aab642e14a a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\6a"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "6a"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5C6d_5d2bc4a6e9 a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\6d"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "6d"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5C6e_cb686648a0 a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\6e"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "6e"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5C6f_6a4d57c6a8 a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\6f"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "6f"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5C73_ad746ed143 a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\73"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "73"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5C74_0582a6c8a7 a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\74"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "74"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5C77_a06f730bbb a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\77"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "77"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5C7d_f70f54f99b a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\7d"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "7d"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5C81_28e6313efc a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\81"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "81"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5C89_1e70654e2f a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\89"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "89"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5C8a_2e4d305f21 a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\8a"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "8a"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5C8b_965207cdfd a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\8b"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "8b"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5C8d_d1e12d395b a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\8d"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "8d"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5C8e_9b3cc8734d a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\8e"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "8e"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5C90_19dadf3983 a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\90"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "90"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5C92_ed30192d94 a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\92"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "92"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5C94_c0304ffd9c a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\94"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "94"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5C95_e12fa89eeb a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\95"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "95"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5C96_223e480aa0 a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\96"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "96"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5C9c_e691995e35 a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\9c"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "9c"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5C9e_3310f86554 a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\9e"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "9e"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5Ca2_3a44b66f05 a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\a2"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "a2"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5Ca7_3d3c54dddb a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\a7"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "a7"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5Ca8_b66a50d25b a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\a8"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "a8"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5Ca9_9de4ef3f3e a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\a9"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "a9"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5Cab_dc1295fa64 a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\ab"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "ab"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5Cae_afe5b82ed5 a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\ae"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "ae"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5Cb1_096302a175 a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\b1"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "b1"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5Cb2_93e65d0b14 a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\b2"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "b2"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5Cb5_ebdad213b9 a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\b5"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "b5"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5Cb6_02d4892ceb a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\b6"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "b6"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5Cb7_b50b7b7481 a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\b7"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "b7"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5Cbb_05bcacb9c4 a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\bb"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "bb"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5Cbd_c3fa7d94cd a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\bd"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "bd"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5Cbe_d001c20f67 a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\be"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "be"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5Cc0_b981792724 a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\c0"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "c0"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5Cc1_027311e96a a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\c1"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "c1"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5Cc2_ae61cddf8e a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\c2"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "c2"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5Cc3_3460342bba a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\c3"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "c3"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5Cc6_d6f261eb5b a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\c6"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "c6"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5Cc7_60ea48f07d a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\c7"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "c7"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5Ccb_57e32db5b4 a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\cb"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "cb"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5Ccc_0a083d209b a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\cc"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "cc"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5Ccf_db92ed3cd0 a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\cf"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "cf"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5Cd0_4c18b94b1f a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\d0"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "d0"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5Cd3_1123cb86ea a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\d3"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "d3"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5Cd5_49ca82f6a0 a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\d5"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "d5"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5Cd6_f2c13fa0e1 a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\d6"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "d6"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5Cd9_a3763a268c a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\d9"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "d9"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5Cdc_9a67735fc7 a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\dc"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "dc"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5Cde_3e270087bd a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\de"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "de"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5Ce6_03b996870c a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\e6"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "e6"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5Ce7_171b5f6b00 a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\e7"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "e7"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5Ce8_95686b34b6 a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\e8"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "e8"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5Ce9_8ff7e80e2a a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\e9"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "e9"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5Cea_328babcee4 a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\ea"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "ea"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5Cec_52f93e9582 a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\ec"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "ec"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5Ced_608790d884 a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\ed"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "ed"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5Cf1_715a61a514 a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\f1"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "f1"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5Cf2_1230049b85 a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\f2"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "f2"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5Cf4_62b4f3c556 a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\f4"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "f4"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5Cf5_835f0b9a8c a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\f5"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "f5"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5Cf6_073af4a34a a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\f6"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "f6"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5Cf7_30140cffa5 a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\f7"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "f7"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5Cfa_688caf51ad a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\fa"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "fa"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5Cfb_b0e16988f2 a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\fb"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "fb"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5Cfe_d60e4000c5 a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\fe"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "fe"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5Cff_a3052eae16 a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\ff"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "ff"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5Cinfo_c405dcdee7 a gist:Collection ;
     congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\info"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
     gist:name "info"^^xsd:string .
 
-congr3:_Directory_media_7d5a65607e a gist:Collection ;
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects%5Cpack_21be8aee31 a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\pack"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 ;
+    gist:name "pack"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Crefs%5Cheads_d1b0246d97 a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\refs\\heads"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Crefs_f86788d688 ;
+    gist:name "heads"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Crefs%5Cremotes%5Corigin_f2b2fd81d0 a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\refs\\remotes\\origin"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Crefs%5Cremotes_8248f57168 ;
+    gist:name "origin"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Crefs%5Ctags_fe4e9b017b a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\refs\\tags"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Crefs_f86788d688 ;
+    gist:name "tags"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.vscode_a70704a060 a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.vscode"^^xsd:string ;
+    gist:name ".vscode"^^xsd:string .
+
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5Cmedia_7d5a65607e a gist:Collection ;
     congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\media"^^xsd:string ;
     gist:name "media"^^xsd:string .
 
-congr3:_Directory_old_ec18f37710 a gist:Collection ;
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5Cold_ec18f37710 a gist:Collection ;
     congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\old"^^xsd:string ;
     gist:name "old"^^xsd:string .
 
-congr3:_Directory_origin_9859d19ece a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\logs\\refs\\remotes\\origin"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_remotes_6f98bd2bcb ;
-    gist:name "origin"^^xsd:string .
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr_bdc2e0bc3b a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit_a879d6f1d8 ;
+    gist:name "congr"^^xsd:string .
 
-congr3:_Directory_origin_f80821faf5 a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\refs\\remotes\\origin"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_remotes_8248f57168 ;
-    gist:name "origin"^^xsd:string .
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Clogs%5Crefs%5Cremotes_6f98bd2bcb a gist:Collection ;
+    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\logs\\refs\\remotes"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Clogs%5Crefs_7647a0881f ;
+    gist:name "remotes"^^xsd:string .
 
-congr3:_Directory_pack_21be8aee31 a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects\\pack"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_objects_ed821eae90 ;
-    gist:name "pack"^^xsd:string .
-
-congr3:_Directory_tags_fe4e9b017b a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\refs\\tags"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_refs_f86788d688 ;
-    gist:name "tags"^^xsd:string .
-
-congr3:_Directory_logs_ab4e3608ec a gist:Collection ;
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Clogs_ab4e3608ec a gist:Collection ;
     congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\logs"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_.git_5958d86808 ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git_ac779da22c ;
     gist:name "logs"^^xsd:string .
 
-congr3:_Directory_remotes_6f98bd2bcb a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\logs\\refs\\remotes"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_refs_7647a0881f ;
-    gist:name "remotes"^^xsd:string .
-
-congr3:_Directory_remotes_8248f57168 a gist:Collection ;
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Crefs%5Cremotes_8248f57168 a gist:Collection ;
     congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\refs\\remotes"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_refs_f86788d688 ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Crefs_f86788d688 ;
     gist:name "remotes"^^xsd:string .
 
-congr3:_Directory_refs_7647a0881f a gist:Collection ;
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Clogs%5Crefs_7647a0881f a gist:Collection ;
     congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\logs\\refs"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_logs_ab4e3608ec ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Clogs_ab4e3608ec ;
     gist:name "refs"^^xsd:string .
 
-congr3:_Directory_refs_f86788d688 a gist:Collection ;
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Crefs_f86788d688 a gist:Collection ;
     congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\refs"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_.git_5958d86808 ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git_ac779da22c ;
     gist:name "refs"^^xsd:string .
 
-congr3:_Directory_.git_5958d86808 a gist:Collection ;
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git_ac779da22c a gist:Collection ;
     congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git"^^xsd:string ;
     gist:name ".git"^^xsd:string .
 
-congr3:_Directory_objects_ed821eae90 a gist:Collection ;
+congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git%5Cobjects_8dbb214c60 a gist:Collection ;
     congr:pathString "C:\\Users\\StevenChalem\\git\\congr\\.git\\objects"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_.git_5958d86808 ;
+    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Cgit%5Ccongr%5C.git_ac779da22c ;
     gist:name "objects"^^xsd:string .
 
