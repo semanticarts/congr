@@ -3,6 +3,27 @@ Content Grapher (congr)
 
 ![conger on a file cabinet](./media/conger-on-a-file-cabinet-210x210.png)
 
+Traverse a directory tree and write metadata to a turtle file. Optionally include file metadata and file fingerprints.
+
+Usage
+-----
+
+`python congr.py [dir_path] [--files] [--no-files] [--fingerprints] [--no-fingerprints] [-o output_file]`
+
+The options are:
+
+`dir_path`: Specifies the starting directory for generating file metadata. If not provided, the current directory is used as the default starting directory.
+
+`--files`: Includes files in the generated metadata. By default, files are excluded unless this option is specified.
+
+`--no-files`: Excludes files from the generated metadata. This option overrides the --files option if both are provided.
+
+`--fingerprints`: Creates fingerprints for files in the generated metadata. By default, fingerprints are not created unless this option is specified.
+
+`--no-fingerprints`: Excludes file fingerprints from the generated metadata. This option overrides the --fingerprints option if both are provided.
+
+`-o output_file`: Specifies the name of the output file. If not provided, the default output file name is congr-output.ttl, saved in the current directory.
+
 Requirements
 -----
 
@@ -33,14 +54,3 @@ The objective is to be able to be in new SA system and click on a project and ge
 
 PS we have about 500K files on the shared folder.  Most are worth indexing.  Some need to be purged as being early drafts on old projects.  Some are sensitive (employee evals and the like)
 
-Test Directory
------
-
-These are the files and directories scanned for testing.
-
-- C:\Users\StevenChalem\congr-test\
-    - Antipatterns_SC.doc
-    - Antipatterns_SC_Copy.doc
-    - media\
-        - Antipatterns_SC.doc
-        - baby-caught-in-flowchart.png
