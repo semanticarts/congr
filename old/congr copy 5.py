@@ -4,7 +4,6 @@ import hashlib
 from datetime import datetime
 from rdflib import Graph, Literal, Namespace, RDF, URIRef, XSD
 from urllib.parse import quote
-import argparse
 
 gist = Namespace("https://w3id.org/ontology/semanticarts/gist/")
 congr = Namespace("https://ontologies.semanticarts.com/congr/")
@@ -20,7 +19,7 @@ def content_hash(file_path):
         hasher.update(buf)
     return hasher.hexdigest()
 
-def generate_file_metadata(dir_path, include_files=False, create_fingerprints=False, output_file='congr-output.ttl'):
+def generate_file_metadata(dir_path):
     # Create a graph
     g = Graph()
     g.bind('gist', gist)
@@ -37,19 +36,19 @@ def generate_file_metadata(dir_path, include_files=False, create_fingerprints=Fa
         parent_dir_path = os.path.dirname(root)
         parent_dir_hash = location_hash(parent_dir_path + str(os.path.getmtime(parent_dir_path)))
         parent_dir_node = URIRef(congr3 + "_Directory_" + quote(parent_dir_path, safe='') + "_" + parent_dir_hash)
-        if parent_dir_path != dir_path:
+        if parent_dir_path != dir_path: 
             g.add((dir_node, gist.isMemberOf, parent_dir_node))
 
         for filename in files:
             file_path = os.path.join(root, filename)
 
-            if os.path.isfile(file_path) and include_files:
+            if os.path.isfile(file_path):
                 file_location_hash = location_hash(file_path + str(os.path.getmtime(file_path)))
                 file_node = URIRef(congr3 + "_Content_" + quote(filename, safe='') + "_" + file_location_hash)
 
                 g.add((file_node, RDF.type, gist.Content))
                 g.add((file_node, gist.name, Literal(filename, datatype=XSD.string)))
-
+                
                 # Add magnitude information for file size
                 size_node = URIRef(congr3 + "_InformationQuantity_" + quote(filename, safe='') + "_" + file_location_hash)
                 g.add((size_node, gist.hasUnitOfMeasure, XSD.byte))
@@ -65,29 +64,11 @@ def generate_file_metadata(dir_path, include_files=False, create_fingerprints=Fa
                     g.add((mime_type_node, RDF.type, gist.MediaType))
                     g.add((file_node, congr.hasMediaType, mime_type_node))
 
-                if create_fingerprints:
-                    fingerprint = content_hash(file_path)
-                    g.add((file_node, congr.fingerprint, Literal(fingerprint, datatype=XSD.string)))
+                fingerprint = content_hash(file_path)
+                g.add((file_node, congr.fingerprint, Literal(fingerprint, datatype=XSD.string)))
 
                 g.add((file_node, gist.isMemberOf, dir_node))
 
-    g.serialize(format='turtle', destination=output_file)
+    g.serialize(format='turtle', destination='output.ttl')
 
-def main():
-    parser = argparse.ArgumentParser(description='Generate file metadata.')
-    parser.add_argument('dir_path', type=str, nargs='?', default=os.getcwd(), help='Path to the starting directory (default: current directory)')
-    parser.add_argument('--files', dest='include_files', action='store_true', help='Include files in metadata')
-    parser.add_argument('--no-files', dest='include_files', action='store_false', help='Exclude files from metadata')
-    parser.set_defaults(include_files=False)
-
-    parser.add_argument('--fingerprints', dest='create_fingerprints', action='store_true', help='Create file fingerprints')
-    parser.add_argument('--no-fingerprints', dest='create_fingerprints', action='store_false', help='Exclude file fingerprints')
-    parser.set_defaults(create_fingerprints=False)
-
-    parser.add_argument('-o', '--output', dest='output_file', type=str, default='congr-output.ttl', help='Output file name (default: congr-output.ttl)')
-
-    args = parser.parse_args()
-    generate_file_metadata(args.dir_path, include_files=args.include_files, create_fingerprints=args.create_fingerprints, output_file=args.output_file)
-
-if __name__ == '__main__':
-    main()
+generate_file_metadata('C:\\Users\\StevenChalem\\congr-test')
