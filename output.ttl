@@ -3,64 +3,13 @@
 @prefix gist: <https://w3id.org/ontology/semanticarts/gist/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-congr3:_Content_Antipatterns_SC.doc_1d1c5eff4a a gist:Content ;
-    congr:createDateTime "2023-06-22T10:15:15.895738"^^xsd:dateTime ;
-    congr:fingerprint "06cb9321fd119442406f2bf5ef28f39c33e5b0292d9eb2ce2971a7c41edd1709"^^xsd:string ;
-    congr:hasMediaType gist:_MediaType_applicationmsword ;
-    congr:modifyDateTime "2023-06-22T10:15:16.440000"^^xsd:dateTime ;
-    gist:hasMagnitude congr3:_InformationQuantity_Antipatterns_SC.doc_1d1c5eff4a ;
-    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Ccongr-test_3eb6121421 ;
-    gist:name "Antipatterns_SC.doc"^^xsd:string .
+congr3:_Directory_c%3A%2FUsers%2FStevenChalem%2Fcongr-test%2F_56fcd9107e a gist:Collection ;
+    congr:pathString "c:/Users/StevenChalem/congr-test/"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_c%3A%2FUsers%2FStevenChalem%2Fcongr-test_b25afc4ad0 ;
+    gist:name ""^^xsd:string .
 
-congr3:_Content_Antipatterns_SC.doc_61e605ca4b a gist:Content ;
-    congr:createDateTime "2023-06-23T13:29:57.605533"^^xsd:dateTime ;
-    congr:fingerprint "06cb9321fd119442406f2bf5ef28f39c33e5b0292d9eb2ce2971a7c41edd1709"^^xsd:string ;
-    congr:hasMediaType gist:_MediaType_applicationmsword ;
-    congr:modifyDateTime "2023-06-22T10:15:16.440000"^^xsd:dateTime ;
-    gist:hasMagnitude congr3:_InformationQuantity_Antipatterns_SC.doc_61e605ca4b ;
-    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Ccongr-test%5Cmedia_95cf8b3b81 ;
-    gist:name "Antipatterns_SC.doc"^^xsd:string .
-
-congr3:_Content_Antipatterns_SC_Copy.doc_5249aae9e3 a gist:Content ;
-    congr:createDateTime "2023-06-23T13:30:08.610756"^^xsd:dateTime ;
-    congr:fingerprint "06cb9321fd119442406f2bf5ef28f39c33e5b0292d9eb2ce2971a7c41edd1709"^^xsd:string ;
-    congr:hasMediaType gist:_MediaType_applicationmsword ;
-    congr:modifyDateTime "2023-06-22T10:15:16.440000"^^xsd:dateTime ;
-    gist:hasMagnitude congr3:_InformationQuantity_Antipatterns_SC_Copy.doc_5249aae9e3 ;
-    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Ccongr-test_3eb6121421 ;
-    gist:name "Antipatterns_SC_Copy.doc"^^xsd:string .
-
-congr3:_Content_baby-caught-in-flowchart.png_e6f9579793 a gist:Content ;
-    congr:createDateTime "2023-06-05T15:31:49.688691"^^xsd:dateTime ;
-    congr:fingerprint "5f80a65a6539e068c826fb2e2cdc62ec923e48279953a5ac81467185de57776b"^^xsd:string ;
-    congr:hasMediaType gist:_MediaType_imagepng ;
-    congr:modifyDateTime "2023-06-05T15:31:50.121633"^^xsd:dateTime ;
-    gist:hasMagnitude congr3:_InformationQuantity_baby-caught-in-flowchart.png_e6f9579793 ;
-    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Ccongr-test%5Cmedia_95cf8b3b81 ;
-    gist:name "baby-caught-in-flowchart.png"^^xsd:string .
-
-congr3:_InformationQuantity_Antipatterns_SC.doc_1d1c5eff4a gist:hasUnitOfMeasure xsd:byte ;
-    gist:hasValue 43520 .
-
-congr3:_InformationQuantity_Antipatterns_SC.doc_61e605ca4b gist:hasUnitOfMeasure xsd:byte ;
-    gist:hasValue 43520 .
-
-congr3:_InformationQuantity_Antipatterns_SC_Copy.doc_5249aae9e3 gist:hasUnitOfMeasure xsd:byte ;
-    gist:hasValue 43520 .
-
-congr3:_InformationQuantity_baby-caught-in-flowchart.png_e6f9579793 gist:hasUnitOfMeasure xsd:byte ;
-    gist:hasValue 1556317 .
-
-gist:_MediaType_imagepng a gist:MediaType .
-
-congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Ccongr-test%5Cmedia_95cf8b3b81 a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\congr-test\\media"^^xsd:string ;
+congr3:_Directory_c%3A%2FUsers%2FStevenChalem%2Fcongr-test%2Fmedia_41a479809b a gist:Collection ;
+    congr:pathString "c:/Users/StevenChalem/congr-test/media"^^xsd:string ;
+    gist:isMemberOf congr3:_Directory_c%3A%2FUsers%2FStevenChalem%2Fcongr-test_b25afc4ad0 ;
     gist:name "media"^^xsd:string .
-
-congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Ccongr-test_3eb6121421 a gist:Collection ;
-    congr:pathString "C:\\Users\\StevenChalem\\congr-test"^^xsd:string ;
-    gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem_fa5d350e3c ;
-    gist:name "congr-test"^^xsd:string .
-
-gist:_MediaType_applicationmsword a gist:MediaType .
 
