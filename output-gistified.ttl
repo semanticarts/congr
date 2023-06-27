@@ -1,18 +1,18 @@
-# Program output edited for gistiness
+# Program output edited for gistiness by Dan and Steven
+ 
+@prefix congr: https://ontologies.semanticarts.com/congr/ .
+@prefix congrx: https://taxonomies.semanticarts/congr/ .
+@prefix congr3: https://data.semanticarts.com/congr/ .
+ 
+@prefix gist: https://w3id.org/ontology/semanticarts/gist/ .
+@prefix xsd: http://www.w3.org/2001/XMLSchema# .
 
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix congr3: <https://data.semanticarts.com/congr/> .
-@prefix congr: <https://ontologies.semanticarts.com/congr/> .
-@prefix gist: <https://w3id.org/semanticarts/gist/> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix congrx: <https://taxonomies.semanticarts/congr/> .
 
+ 
 # C-Box
 congrx:_MediaType_applicationMsWord  rdf:type gist:MediaType .
-congrx:_MediaType_applicationExcel  rdf:type gist:MediaType .
 congrx:_MediaType_imagePng  rdf:type gist:MediaType .
-congrx:_MediaType_utf8  rdf:type gist:MediaType .
-
+ 
 # A-Box
 congr3:_Content_Antipatterns_SC.doc_1d1c5eff4a a gist:Content ;
     congr:createDateTime "2023-06-22T10:15:15.895738"^^xsd:dateTime ;
@@ -22,17 +22,19 @@ congr3:_Content_Antipatterns_SC.doc_1d1c5eff4a a gist:Content ;
     gist:name "Antipatterns_SC.doc"^^xsd:string ;
     gist:hasMagnitude congr3:_InformationQuantity_Antipatterns_SC.doc_1d1c5eff4a ;
     gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Ccongr-test_3eb6121421 .
-
+ 
 congr3:_InformationQuantity_Antipatterns_SC.doc_1d1c5eff4a  gist:hasUnitOfMeasure:xsd.byte ;
     gist:hasValue "43520"^^xsd:integer .
-
-# Excluded remaining files
-
+ 
+# Excluding remaining files
+ 
 congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Ccongr-test%5Cmedia_95cf8b3b81 a gist:Collection ;
     gist:name "media"^^xsd:string ;
     congr:pathString "C:\\Users\\StevenChalem\\congr-test\\media"^^xsd:string .
-
+ 
 congr3:_Directory_C%3A%5CUsers%5CStevenChalem%5Ccongr-test_3eb6121421 a gist:Collection ;
     gist:name "congr-test"^^xsd:string ;
     congr:pathString "C:\\Users\\StevenChalem\\congr-test"^^xsd:string ;
     gist:isMemberOf congr3:_Directory_C%3A%5CUsers%5CStevenChalem_fa5d350e3c .
+ 
+ 
