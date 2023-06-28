@@ -37,18 +37,9 @@ def generate_file_metadata(starting_dir_path, include_files, create_fingerprints
     g.add((starting_dir_node, congr.pathString, Literal(starting_dir_path, datatype=XSD.anyURI)))
 
     for root, dirs, files in os.walk(starting_dir_path):
-        dir_hash = spacetime_hash(root + str(os.path.getmtime(root)))
-        dir_node = URIRef(congr3 + "_Directory_" + quote(os.path.basename(root), safe='') + "_" + dir_hash)
-
-        if root != starting_dir_path:
-            g.add((dir_node, RDF.type, gist.Collection))
-            g.add((dir_node, gist.name, Literal(os.path.basename(root), datatype=XSD.string)))
-            g.add((dir_node, congr.pathString, Literal(root, datatype=XSD.anyURI)))
-            g.add((dir_node, gist.isMemberOf, starting_dir_node))
-
         for filename in files:
             file_path = os.path.join(root, filename)
-            
+
             if os.path.isfile(file_path) and include_files:
                 file_location_hash = spacetime_hash(file_path + str(os.path.getctime(file_path)))
                 file_node = URIRef(congr3 + "_Content_" + quote(filename, safe='') + "_" + file_location_hash)
@@ -74,7 +65,15 @@ def generate_file_metadata(starting_dir_path, include_files, create_fingerprints
                     fingerprint = content_hash(file_path)
                     g.add((file_node, congr.fingerprint, Literal(fingerprint, datatype=XSD.string)))
 
-                g.add((file_node, gist.isMemberOf, dir_node))
+                if root != starting_dir_path:
+                    dir_hash = spacetime_hash(root + str(os.path.getctime(root)))
+                    dir_node = URIRef(congr3 + "_Directory_" + quote(os.path.basename(root), safe='') + "_" + dir_hash)
+                    g.add((dir_node, RDF.type, gist.Collection))
+                    g.add((dir_node, gist.name, Literal(os.path.basename(root), datatype=XSD.string)))
+                    g.add((dir_node, congr.pathString, Literal(root, datatype=XSD.anyURI)))
+                    g.add((dir_node, gist.isMemberOf, starting_dir_node))
+
+                    g.add((file_node, gist.isMemberOf, dir_node))
 
     g.serialize(format='turtle', destination=output_file)
 
