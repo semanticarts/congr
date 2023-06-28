@@ -90,7 +90,7 @@ def main():
     parser.add_argument('--no-fingerprints', dest='create_fingerprints', action='store_false', help='Exclude file fingerprints')
     parser.set_defaults(create_fingerprints=True)
 
-    parser.add_argument('-o', '--output', dest='output_file', type=str, default='congr-output.ttl', help='Output file name (default: congr-output.ttl)')
+    parser.add_argument('-o', '--output', dest='output_file', type=str, default='output/congr-output.ttl', help='Output file name (default: congr-output.ttl)')
 
     args = parser.parse_args()
     generate_file_metadata(args.starting_dir_path, include_files=args.include_files, create_fingerprints=args.create_fingerprints, output_file=args.output_file)
