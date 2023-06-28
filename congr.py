@@ -79,7 +79,8 @@ def generate_file_metadata(input_path, include_files, create_fingerprints, outpu
 
 def main():
     parser = argparse.ArgumentParser(description='Generate file metadata.')
-    parser.add_argument('dir_path', type=str, nargs='?', default=default_input_dir, help='Path to the starting directory (default: current directory)')
+    parser.add_argument('dir_path', type=str, nargs='?', help='Path to the starting directory')
+    parser.set_defaults(input_dir = default_input_dir)
 
     parser.add_argument('--files', dest='include_files', action='store_true', help='Include files in metadata')
     parser.add_argument('--no-files', dest='include_files', action='store_false', help='Exclude files from metadata')
@@ -90,7 +91,7 @@ def main():
     parser.set_defaults(create_fingerprints=True)
 
     parser.add_argument('-o', '--output', dest='output_file', type=str, default='congr-output.ttl', help='Output file name (default: congr-output.ttl)')
-
+    
     args = parser.parse_args()
     generate_file_metadata(input_path=args.dir_path, include_files=args.include_files, create_fingerprints=args.create_fingerprints, output_file=args.output_file)
 
