@@ -6,18 +6,21 @@ from rdflib import Graph, Literal, Namespace, RDF, URIRef, XSD
 from urllib.parse import quote
 import argparse
 
+SPACETIME_HASH_TRUNC_LENGTH = 10
+CONTENT_HASH_CHUNK_SIZE = 4096
+
 gist = Namespace("https://w3id.org/ontology/semanticarts/gist/")
 congr = Namespace("https://ontologies.semanticarts.com/congr/")
 congr3 = Namespace("https://data.semanticarts.com/congr/")
 
 def spacetime_hash(input_string):
-    return hashlib.sha256(input_string.encode()).hexdigest()[:10]
+    return hashlib.sha256(input_string.encode()).hexdigest()[:SPACETIME_HASH_TRUNC_LENGTH]
 
 def content_hash(file_path):
     hasher = hashlib.sha256()
     try:
         with open(file_path, 'rb') as afile:
-            for chunk in iter(lambda: afile.read(4096), b''):
+            for chunk in iter(lambda: afile.read(CONTENT_HASH_CHUNK_SIZE), b''):
                 hasher.update(chunk)
     except IOError as e:
         print(f"Couldn't read {file_path}: {e}")
