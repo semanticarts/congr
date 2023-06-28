@@ -10,44 +10,47 @@ gist = Namespace("https://w3id.org/ontology/semanticarts/gist/")
 congr = Namespace("https://ontologies.semanticarts.com/congr/")
 congr3 = Namespace("https://data.semanticarts.com/congr/")
 
-default_input_dir = 'C:/Users/StevenChalem/congr-test'
-
-def location_hash(input_string):
+def spacetime_hash(input_string):
     return hashlib.sha256(input_string.encode()).hexdigest()[:10]
 
 def content_hash(file_path):
     hasher = hashlib.sha256()
-    with open(file_path, 'rb') as afile:
-        buf = afile.read()
-        hasher.update(buf)
+    try:
+        with open(file_path, 'rb') as afile:
+            for chunk in iter(lambda: afile.read(4096), b''):
+                hasher.update(chunk)
+    except IOError as e:
+        print(f"Couldn't read {file_path}: {e}")
+        return None
     return hasher.hexdigest()
 
-def generate_file_metadata(input_path, include_files, create_fingerprints, output_file):
+def generate_file_metadata(starting_dir_path, include_files, create_fingerprints, output_file='congr-output.ttl'):
     g = Graph()
     g.bind('gist', gist)
     g.bind('congr', congr)
     g.bind('congr3', congr3)
 
-    root_hash = location_hash(input_path + str(os.path.getmtime(input_path)))
-    root_node = URIRef(congr3 + "_Directory_" + quote(os.path.basename(input_path), safe='') + "_" + root_hash)
-    g.add((root_node, RDF.type, gist.Collection))
-    g.add((root_node, gist.name, Literal(os.path.basename(input_path), datatype=XSD.string)))
-    g.add((root_node, congr.pathString, Literal(input_path, datatype=XSD.anyURI)))
+    starting_dir_hash = spacetime_hash(starting_dir_path + str(os.path.getmtime(starting_dir_path)))
+    starting_dir_node = URIRef(congr3 + "_Directory_" + quote(os.path.basename(starting_dir_path), safe='') + "_" + starting_dir_hash)
+    g.add((starting_dir_node, RDF.type, gist.Collection))
+    g.add((starting_dir_node, gist.name, Literal(os.path.basename(starting_dir_path), datatype=XSD.string)))
+    g.add((starting_dir_node, congr.pathString, Literal(starting_dir_path, datatype=XSD.anyURI)))
 
-    for root, dirs, files in os.walk(input_path):
-        for dir_name in dirs:
-            input_path = os.path.join(root, dir_name)
-            dir_hash = location_hash(input_path + str(os.path.getmtime(input_path)))
-            dir_node = URIRef(congr3 + "_Directory_" + quote(os.path.basename(input_path), safe='') + "_" + dir_hash)
+    for root, dirs, files in os.walk(starting_dir_path):
+        dir_hash = spacetime_hash(root + str(os.path.getmtime(root)))
+        dir_node = URIRef(congr3 + "_Directory_" + quote(os.path.basename(root), safe='') + "_" + dir_hash)
+
+        if root != starting_dir_path:
             g.add((dir_node, RDF.type, gist.Collection))
-            g.add((dir_node, gist.name, Literal(dir_name, datatype=XSD.string)))
-            g.add((dir_node, congr.pathString, Literal(input_path, datatype=XSD.anyURI)))
-            g.add((dir_node, gist.isMemberOf, root_node))
+            g.add((dir_node, gist.name, Literal(os.path.basename(root), datatype=XSD.string)))
+            g.add((dir_node, congr.pathString, Literal(root, datatype=XSD.anyURI)))
+            g.add((dir_node, gist.isMemberOf, starting_dir_node))
 
-        if include_files:
-            for filename in files:
-                file_path = os.path.join(root, filename)
-                file_location_hash = location_hash(file_path + str(os.path.getmtime(file_path)))
+        for filename in files:
+            file_path = os.path.join(root, filename)
+            
+            if os.path.isfile(file_path) and include_files:
+                file_location_hash = spacetime_hash(file_path + str(os.path.getctime(file_path)))
                 file_node = URIRef(congr3 + "_Content_" + quote(filename, safe='') + "_" + file_location_hash)
 
                 g.add((file_node, RDF.type, gist.Content))
@@ -71,16 +74,13 @@ def generate_file_metadata(input_path, include_files, create_fingerprints, outpu
                     fingerprint = content_hash(file_path)
                     g.add((file_node, congr.fingerprint, Literal(fingerprint, datatype=XSD.string)))
 
-                dir_hash = location_hash(root + str(os.path.getmtime(root)))
-                dir_node = URIRef(congr3 + "_Directory_" + quote(os.path.basename(root), safe='') + "_" + dir_hash)
                 g.add((file_node, gist.isMemberOf, dir_node))
 
     g.serialize(format='turtle', destination=output_file)
 
 def main():
-    parser = argparse.ArgumentParser(description='Generate file metadata.')
-    parser.add_argument('dir_path', type=str, nargs='?', help='Path to the starting directory')
-    parser.set_defaults(input_dir = default_input_dir)
+    parser = argparse.ArgumentParser(description='Triplify filestore metadata.')
+    parser.add_argument('starting_dir_path', type=str, nargs='?', default='C:/Users/StevenChalem/congr-test', help='Path to the starting directory.')
 
     parser.add_argument('--files', dest='include_files', action='store_true', help='Include files in metadata')
     parser.add_argument('--no-files', dest='include_files', action='store_false', help='Exclude files from metadata')
@@ -91,9 +91,9 @@ def main():
     parser.set_defaults(create_fingerprints=True)
 
     parser.add_argument('-o', '--output', dest='output_file', type=str, default='congr-output.ttl', help='Output file name (default: congr-output.ttl)')
-    
+
     args = parser.parse_args()
-    generate_file_metadata(input_path=args.dir_path, include_files=args.include_files, create_fingerprints=args.create_fingerprints, output_file=args.output_file)
+    generate_file_metadata(args.starting_dir_path, include_files=args.include_files, create_fingerprints=args.create_fingerprints, output_file=args.output_file)
 
 if __name__ == '__main__':
     main()
