@@ -9,7 +9,7 @@ congr3:_Content_FunnyPicture.png_7508e43a0f a gist:Content ;
     congr:modifyDateTime "2023-06-05T15:31:50.121633"^^xsd:dateTime ;
     gist:hasMagnitude congr3:_InformationQuantity_FunnyPicture.png_7508e43a0f ;
     gist:hasMediaType gist:_MediaType_imagepng ;
-    gist:isMemberOf congr3:_Directory_pictures_402e56ae41 ;
+    gist:isMemberOf congr3:_Directory_pictures_aa09fad398 ;
     gist:name "FunnyPicture.png"^^xsd:string .
 
 congr3:_Content_MyResume.doc_318eee8760 a gist:Content ;
@@ -18,7 +18,7 @@ congr3:_Content_MyResume.doc_318eee8760 a gist:Content ;
     congr:modifyDateTime "2023-06-22T10:15:16.440000"^^xsd:dateTime ;
     gist:hasMagnitude congr3:_InformationQuantity_MyResume.doc_318eee8760 ;
     gist:hasMediaType gist:_MediaType_applicationmsword ;
-    gist:isMemberOf congr3:_Directory_pictures_402e56ae41 ;
+    gist:isMemberOf congr3:_Directory_pictures_aa09fad398 ;
     gist:name "MyResume.doc"^^xsd:string .
 
 congr3:_Content_MyResume.doc_b0537aa6bc a gist:Content ;
@@ -27,6 +27,7 @@ congr3:_Content_MyResume.doc_b0537aa6bc a gist:Content ;
     congr:modifyDateTime "2023-06-22T10:15:16.440000"^^xsd:dateTime ;
     gist:hasMagnitude congr3:_InformationQuantity_MyResume.doc_b0537aa6bc ;
     gist:hasMediaType gist:_MediaType_applicationmsword ;
+    gist:isMemberOf congr3:_Directory_congr-test_77b4980f17 ;
     gist:name "MyResume.doc"^^xsd:string .
 
 congr3:_Content_MyResume_Copy.doc_2df76196a6 a gist:Content ;
@@ -35,11 +36,8 @@ congr3:_Content_MyResume_Copy.doc_2df76196a6 a gist:Content ;
     congr:modifyDateTime "2023-06-22T10:15:16.440000"^^xsd:dateTime ;
     gist:hasMagnitude congr3:_InformationQuantity_MyResume_Copy.doc_2df76196a6 ;
     gist:hasMediaType gist:_MediaType_applicationmsword ;
+    gist:isMemberOf congr3:_Directory_congr-test_77b4980f17 ;
     gist:name "MyResume_Copy.doc"^^xsd:string .
-
-congr3:_Directory_congr-test_77b4980f17 a gist:Collection ;
-    congr:pathString "C:/Users/StevenChalem/congr-test"^^xsd:anyURI ;
-    gist:name "congr-test"^^xsd:string .
 
 congr3:_InformationQuantity_FunnyPicture.png_7508e43a0f gist:hasUnitOfMeasure xsd:byte ;
     gist:hasValue 1556317 .
@@ -55,10 +53,14 @@ congr3:_InformationQuantity_MyResume_Copy.doc_2df76196a6 gist:hasUnitOfMeasure x
 
 gist:_MediaType_imagepng a gist:MediaType .
 
-congr3:_Directory_pictures_402e56ae41 a gist:Collection ;
+congr3:_Directory_pictures_aa09fad398 a gist:Collection ;
     congr:pathString "C:/Users/StevenChalem/congr-test\\pictures"^^xsd:anyURI ;
     gist:isMemberOf congr3:_Directory_congr-test_77b4980f17 ;
     gist:name "pictures"^^xsd:string .
+
+congr3:_Directory_congr-test_77b4980f17 a gist:Collection ;
+    congr:pathString "C:/Users/StevenChalem/congr-test"^^xsd:anyURI ;
+    gist:name "congr-test"^^xsd:string .
 
 gist:_MediaType_applicationmsword a gist:MediaType .
 
