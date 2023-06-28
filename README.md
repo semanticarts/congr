@@ -29,7 +29,7 @@ Requirements
 
 (*Italicized items have been coded.*)
 
-Dave wrote:
+**Dave wrote:**
 
 The task is to turn our content into triples and integrate it with our structured data.  
 
@@ -54,3 +54,6 @@ The objective is to be able to be in new SA system and click on a project and ge
 
 PS we have about 500K files on the shared folder.  Most are worth indexing.  Some need to be purged as being early drafts on old projects.  Some are sensitive (employee evals and the like)
 
+**On 2023-06-27, Dave wrote:**
+
+I want to start with the one drive clients subfolder, then move to the internal (not very) shared drive and get a lot of historical clients, and then start into the marketing, which will be proposals as well as client names from Pipedrive.
