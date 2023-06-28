@@ -14,22 +14,28 @@ The options are:
 
 `dir_path`: Specifies the starting directory for generating file metadata. If not provided, the current directory is used as the default starting directory.
 
-`--files`: Includes files in the generated metadata. By default, files are excluded unless this option is specified.
+`--files`: Includes files in the generated metadata.
 
-`--no-files`: Excludes files from the generated metadata. This option overrides the --files option if both are provided.
+`--no-files`: Excludes files from the generated metadata.
 
-`--fingerprints`: Creates fingerprints for files in the generated metadata. By default, fingerprints are not created unless this option is specified.
+`--fingerprints`: Creates fingerprints for files in the generated metadata.
 
-`--no-fingerprints`: Excludes file fingerprints from the generated metadata. This option overrides the --fingerprints option if both are provided.
+`--no-fingerprints`: Excludes file fingerprints from the generated metadata.
 
-`-o output_file`: Specifies the name of the output file. If not provided, the default output file name is congr-output.ttl, saved in the current directory.
+`-o output_file`: Specifies the name of the output file. If not provided, the default output file is ./output/congr-output.ttl.
+
+Option defaults are changing frequently during development. Be explicit!
 
 Requirements
 -----
 
 (*Italicized items have been coded.*)
 
-Dave wrote:
+**On 2023-06-27, Dave wrote:**
+
+I want to start with the one drive clients subfolder, then move to the internal (not very) shared drive and get a lot of historical clients, and then start into the marketing, which will be proposals as well as client names from Pipedrive.
+
+**On 2023-06-21, Dave wrote:**
 
 The task is to turn our content into triples and integrate it with our structured data.  
 
@@ -53,4 +59,3 @@ The next several chunks can be done in almost any order, but to give you a hint 
 The objective is to be able to be in new SA system and click on a project and get all the important documents related to that project, or click on a person and get all the documents that person authored, or all the documents that person was named in.  
 
 PS we have about 500K files on the shared folder.  Most are worth indexing.  Some need to be purged as being early drafts on old projects.  Some are sensitive (employee evals and the like)
-
