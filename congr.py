@@ -13,7 +13,9 @@ gist = Namespace("https://w3id.org/ontology/semanticarts/gist/")
 congr = Namespace("https://ontologies.semanticarts.com/congr/")
 congr3 = Namespace("https://data.semanticarts.com/congr/")
 
-def spacetime_hash(input_string):
+def spacetime_hash(file_path, use_mtime=False):
+    datetime = str(os.path.getmtime(file_path)) if use_mtime else str(os.path.getctime(file_path))
+    input_string = file_path + datetime
     return hashlib.sha256(input_string.encode()).hexdigest()[:SPACETIME_HASH_TRUNC_LENGTH]
 
 def content_hash(file_path):
@@ -33,14 +35,14 @@ def generate_file_metadata(starting_dir_path, include_files, create_fingerprints
     g.bind('congr', congr)
     g.bind('congr3', congr3)
 
-    starting_dir_hash = spacetime_hash(starting_dir_path + str(os.path.getmtime(starting_dir_path)))
+    starting_dir_hash = spacetime_hash(starting_dir_path)
     starting_dir_node = URIRef(congr3 + "_Directory_" + quote(os.path.basename(starting_dir_path), safe='') + "_" + starting_dir_hash)
     g.add((starting_dir_node, RDF.type, gist.Collection))
     g.add((starting_dir_node, gist.name, Literal(os.path.basename(starting_dir_path), datatype=XSD.string)))
     g.add((starting_dir_node, congr.pathString, Literal(starting_dir_path, datatype=XSD.anyURI)))
 
     for root, dirs, files in os.walk(starting_dir_path):
-        dir_hash = spacetime_hash(root + str(os.path.getmtime(root)))
+        dir_hash = spacetime_hash(root)
         dir_node = URIRef(congr3 + "_Directory_" + quote(os.path.basename(root), safe='') + "_" + dir_hash)
 
         if root != starting_dir_path:
@@ -53,7 +55,7 @@ def generate_file_metadata(starting_dir_path, include_files, create_fingerprints
             file_path = os.path.join(root, filename)
             
             if os.path.isfile(file_path) and include_files:
-                file_location_hash = spacetime_hash(file_path + str(os.path.getctime(file_path)))
+                file_location_hash = spacetime_hash(file_path, use_mtime=True)
                 file_node = URIRef(congr3 + "_Content_" + quote(filename, safe='') + "_" + file_location_hash)
 
                 g.add((file_node, RDF.type, gist.Content))
