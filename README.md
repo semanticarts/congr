@@ -14,13 +14,13 @@ The options are:
 
 `dir_path`: Specifies the starting directory for generating file metadata. If not provided, the current directory is used as the default starting directory.
 
-`--files`: Includes files in the generated metadata. By default, files are excluded unless this option is specified.
+`--files`: Includes files in the generated metadata.
 
-`--no-files`: Excludes files from the generated metadata. This option overrides the --files option if both are provided.
+`--no-files`: Excludes files from the generated metadata.
 
-`--fingerprints`: Creates fingerprints for files in the generated metadata. By default, fingerprints are not created unless this option is specified.
+`--fingerprints`: Creates fingerprints for files in the generated metadata.
 
-`--no-fingerprints`: Excludes file fingerprints from the generated metadata. This option overrides the --fingerprints option if both are provided.
+`--no-fingerprints`: Excludes file fingerprints from the generated metadata.
 
 `-o output_file`: Specifies the name of the output file. If not provided, the default output file name is congr-output.ttl, saved in the current directory.
 
