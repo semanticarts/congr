@@ -1,0 +1,66 @@
+@prefix congr: <https://ontologies.semanticarts.com/congr/> .
+@prefix congr3: <https://data.semanticarts.com/congr/> .
+@prefix gist: <https://w3id.org/ontology/semanticarts/gist/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+congr3:_Content_FunnyPicture.png_7508e43a0f a gist:Content ;
+    congr:createDateTime "2023-06-05T15:31:49.688691"^^xsd:dateTime ;
+    congr:fingerprint "5f80a65a6539e068c826fb2e2cdc62ec923e48279953a5ac81467185de57776b"^^xsd:string ;
+    congr:modifyDateTime "2023-06-05T15:31:50.121633"^^xsd:dateTime ;
+    gist:hasMagnitude congr3:_InformationQuantity_FunnyPicture.png_7508e43a0f ;
+    gist:hasMediaType gist:_MediaType_imagepng ;
+    gist:isMemberOf congr3:_Directory_pictures_aa09fad398 ;
+    gist:name "FunnyPicture.png"^^xsd:string .
+
+congr3:_Content_MyResume.doc_318eee8760 a gist:Content ;
+    congr:createDateTime "2023-06-23T13:29:57.605533"^^xsd:dateTime ;
+    congr:fingerprint "06cb9321fd119442406f2bf5ef28f39c33e5b0292d9eb2ce2971a7c41edd1709"^^xsd:string ;
+    congr:modifyDateTime "2023-06-22T10:15:16.440000"^^xsd:dateTime ;
+    gist:hasMagnitude congr3:_InformationQuantity_MyResume.doc_318eee8760 ;
+    gist:hasMediaType gist:_MediaType_applicationmsword ;
+    gist:isMemberOf congr3:_Directory_pictures_aa09fad398 ;
+    gist:name "MyResume.doc"^^xsd:string .
+
+congr3:_Content_MyResume.doc_b0537aa6bc a gist:Content ;
+    congr:createDateTime "2023-06-22T10:15:15.895738"^^xsd:dateTime ;
+    congr:fingerprint "06cb9321fd119442406f2bf5ef28f39c33e5b0292d9eb2ce2971a7c41edd1709"^^xsd:string ;
+    congr:modifyDateTime "2023-06-22T10:15:16.440000"^^xsd:dateTime ;
+    gist:hasMagnitude congr3:_InformationQuantity_MyResume.doc_b0537aa6bc ;
+    gist:hasMediaType gist:_MediaType_applicationmsword ;
+    gist:isMemberOf congr3:_Directory_congr-test_77b4980f17 ;
+    gist:name "MyResume.doc"^^xsd:string .
+
+congr3:_Content_MyResume_Copy.doc_2df76196a6 a gist:Content ;
+    congr:createDateTime "2023-06-23T13:30:08.610756"^^xsd:dateTime ;
+    congr:fingerprint "06cb9321fd119442406f2bf5ef28f39c33e5b0292d9eb2ce2971a7c41edd1709"^^xsd:string ;
+    congr:modifyDateTime "2023-06-22T10:15:16.440000"^^xsd:dateTime ;
+    gist:hasMagnitude congr3:_InformationQuantity_MyResume_Copy.doc_2df76196a6 ;
+    gist:hasMediaType gist:_MediaType_applicationmsword ;
+    gist:isMemberOf congr3:_Directory_congr-test_77b4980f17 ;
+    gist:name "MyResume_Copy.doc"^^xsd:string .
+
+congr3:_InformationQuantity_FunnyPicture.png_7508e43a0f gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 1556317 .
+
+congr3:_InformationQuantity_MyResume.doc_318eee8760 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 43520 .
+
+congr3:_InformationQuantity_MyResume.doc_b0537aa6bc gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 43520 .
+
+congr3:_InformationQuantity_MyResume_Copy.doc_2df76196a6 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 43520 .
+
+gist:_MediaType_imagepng a gist:MediaType .
+
+congr3:_Directory_pictures_aa09fad398 a gist:Collection ;
+    congr:pathString "C:/Users/StevenChalem/congr-test\\pictures"^^xsd:anyURI ;
+    gist:isMemberOf congr3:_Directory_congr-test_77b4980f17 ;
+    gist:name "pictures"^^xsd:string .
+
+congr3:_Directory_congr-test_77b4980f17 a gist:Collection ;
+    congr:pathString "C:/Users/StevenChalem/congr-test"^^xsd:anyURI ;
+    gist:name "congr-test"^^xsd:string .
+
+gist:_MediaType_applicationmsword a gist:MediaType .
+
