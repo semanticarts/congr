@@ -16,7 +16,7 @@ This will generate an RDF graph of your filestore metadata, excluding file finge
 
 ### Arguments
 
-`congr.py` can be run from the command line using the arguments below. Arguments are case-sensitive. Arguments can be abbreviated to their shortest unique form. For example, `--files` can be abbreviated to `-f`. Arguments can be provided in any order. Default values may change, so it's best to specify all arguments explicitly.
+`congr.py` can be run from the command line using the arguments below. Arguments are case-sensitive. Arguments can be abbreviated to their shortest unique form. For example, `--files` can be abbreviated to `-f`. Arguments can be provided in any order. Default values may between releases, so it's best to specify all arguments explicitly.
 
 - `starting_dir_path`: Path to the starting directory (default: 'C:/Users/StevenChalem/congr-test').
 
