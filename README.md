@@ -8,23 +8,29 @@ Traverse a directory tree and write metadata to a turtle file. Optionally includ
 Usage
 -----
 
-`python congr.py [dir_path] [--files] [--no-files] [--fingerprints] [--no-fingerprints] [-o output_file]`
+To use `congr.py`, run it from the command line with your desired options. Here's an example:
 
-The options are:
+- `python congr.py --iri http://myweb.com/files/ --no-fingerprints -o myoutput.ttl`
 
-`dir_path`: Specifies the starting directory for generating file metadata. If not provided, the current directory is used as the default starting directory.
+This will generate an RDF graph of your filestore metadata, excluding file fingerprints, with the IRI for the starting directory node set to 'http://myweb.com/files/'. The output will be written to `myoutput.ttl`.
 
-`--files`: Includes files in the generated metadata.
+### Arguments
 
-`--no-files`: Excludes files from the generated metadata.
+`congr.py` can be run from the command line with several options:
 
-`--fingerprints`: Creates fingerprints for files in the generated metadata.
+- `starting_dir_path`: Path to the starting directory (default: 'C:/Users/StevenChalem/congr-test').
 
-`--no-fingerprints`: Excludes file fingerprints from the generated metadata.
+- `--iri`: IRI for the starting directory node (default: 'http://example.com/files/').
 
-`-o output_file`: Specifies the name of the output file. If not provided, the default output file is ./output/congr-output.ttl.
+- `--files`: Include files in metadata (default).
 
-Option defaults are changing frequently during development. Be explicit!
+- `--no-files`: Exclude files from metadata.
+
+- `--fingerprints`: Create file fingerprints (default).
+
+- `--no-fingerprints`: Exclude file fingerprints.
+
+- `-o, --output`: Output file name (default: 'output/congr-output.ttl').
 
 Requirements
 -----
