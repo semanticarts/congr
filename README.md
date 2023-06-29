@@ -16,19 +16,19 @@ This will generate an RDF graph of your filestore metadata, excluding file finge
 
 ### Arguments
 
-`congr.py` can be run from the command line with several options:
+`congr.py` can be run from the command line using the arguments below. Arguments are case-sensitive. Arguments can be abbreviated to their shortest unique form. For example, `--files` can be abbreviated to `-f`. Arguments can be provided in any order. Default values may change, so it's best to specify all arguments explicitly.
 
 - `starting_dir_path`: Path to the starting directory (default: 'C:/Users/StevenChalem/congr-test').
 
 - `--iri`: IRI for the starting directory node (default: 'http://example.com/files/').
 
-- `--files`: Include files in metadata (default).
+- `--files`: Include files in metadata (default). **Including files can result in a very large output file.**
 
-- `--no-files`: Exclude files from metadata.
+- `--no-files`: Exclude files from metadata. **If you only need a directory tree, choose this.**
 
-- `--fingerprints`: Create file fingerprints (default).
+- `--fingerprints`: Create file fingerprints (default). **Fingerprinting is slow, especially over slow network connections. It requires reading the entire file into memory.**
 
-- `--no-fingerprints`: Exclude file fingerprints.
+- `--no-fingerprints`: Exclude file fingerprints. **If you don't need fingerprints, choose this for better performance.**
 
 - `-o, --output`: Output file name (default: 'output/congr-output.ttl').
 
