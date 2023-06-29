@@ -7,36 +7,36 @@ congr3:_Content_FunnyPicture.png_4087fe500c a gist:Content ;
     congr:createDateTime "2023-06-05T15:31:49.688691"^^xsd:dateTime ;
     congr:fingerprint "5f80a65a6539e068c826fb2e2cdc62ec923e48279953a5ac81467185de57776b"^^xsd:string ;
     congr:modifyDateTime "2023-06-05T15:31:50.121633"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_pictures_402e56ae41 ;
     gist:hasMagnitude congr3:_InformationQuantity_FunnyPicture.png_4087fe500c ;
     gist:hasMediaType gist:_MediaType_imagepng ;
-    gist:isMemberOf congr3:_Directory_pictures_402e56ae41 ;
     gist:name "FunnyPicture.png"^^xsd:string .
 
 congr3:_Content_MyResume.doc_159e4fbb59 a gist:Content ;
     congr:createDateTime "2023-06-22T10:15:15.895738"^^xsd:dateTime ;
     congr:fingerprint "06cb9321fd119442406f2bf5ef28f39c33e5b0292d9eb2ce2971a7c41edd1709"^^xsd:string ;
     congr:modifyDateTime "2023-06-22T10:15:16.440000"^^xsd:dateTime ;
+    gist:hasLocation <http://example.com/files/> ;
     gist:hasMagnitude congr3:_InformationQuantity_MyResume.doc_159e4fbb59 ;
     gist:hasMediaType gist:_MediaType_applicationmsword ;
-    gist:isMemberOf <http://example.com/files/> ;
     gist:name "MyResume.doc"^^xsd:string .
 
 congr3:_Content_MyResume.doc_2c9aeb5b9a a gist:Content ;
     congr:createDateTime "2023-06-23T13:29:57.605533"^^xsd:dateTime ;
     congr:fingerprint "06cb9321fd119442406f2bf5ef28f39c33e5b0292d9eb2ce2971a7c41edd1709"^^xsd:string ;
     congr:modifyDateTime "2023-06-22T10:15:16.440000"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_pictures_402e56ae41 ;
     gist:hasMagnitude congr3:_InformationQuantity_MyResume.doc_2c9aeb5b9a ;
     gist:hasMediaType gist:_MediaType_applicationmsword ;
-    gist:isMemberOf congr3:_Directory_pictures_402e56ae41 ;
     gist:name "MyResume.doc"^^xsd:string .
 
 congr3:_Content_MyResume_Copy.doc_7c670234b3 a gist:Content ;
     congr:createDateTime "2023-06-23T13:30:08.610756"^^xsd:dateTime ;
     congr:fingerprint "06cb9321fd119442406f2bf5ef28f39c33e5b0292d9eb2ce2971a7c41edd1709"^^xsd:string ;
     congr:modifyDateTime "2023-06-22T10:15:16.440000"^^xsd:dateTime ;
+    gist:hasLocation <http://example.com/files/> ;
     gist:hasMagnitude congr3:_InformationQuantity_MyResume_Copy.doc_7c670234b3 ;
     gist:hasMediaType gist:_MediaType_applicationmsword ;
-    gist:isMemberOf <http://example.com/files/> ;
     gist:name "MyResume_Copy.doc"^^xsd:string .
 
 congr3:_InformationQuantity_FunnyPicture.png_4087fe500c gist:hasUnitOfMeasure xsd:byte ;
@@ -53,12 +53,12 @@ congr3:_InformationQuantity_MyResume_Copy.doc_7c670234b3 gist:hasUnitOfMeasure x
 
 gist:_MediaType_imagepng a gist:MediaType .
 
-congr3:_Directory_pictures_402e56ae41 a gist:Collection ;
+congr3:_Directory_pictures_402e56ae41 a gist:Location ;
     congr:pathString "C:/Users/StevenChalem/congr-test\\pictures"^^xsd:anyURI ;
-    gist:isMemberOf <http://example.com/files/> ;
+    gist:hasLocation <http://example.com/files/> ;
     gist:name "pictures"^^xsd:string .
 
-<http://example.com/files/> a gist:Collection ;
+<http://example.com/files/> a gist:Location ;
     congr:pathString "C:/Users/StevenChalem/congr-test"^^xsd:anyURI ;
     gist:name "congr-test"^^xsd:string .
 

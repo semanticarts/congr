@@ -44,7 +44,7 @@ def generate_file_metadata(starting_dir_path, starting_dir_node_iri=None, includ
     else:
         starting_dir_node = starting_dir_node_iri
 
-    g.add((starting_dir_node, RDF.type, gist.Collection))
+    g.add((starting_dir_node, RDF.type, gist.Location))
     g.add((starting_dir_node, gist.name, Literal(os.path.basename(starting_dir_path), datatype=XSD.string)))
     g.add((starting_dir_node, congr.pathString, Literal(starting_dir_path, datatype=XSD.anyURI)))
 
@@ -53,10 +53,10 @@ def generate_file_metadata(starting_dir_path, starting_dir_node_iri=None, includ
         dir_node = URIRef(congr3 + "_Directory_" + quote(os.path.basename(root), safe='') + "_" + dir_hash)
 
         if root != starting_dir_path:
-            g.add((dir_node, RDF.type, gist.Collection))
+            g.add((dir_node, RDF.type, gist.Location))
             g.add((dir_node, gist.name, Literal(os.path.basename(root), datatype=XSD.string)))
             g.add((dir_node, congr.pathString, Literal(root, datatype=XSD.anyURI)))
-            g.add((dir_node, gist.isMemberOf, starting_dir_node))
+            g.add((dir_node, gist.hasLocation, starting_dir_node))
 
         for filename in files:
             file_path = os.path.join(root, filename)
@@ -67,10 +67,10 @@ def generate_file_metadata(starting_dir_path, starting_dir_node_iri=None, includ
 
             # If the file is in the starting directory, add a relation to starting_dir_node
             if root == starting_dir_path:
-                g.add((file_node, gist.isMemberOf, starting_dir_node))
+                g.add((file_node, gist.hasLocation, starting_dir_node))
             # Otherwise, add a relation to the actual directory that the file is in
             else:
-                g.add((file_node, gist.isMemberOf, dir_node))
+                g.add((file_node, gist.hasLocation, dir_node))
 
             g.add((file_node, RDF.type, gist.Content))
             g.add((file_node, gist.name, Literal(filename, datatype=XSD.string)))
