@@ -41,6 +41,12 @@ In this example, the `&` in the directory name was causing problems so we ran co
 
 - `python "C:/Users/StevenChalem/git/congr/congr.py" . -o "C:/Users/StevenChalem/congr-test/output1.ttl" --files --no-fingerprints`
 
+Another example run from inside the target directory:
+
+`PS C:\users\stevenchalem\semantic arts\SA Staff - Documents> 
+python "C:/Users/StevenChalem/git/congr/congr.py" . -o "C:/Users/StevenChalem/congr-test/output1.ttl" --files --no-fingerprint --iri https://data.semanticarts.com/congr/sa-staff-documents/`
+
+
 Requirements
 -----
 
