@@ -1,0 +1,5 @@
+```
+
+curl --fail-with-body --no-progress-meter --max-time 600 \    --user "${username}:${password}" \    --request POST \    --header "Content-Type: $mime_type" \    --data-binary "@${triple_file}" \    "${triple_store_base_url}/statements?context=${url_encoded_named_graph_uri}
+
+```

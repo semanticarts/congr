@@ -1,0 +1,2895 @@
+@prefix congr: <https://ontologies.semanticarts.com/congr/> .
+@prefix congr3: <https://data.semanticarts.com/congr/> .
+@prefix gist: <https://w3id.org/ontology/semanticarts/gist/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+congr3:_Content_%28SA22%29%20file%20set-01.jpg_67acee872c a gist:Content ;
+    congr:createDateTime "2022-11-17T10:28:10.553708"^^xsd:dateTime ;
+    congr:modifyDateTime "2022-11-09T15:49:58"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Semantic%20Arts%20Logo_fe730ff47f ;
+    gist:hasMagnitude congr3:_InformationQuantity_%28SA22%29%20file%20set-01.jpg_67acee872c ;
+    gist:hasMediaType gist:_MediaType_imagejpeg ;
+    gist:name "(SA22) file set-01.jpg"^^xsd:string .
+
+congr3:_Content_2022-MCK-ANNUAL-REPORT.pdf_dee1c82102 a gist:Content ;
+    congr:createDateTime "2023-04-13T07:17:24.383217"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-02-21T13:12:18"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Annual%20Reports_39e6dd16fc ;
+    gist:hasMagnitude congr3:_InformationQuantity_2022-MCK-ANNUAL-REPORT.pdf_dee1c82102 ;
+    gist:hasMediaType gist:_MediaType_applicationpdf ;
+    gist:name "2022-MCK-ANNUAL-REPORT.pdf"^^xsd:string .
+
+congr3:_Content_2022Q4_alphabet_earnings_release.pdf_7f457d5dd5 a gist:Content ;
+    congr:createDateTime "2023-04-13T07:17:24.371986"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-02-21T13:08:53"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Annual%20Reports_39e6dd16fc ;
+    gist:hasMagnitude congr3:_InformationQuantity_2022Q4_alphabet_earnings_release.pdf_7f457d5dd5 ;
+    gist:hasMediaType gist:_MediaType_applicationpdf ;
+    gist:name "2022Q4_alphabet_earnings_release.pdf"^^xsd:string .
+
+congr3:_Content_2023-03-18_ScottishGovernment_Schedule.xlsx_f653151c46 a gist:Content ;
+    congr:createDateTime "2023-03-19T09:49:07.599077"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-03-20T10:41:29"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Scottish%20Government_d2ed491fe2 ;
+    gist:hasMagnitude congr3:_InformationQuantity_2023-03-18_ScottishGovernment_Schedule.xlsx_f653151c46 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.spreadsheetml.sheet ;
+    gist:name "2023-03-18_ScottishGovernment_Schedule.xlsx"^^xsd:string .
+
+congr3:_Content_9.1.1%20-%20WK%20Contract%20Template%20-%20MSA%232%20-%20v1.1%20%281%29--DMc.docx_27afa9814d a gist:Content ;
+    congr:createDateTime "2023-07-03T09:37:38.023024"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-07-03T09:39:29"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_WoltersKluwer_e2fc1a5c65 ;
+    gist:hasMagnitude congr3:_InformationQuantity_9.1.1%20-%20WK%20Contract%20Template%20-%20MSA%232%20-%20v1.1%20%281%29--DMc.docx_27afa9814d ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.wordprocessingml.document ;
+    gist:name "9.1.1 - WK Contract Template - MSA#2 - v1.1 (1)--DMc.docx"^^xsd:string .
+
+congr3:_Content_AIA%20presentation%202.pptx_cc819cdbe5 a gist:Content ;
+    congr:createDateTime "2023-05-12T13:37:28.826457"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-05-12T15:23:39"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Architectural%20Firm%20Market_d59c914b28 ;
+    gist:hasMagnitude congr3:_InformationQuantity_AIA%20presentation%202.pptx_cc819cdbe5 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.presentationml.presentation ;
+    gist:name "AIA presentation 2.pptx"^^xsd:string .
+
+congr3:_Content_AIA%20presentation.pptx_ea3670a2f9 a gist:Content ;
+    congr:createDateTime "2023-05-08T08:09:48.629537"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-05-07T14:26:47"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Architectural%20Firm%20Market_d59c914b28 ;
+    gist:hasMagnitude congr3:_InformationQuantity_AIA%20presentation.pptx_ea3670a2f9 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.presentationml.presentation ;
+    gist:name "AIA presentation.pptx"^^xsd:string .
+
+congr3:_Content_AZ_MondaySymposisum2c.pptx_82415320a7 a gist:Content ;
+    congr:createDateTime "2023-03-27T14:12:13.009742"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-03-27T14:12:12"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_2023%20EDW%20Spring_0a0c1d7c8a ;
+    gist:hasMagnitude congr3:_InformationQuantity_AZ_MondaySymposisum2c.pptx_82415320a7 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.presentationml.presentation ;
+    gist:name "AZ_MondaySymposisum2c.pptx"^^xsd:string .
+
+congr3:_Content_AZ_TuesdayWorkshopAP.pptx_6a76fdd1cd a gist:Content ;
+    congr:createDateTime "2023-03-27T14:12:13.016746"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-03-27T14:12:10"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_2023%20EDW%20Spring_0a0c1d7c8a ;
+    gist:hasMagnitude congr3:_InformationQuantity_AZ_TuesdayWorkshopAP.pptx_6a76fdd1cd ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.presentationml.presentation ;
+    gist:name "AZ_TuesdayWorkshopAP.pptx"^^xsd:string .
+
+congr3:_Content_Advertising%2C%20PR%20%26%20Web%20Firms%2C%20Boulder%20Valley.xls_81f75b3fb2 a gist:Content ;
+    congr:createDateTime "2023-07-01T08:17:07.002976"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-03-14T10:32:10"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Colorado%20Companies_cc13c65973 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Advertising%2C%20PR%20%26%20Web%20Firms%2C%20Boulder%20Valley.xls_81f75b3fb2 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.ms-excel ;
+    gist:name "Advertising, PR & Web Firms, Boulder Valley.xls"^^xsd:string .
+
+congr3:_Content_Advertising%2C%20PR%20%26%20Web%20Firms%2C%20Northern%20Colorado.xls_a9e5651d81 a gist:Content ;
+    congr:createDateTime "2023-07-01T08:17:07.056199"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-03-14T10:32:56"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Colorado%20Companies_cc13c65973 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Advertising%2C%20PR%20%26%20Web%20Firms%2C%20Northern%20Colorado.xls_a9e5651d81 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.ms-excel ;
+    gist:name "Advertising, PR & Web Firms, Northern Colorado.xls"^^xsd:string .
+
+congr3:_Content_Aerospace%20Companies.xls_0b0fb70cb7 a gist:Content ;
+    congr:createDateTime "2023-07-01T08:17:07.047576"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-03-15T09:44:38"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Colorado%20Companies_cc13c65973 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Aerospace%20Companies.xls_0b0fb70cb7 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.ms-excel ;
+    gist:name "Aerospace Companies.xls"^^xsd:string .
+
+congr3:_Content_Agreement%20with%20DMc%20signature.pdf_57e6a5c3ad a gist:Content ;
+    congr:createDateTime "2023-06-08T09:33:11.648049"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-06-08T09:32:47"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_CIMpleData_bc09f49525 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Agreement%20with%20DMc%20signature.pdf_57e6a5c3ad ;
+    gist:hasMediaType gist:_MediaType_applicationpdf ;
+    gist:name "Agreement with DMc signature.pdf"^^xsd:string .
+
+congr3:_Content_Agribusinesses.xls_b501037646 a gist:Content ;
+    congr:createDateTime "2023-07-01T08:17:06.692025"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-03-14T10:53:46"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Colorado%20Companies_cc13c65973 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Agribusinesses.xls_b501037646 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.ms-excel ;
+    gist:name "Agribusinesses.xls"^^xsd:string .
+
+congr3:_Content_Aiken%20-%202023-06%20Data%20Literacy%20for%20Knowledge%20Workers%20%28Calgary%29.pdf_201e6f30b5 a gist:Content ;
+    congr:createDateTime "2023-06-07T15:48:28.823416"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-06-07T15:45:08"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_OtherPresentations_246ca346a6 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Aiken%20-%202023-06%20Data%20Literacy%20for%20Knowledge%20Workers%20%28Calgary%29.pdf_201e6f30b5 ;
+    gist:hasMediaType gist:_MediaType_applicationpdf ;
+    gist:name "Aiken - 2023-06 Data Literacy for Knowledge Workers (Calgary).pdf"^^xsd:string .
+
+congr3:_Content_Amazon-2021-Annual-Report.pdf_90dc485095 a gist:Content ;
+    congr:createDateTime "2023-04-13T07:17:24.378320"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-02-21T12:39:01"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Annual%20Reports_39e6dd16fc ;
+    gist:hasMagnitude congr3:_InformationQuantity_Amazon-2021-Annual-Report.pdf_90dc485095 ;
+    gist:hasMediaType gist:_MediaType_applicationpdf ;
+    gist:name "Amazon-2021-Annual-Report.pdf"^^xsd:string .
+
+congr3:_Content_Architecture%20Firms.xls_2124015ed5 a gist:Content ;
+    congr:createDateTime "2023-07-01T08:17:06.750481"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-03-14T10:35:42"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Colorado%20Companies_cc13c65973 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Architecture%20Firms.xls_2124015ed5 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.ms-excel ;
+    gist:name "Architecture Firms.xls"^^xsd:string .
+
+congr3:_Content_Architecture%20Firms.xlsx_c0653a9074 a gist:Content ;
+    congr:createDateTime "2023-07-01T08:17:07.215611"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-07-01T08:06:15"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Colorado%20Companies_cc13c65973 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Architecture%20Firms.xlsx_c0653a9074 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.spreadsheetml.sheet ;
+    gist:name "Architecture Firms.xlsx"^^xsd:string .
+
+congr3:_Content_Assisted%20Living%2C%20Independent%20Living%20and%20Skilled-Nursing%20Facilities%2C%20Boulder%20Valley.xls_7888ae7a52 a gist:Content ;
+    congr:createDateTime "2023-07-01T08:17:06.974898"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-03-14T12:42:42"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Colorado%20Companies_cc13c65973 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Assisted%20Living%2C%20Independent%20Living%20and%20Skilled-Nursing%20Facilities%2C%20Boulder%20Valley.xls_7888ae7a52 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.ms-excel ;
+    gist:name "Assisted Living, Independent Living and Skilled-Nursing Facilities, Boulder Valley.xls"^^xsd:string .
+
+congr3:_Content_Assisted-Living%20Centers%2C%20Northern%20Colorado.xls_0cca27bfc8 a gist:Content ;
+    congr:createDateTime "2023-07-01T08:17:06.663630"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-03-15T09:41:56"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Colorado%20Companies_cc13c65973 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Assisted-Living%20Centers%2C%20Northern%20Colorado.xls_0cca27bfc8 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.ms-excel ;
+    gist:name "Assisted-Living Centers, Northern Colorado.xls"^^xsd:string .
+
+congr3:_Content_Attendees.pptx_2db9c22951 a gist:Content ;
+    congr:createDateTime "2023-02-16T08:15:32.981708"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-02-16T08:15:38"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_2023%20Dupont%20Data%20Scientists_aedc3731d4 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Attendees.pptx_2db9c22951 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.presentationml.presentation ;
+    gist:name "Attendees.pptx"^^xsd:string .
+
+congr3:_Content_Banks%20by%20Deposit.xls_9ba91b7c5f a gist:Content ;
+    congr:createDateTime "2023-07-01T08:17:06.846553"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-03-14T10:24:54"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Colorado%20Companies_cc13c65973 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Banks%20by%20Deposit.xls_9ba91b7c5f ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.ms-excel ;
+    gist:name "Banks by Deposit.xls"^^xsd:string .
+
+congr3:_Content_Banks%2C%20Colorado-based.xls_e1c00adce4 a gist:Content ;
+    congr:createDateTime "2023-07-01T08:17:06.942407"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-03-14T10:25:52"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Colorado%20Companies_cc13c65973 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Banks%2C%20Colorado-based.xls_e1c00adce4 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.ms-excel ;
+    gist:name "Banks, Colorado-based.xls"^^xsd:string .
+
+congr3:_Content_Banks%2C%20Out-of-State.xls_33c16fa199 a gist:Content ;
+    congr:createDateTime "2023-07-01T08:17:07.154396"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-03-14T10:26:24"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Colorado%20Companies_cc13c65973 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Banks%2C%20Out-of-State.xls_33c16fa199 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.ms-excel ;
+    gist:name "Banks, Out-of-State.xls"^^xsd:string .
+
+congr3:_Content_Becoming%20Data-Centric.pptx_91d18c0045 a gist:Content ;
+    congr:createDateTime "2023-05-27T07:09:15.152467"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-06-02T13:13:20"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_2023%20DMC%20Calgary_81a5262a64 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Becoming%20Data-Centric.pptx_91d18c0045 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.presentationml.presentation ;
+    gist:name "Becoming Data-Centric.pptx"^^xsd:string .
+
+congr3:_Content_Becoming%20Data.docx_4c1ed8ddf5 a gist:Content ;
+    congr:createDateTime "2023-06-04T16:09:46.128335"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-06-04T16:13:07"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Pitch_6b30e97371 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Becoming%20Data.docx_4c1ed8ddf5 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.wordprocessingml.document ;
+    gist:name "Becoming Data.docx"^^xsd:string .
+
+congr3:_Content_Berkshire%20Hathaway2021ar.pdf_d852538588 a gist:Content ;
+    congr:createDateTime "2023-04-13T07:17:28.186383"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-02-21T13:02:57"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Annual%20Reports_39e6dd16fc ;
+    gist:hasMagnitude congr3:_InformationQuantity_Berkshire%20Hathaway2021ar.pdf_d852538588 ;
+    gist:hasMediaType gist:_MediaType_applicationpdf ;
+    gist:name "Berkshire Hathaway2021ar.pdf"^^xsd:string .
+
+congr3:_Content_Bill%20C-27%20Status%20Update.pdf_11eadb2159 a gist:Content ;
+    congr:createDateTime "2023-06-07T15:48:28.809853"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-06-07T15:40:54"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_OtherPresentations_246ca346a6 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Bill%20C-27%20Status%20Update.pdf_11eadb2159 ;
+    gist:hasMediaType gist:_MediaType_applicationpdf ;
+    gist:name "Bill C-27 Status Update.pdf"^^xsd:string .
+
+congr3:_Content_Breweries%20%26%20Brewpubs.xls_e5e59b4e39 a gist:Content ;
+    congr:createDateTime "2023-07-01T08:17:06.715935"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-03-15T09:35:22"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Colorado%20Companies_cc13c65973 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Breweries%20%26%20Brewpubs.xls_e5e59b4e39 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.ms-excel ;
+    gist:name "Breweries & Brewpubs.xls"^^xsd:string .
+
+congr3:_Content_BritishMuseumQuery.txt_cfcf6bafc7 a gist:Content ;
+    congr:createDateTime "2023-01-22T10:51:00.898545"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-01-22T10:02:13"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_2023%20Data%20Day%20Austin_a30e938f03 ;
+    gist:hasMagnitude congr3:_InformationQuantity_BritishMuseumQuery.txt_cfcf6bafc7 ;
+    gist:hasMediaType gist:_MediaType_textplain ;
+    gist:name "BritishMuseumQuery.txt"^^xsd:string .
+
+congr3:_Content_CPA%20Firms%2C%20Boulder%20Valley.xls_0fe3fcd9c5 a gist:Content ;
+    congr:createDateTime "2023-07-01T08:17:06.949040"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-03-14T10:27:04"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Colorado%20Companies_cc13c65973 ;
+    gist:hasMagnitude congr3:_InformationQuantity_CPA%20Firms%2C%20Boulder%20Valley.xls_0fe3fcd9c5 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.ms-excel ;
+    gist:name "CPA Firms, Boulder Valley.xls"^^xsd:string .
+
+congr3:_Content_CPA%20Firms%2C%20Northern%20Colorado.xls_d75a4e6dd4 a gist:Content ;
+    congr:createDateTime "2023-07-01T08:17:06.734882"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-03-15T09:31:22"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Colorado%20Companies_cc13c65973 ;
+    gist:hasMagnitude congr3:_InformationQuantity_CPA%20Firms%2C%20Northern%20Colorado.xls_d75a4e6dd4 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.ms-excel ;
+    gist:name "CPA Firms, Northern Colorado.xls"^^xsd:string .
+
+congr3:_Content_Cannabis%20Companies.xls_8626290170 a gist:Content ;
+    congr:createDateTime "2023-07-01T08:17:06.935652"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-03-14T12:56:10"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Colorado%20Companies_cc13c65973 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Cannabis%20Companies.xls_8626290170 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.ms-excel ;
+    gist:name "Cannabis Companies.xls"^^xsd:string .
+
+congr3:_Content_Case%20Study%20Template.docx_9a7c956a7f a gist:Content ;
+    congr:createDateTime "2023-01-11T10:39:11.950296"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-01-11T10:58:51"^^xsd:dateTime ;
+    gist:hasLocation <http://example.com/files/> ;
+    gist:hasMagnitude congr3:_InformationQuantity_Case%20Study%20Template.docx_9a7c956a7f ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.wordprocessingml.document ;
+    gist:name "Case Study Template.docx"^^xsd:string .
+
+congr3:_Content_Citi%20Session%203.pptx_2c5a7bd64b a gist:Content ;
+    congr:createDateTime "2023-03-09T06:27:21.506979"^^xsd:dateTime ;
+    congr:modifyDateTime "2022-12-24T11:25:41"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_2023%20EDW%20Spring_0a0c1d7c8a ;
+    gist:hasMagnitude congr3:_InformationQuantity_Citi%20Session%203.pptx_2c5a7bd64b ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.presentationml.presentation ;
+    gist:name "Citi Session 3.pptx"^^xsd:string .
+
+congr3:_Content_Citi%20lesson%20A%20slides.pptx_a661bb9d9b a gist:Content ;
+    congr:createDateTime "2023-03-09T06:27:21.502414"^^xsd:dateTime ;
+    congr:modifyDateTime "2022-12-24T11:21:40"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_2023%20EDW%20Spring_0a0c1d7c8a ;
+    gist:hasMagnitude congr3:_InformationQuantity_Citi%20lesson%20A%20slides.pptx_a661bb9d9b ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.presentationml.presentation ;
+    gist:name "Citi lesson A slides.pptx"^^xsd:string .
+
+congr3:_Content_Clean-Tech%20Companies.xls_a188b74682 a gist:Content ;
+    congr:createDateTime "2023-07-01T08:17:07.071710"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-03-14T12:51:00"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Colorado%20Companies_cc13c65973 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Clean-Tech%20Companies.xls_a188b74682 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.ms-excel ;
+    gist:name "Clean-Tech Companies.xls"^^xsd:string .
+
+congr3:_Content_Colleges%20%26%20Universities.xls_6ed46d40e7 a gist:Content ;
+    congr:createDateTime "2023-07-01T08:17:06.656286"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-03-14T10:43:04"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Colorado%20Companies_cc13c65973 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Colleges%20%26%20Universities.xls_6ed46d40e7 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.ms-excel ;
+    gist:name "Colleges & Universities.xls"^^xsd:string .
+
+congr3:_Content_Commercial%20General%20Contractors.xls_92ac417bbf a gist:Content ;
+    congr:createDateTime "2023-07-01T08:17:06.764894"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-03-14T10:39:58"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Colorado%20Companies_cc13c65973 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Commercial%20General%20Contractors.xls_92ac417bbf ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.ms-excel ;
+    gist:name "Commercial General Contractors.xls"^^xsd:string .
+
+congr3:_Content_Commercial%20Real%20Estate%20Brokerages.xls_fdd9c27e7e a gist:Content ;
+    congr:createDateTime "2023-07-01T08:17:07.104810"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-03-14T12:53:50"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Colorado%20Companies_cc13c65973 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Commercial%20Real%20Estate%20Brokerages.xls_fdd9c27e7e ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.ms-excel ;
+    gist:name "Commercial Real Estate Brokerages.xls"^^xsd:string .
+
+congr3:_Content_DCAF-2023-gist.pptx_ac0adfcc8e a gist:Content ;
+    congr:createDateTime "2023-05-31T12:32:33.829636"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-06-06T09:15:59"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_2023%20DCAF%20FortCollins_26b87713c2 ;
+    gist:hasMagnitude congr3:_InformationQuantity_DCAF-2023-gist.pptx_ac0adfcc8e ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.presentationml.presentation ;
+    gist:name "DCAF-2023-gist.pptx"^^xsd:string .
+
+congr3:_Content_DMC%20Conference%20Expense%20Report%20Template.xlsx_29f2ca9355 a gist:Content ;
+    congr:createDateTime "2023-04-07T15:56:58.425490"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-06-28T08:53:14"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_2023%20DMC%20Calgary_81a5262a64 ;
+    gist:hasMagnitude congr3:_InformationQuantity_DMC%20Conference%20Expense%20Report%20Template.xlsx_29f2ca9355 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.spreadsheetml.sheet ;
+    gist:name "DMC Conference Expense Report Template.xlsx"^^xsd:string .
+
+congr3:_Content_DMc%20Notes.docx_6d60257fd2 a gist:Content ;
+    congr:createDateTime "2023-03-09T20:40:58.936029"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-03-20T17:28:35"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Scottish%20Government_d2ed491fe2 ;
+    gist:hasMagnitude congr3:_InformationQuantity_DMc%20Notes.docx_6d60257fd2 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.wordprocessingml.document ;
+    gist:name "DMc Notes.docx"^^xsd:string .
+
+congr3:_Content_DataCentric%20Journey.pptx_c6312b5cf1 a gist:Content ;
+    congr:createDateTime "2023-05-21T07:34:34.963908"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-05-21T07:34:31"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_2023%20DMC%20Calgary_81a5262a64 ;
+    gist:hasMagnitude congr3:_InformationQuantity_DataCentric%20Journey.pptx_c6312b5cf1 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.presentationml.presentation ;
+    gist:name "DataCentric Journey.pptx"^^xsd:string .
+
+congr3:_Content_Day%201%20Symposium.pptx_218fd7e658 a gist:Content ;
+    congr:createDateTime "2023-03-09T06:27:21.511498"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-01-21T14:45:40"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_2023%20EDW%20Spring_0a0c1d7c8a ;
+    gist:hasMagnitude congr3:_InformationQuantity_Day%201%20Symposium.pptx_218fd7e658 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.presentationml.presentation ;
+    gist:name "Day 1 Symposium.pptx"^^xsd:string .
+
+congr3:_Content_ERP%20icon.jpg_c5944dec55 a gist:Content ;
+    congr:createDateTime "2023-06-04T15:43:38.431104"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-06-04T15:42:53"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Pitch_6b30e97371 ;
+    gist:hasMagnitude congr3:_InformationQuantity_ERP%20icon.jpg_c5944dec55 ;
+    gist:hasMediaType gist:_MediaType_imagejpeg ;
+    gist:name "ERP icon.jpg"^^xsd:string .
+
+congr3:_Content_ESBN%20EY%20participants%20list_2023.docx_53e6612b7b a gist:Content ;
+    congr:createDateTime "2023-06-07T06:21:23.295318"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-06-07T06:21:51"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_CIMpleData_bc09f49525 ;
+    gist:hasMagnitude congr3:_InformationQuantity_ESBN%20EY%20participants%20list_2023.docx_53e6612b7b ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.wordprocessingml.document ;
+    gist:name "ESBN EY participants list_2023.docx"^^xsd:string .
+
+congr3:_Content_ESBN%20project%20-%20Semantic%20Arts%20Subcontract%20Agreement_Peter%20Winstanley.docx_4f97be66a0 a gist:Content ;
+    congr:createDateTime "2023-06-07T06:17:30.413407"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-06-07T06:17:27"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_CIMpleData_bc09f49525 ;
+    gist:hasMagnitude congr3:_InformationQuantity_ESBN%20project%20-%20Semantic%20Arts%20Subcontract%20Agreement_Peter%20Winstanley.docx_4f97be66a0 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.wordprocessingml.document ;
+    gist:name "ESBN project - Semantic Arts Subcontract Agreement_Peter Winstanley.docx"^^xsd:string .
+
+congr3:_Content_Electrical%20Contractors.xls_55caea77b3 a gist:Content ;
+    congr:createDateTime "2023-07-01T08:17:06.900373"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-03-14T10:38:42"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Colorado%20Companies_cc13c65973 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Electrical%20Contractors.xls_55caea77b3 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.ms-excel ;
+    gist:name "Electrical Contractors.xls"^^xsd:string .
+
+congr3:_Content_Engineering%20Firms.xls_42dcf775eb a gist:Content ;
+    congr:createDateTime "2023-07-01T08:17:07.124770"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-03-14T10:41:38"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Colorado%20Companies_cc13c65973 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Engineering%20Firms.xls_42dcf775eb ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.ms-excel ;
+    gist:name "Engineering Firms.xls"^^xsd:string .
+
+congr3:_Content_Equal%20Employment%20Opportunity_Semantic%20Arts%20Digital%20Handbook.docx_60b1f5b042 a gist:Content ;
+    congr:createDateTime "2023-03-20T11:02:44.434620"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-03-20T11:02:41"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Scottish%20Government_d2ed491fe2 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Equal%20Employment%20Opportunity_Semantic%20Arts%20Digital%20Handbook.docx_60b1f5b042 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.wordprocessingml.document ;
+    gist:name "Equal Employment Opportunity_Semantic Arts Digital Handbook.docx"^^xsd:string .
+
+congr3:_Content_FDA%20known.%20attendeesdocx.docx_3a15c51caa a gist:Content ;
+    congr:createDateTime "2023-02-11T11:23:39.950829"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-02-13T10:57:58"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_2023%20Feb%20FDA_8e760a8509 ;
+    gist:hasMagnitude congr3:_InformationQuantity_FDA%20known.%20attendeesdocx.docx_3a15c51caa ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.wordprocessingml.document ;
+    gist:name "FDA known. attendeesdocx.docx"^^xsd:string .
+
+congr3:_Content_FDA%20v2.pptx_cb1611e3f7 a gist:Content ;
+    congr:createDateTime "2023-02-17T07:50:32.987756"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-02-17T06:18:51"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_2023%20Feb%20FDA_8e760a8509 ;
+    gist:hasMagnitude congr3:_InformationQuantity_FDA%20v2.pptx_cb1611e3f7 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.presentationml.presentation ;
+    gist:name "FDA v2.pptx"^^xsd:string .
+
+congr3:_Content_FocussedWhitepaper_16062023.docx_84521c7896 a gist:Content ;
+    congr:createDateTime "2023-06-16T09:37:53.363714"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-06-16T09:40:32"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_EBI%20KM_3c19eae274 ;
+    gist:hasMagnitude congr3:_InformationQuantity_FocussedWhitepaper_16062023.docx_84521c7896 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.wordprocessingml.document ;
+    gist:name "FocussedWhitepaper_16062023.docx"^^xsd:string .
+
+congr3:_Content_For%20a%20skeptic-2.docx_af18dd1325 a gist:Content ;
+    congr:createDateTime "2023-05-30T08:11:49.895029"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-05-30T13:13:19"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Pitch_6b30e97371 ;
+    gist:hasMagnitude congr3:_InformationQuantity_For%20a%20skeptic-2.docx_af18dd1325 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.wordprocessingml.document ;
+    gist:name "For a skeptic-2.docx"^^xsd:string .
+
+congr3:_Content_For%20a%20skeptic.docx_246de86f37 a gist:Content ;
+    congr:createDateTime "2023-05-27T13:39:20.533549"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-05-28T09:00:45"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Pitch_6b30e97371 ;
+    gist:hasMagnitude congr3:_InformationQuantity_For%20a%20skeptic.docx_246de86f37 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.wordprocessingml.document ;
+    gist:name "For a skeptic.docx"^^xsd:string .
+
+congr3:_Content_Getting%20started.pptx_35175bf5c2 a gist:Content ;
+    congr:createDateTime "2023-02-07T06:57:18.873515"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-02-07T10:52:52"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_2023%20DCA%20Virtual%20Sympossium_9d0fd4a2a7 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Getting%20started.pptx_35175bf5c2 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.presentationml.presentation ;
+    gist:name "Getting started.pptx"^^xsd:string .
+
+congr3:_Content_Global%205000%20db%2022%20Feb%2022.xlsx_65ed933ed6 a gist:Content ;
+    congr:createDateTime "2023-04-13T07:16:59.500559"^^xsd:dateTime ;
+    congr:modifyDateTime "2022-02-27T16:16:07"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Fortune5000_74a8d49c9f ;
+    gist:hasMagnitude congr3:_InformationQuantity_Global%205000%20db%2022%20Feb%2022.xlsx_65ed933ed6 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.spreadsheetml.sheet ;
+    gist:name "Global 5000 db 22 Feb 22.xlsx"^^xsd:string .
+
+congr3:_Content_Graph%20Data%20Base%20Pilot%20-%20ITT%20-%201.0.docx_471198b353 a gist:Content ;
+    congr:createDateTime "2023-03-08T06:36:06.804705"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-03-20T12:28:58"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Scottish%20Government_d2ed491fe2 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Graph%20Data%20Base%20Pilot%20-%20ITT%20-%201.0.docx_471198b353 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.wordprocessingml.document ;
+    gist:name "Graph Data Base Pilot - ITT - 1.0.docx"^^xsd:string .
+
+congr3:_Content_Highest-Paid%20Executives.xls_2e0cc101bc a gist:Content ;
+    congr:createDateTime "2023-07-01T08:17:06.646982"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-03-14T10:55:24"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Colorado%20Companies_cc13c65973 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Highest-Paid%20Executives.xls_2e0cc101bc ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.ms-excel ;
+    gist:name "Highest-Paid Executives.xls"^^xsd:string .
+
+congr3:_Content_Highest-Paid%20Executives.xlsx_6dae3d0b88 a gist:Content ;
+    congr:createDateTime "2023-07-01T08:17:07.222123"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-07-01T08:08:34"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Colorado%20Companies_cc13c65973 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Highest-Paid%20Executives.xlsx_6dae3d0b88 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.spreadsheetml.sheet ;
+    gist:name "Highest-Paid Executives.xlsx"^^xsd:string .
+
+congr3:_Content_Home%20Builders.xls_84ae1b7bcb a gist:Content ;
+    congr:createDateTime "2023-07-01T08:17:06.984712"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-03-14T10:42:22"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Colorado%20Companies_cc13c65973 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Home%20Builders.xls_84ae1b7bcb ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.ms-excel ;
+    gist:name "Home Builders.xls"^^xsd:string .
+
+congr3:_Content_Honeycomb%20to%20gist%20for%20xref.docx_e1b65da4e2 a gist:Content ;
+    congr:createDateTime "2023-05-20T11:00:39.168329"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-05-20T11:00:36"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_EBI%20KM_3c19eae274 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Honeycomb%20to%20gist%20for%20xref.docx_e1b65da4e2 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.wordprocessingml.document ;
+    gist:name "Honeycomb to gist for xref.docx"^^xsd:string .
+
+congr3:_Content_Hospitals%2C%20Boulder%20Valley.xls_bcf7466518 a gist:Content ;
+    congr:createDateTime "2023-07-01T08:17:06.839053"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-03-14T12:43:42"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Colorado%20Companies_cc13c65973 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Hospitals%2C%20Boulder%20Valley.xls_bcf7466518 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.ms-excel ;
+    gist:name "Hospitals, Boulder Valley.xls"^^xsd:string .
+
+congr3:_Content_Hospitals%2C%20Northern%20Colorado.xls_1bfdd4f8a8 a gist:Content ;
+    congr:createDateTime "2023-07-01T08:17:06.811604"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-03-14T12:44:16"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Colorado%20Companies_cc13c65973 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Hospitals%2C%20Northern%20Colorado.xls_1bfdd4f8a8 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.ms-excel ;
+    gist:name "Hospitals, Northern Colorado.xls"^^xsd:string .
+
+congr3:_Content_How%20to%20Write%20a%20Case%20Study.mp4_c12ba76ea8 a gist:Content ;
+    congr:createDateTime "2023-05-22T07:35:46.083380"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-05-22T07:35:56"^^xsd:dateTime ;
+    gist:hasLocation <http://example.com/files/> ;
+    gist:hasMagnitude congr3:_InformationQuantity_How%20to%20Write%20a%20Case%20Study.mp4_c12ba76ea8 ;
+    gist:hasMediaType gist:_MediaType_videomp4 ;
+    gist:name "How to Write a Case Study.mp4"^^xsd:string .
+
+congr3:_Content_How%20to%20Write%20a%20Case%20Study.pptx_716627b887 a gist:Content ;
+    congr:createDateTime "2023-05-17T09:52:21.309720"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-05-26T07:10:26"^^xsd:dateTime ;
+    gist:hasLocation <http://example.com/files/> ;
+    gist:hasMagnitude congr3:_InformationQuantity_How%20to%20Write%20a%20Case%20Study.pptx_716627b887 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.presentationml.presentation ;
+    gist:name "How to Write a Case Study.pptx"^^xsd:string .
+
+congr3:_Content_IB%20Pitch%20-%20Final.docx_3209dc42a0 a gist:Content ;
+    congr:createDateTime "2023-05-31T13:49:44.807748"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-05-31T13:49:16"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Pitch_6b30e97371 ;
+    gist:hasMagnitude congr3:_InformationQuantity_IB%20Pitch%20-%20Final.docx_3209dc42a0 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.wordprocessingml.document ;
+    gist:name "IB Pitch - Final.docx"^^xsd:string .
+
+congr3:_Content_IT%20Consultants.xls_55871c8f5a a gist:Content ;
+    congr:createDateTime "2023-07-01T08:17:07.161327"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-03-14T12:51:40"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Colorado%20Companies_cc13c65973 ;
+    gist:hasMagnitude congr3:_InformationQuantity_IT%20Consultants.xls_55871c8f5a ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.ms-excel ;
+    gist:name "IT Consultants.xls"^^xsd:string .
+
+congr3:_Content_IT%20Consultants.xlsx_1e739b9495 a gist:Content ;
+    congr:createDateTime "2023-07-01T08:17:07.230189"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-07-01T08:09:44"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Colorado%20Companies_cc13c65973 ;
+    gist:hasMagnitude congr3:_InformationQuantity_IT%20Consultants.xlsx_1e739b9495 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.spreadsheetml.sheet ;
+    gist:name "IT Consultants.xlsx"^^xsd:string .
+
+congr3:_Content_Independent%20Subcontract%20Agreement%20Template%20for%20ESBN%20project.docx_8fe1ceb035 a gist:Content ;
+    congr:createDateTime "2023-04-21T10:02:12.319404"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-04-21T10:02:10"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_CIMpleData_bc09f49525 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Independent%20Subcontract%20Agreement%20Template%20for%20ESBN%20project.docx_8fe1ceb035 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.wordprocessingml.document ;
+    gist:name "Independent Subcontract Agreement Template for ESBN project.docx"^^xsd:string .
+
+congr3:_Content_Independent-Living%20Facilities%2C%20Northern%20Colorado.xls_847f304790 a gist:Content ;
+    congr:createDateTime "2023-07-01T08:17:06.919941"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-03-15T09:43:24"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Colorado%20Companies_cc13c65973 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Independent-Living%20Facilities%2C%20Northern%20Colorado.xls_847f304790 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.ms-excel ;
+    gist:name "Independent-Living Facilities, Northern Colorado.xls"^^xsd:string .
+
+congr3:_Content_Insurance%20Brokerages.xls_3bb63d1182 a gist:Content ;
+    congr:createDateTime "2023-07-01T08:17:06.757912"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-03-14T10:33:40"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Colorado%20Companies_cc13c65973 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Insurance%20Brokerages.xls_3bb63d1182 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.ms-excel ;
+    gist:name "Insurance Brokerages.xls"^^xsd:string .
+
+congr3:_Content_Is%20a%20Knowledge%20Ontology%20the%20Missing%20Link.docx_bbb112671d a gist:Content ;
+    congr:createDateTime "2023-05-20T12:00:57.921459"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-05-20T14:40:20"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_TDAN_8c7267e320 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Is%20a%20Knowledge%20Ontology%20the%20Missing%20Link.docx_bbb112671d ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.wordprocessingml.document ;
+    gist:name "Is a Knowledge Ontology the Missing Link.docx"^^xsd:string .
+
+congr3:_Content_Is%20a%20Knowledge%20Ontology%20the%20Missing%20Link2.docx_3dbfafffe2 a gist:Content ;
+    congr:createDateTime "2023-05-20T14:41:48.284884"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-05-20T14:49:48"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_TDAN_8c7267e320 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Is%20a%20Knowledge%20Ontology%20the%20Missing%20Link2.docx_3dbfafffe2 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.wordprocessingml.document ;
+    gist:name "Is a Knowledge Ontology the Missing Link2.docx"^^xsd:string .
+
+congr3:_Content_J.%20Lozano%20-%20Responsible%20AI%20in%20Canadian%20Financial%20Services.pptx_6654f388a9 a gist:Content ;
+    congr:createDateTime "2023-06-07T15:48:15.207246"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-06-07T15:47:08"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_OtherPresentations_246ca346a6 ;
+    gist:hasMagnitude congr3:_InformationQuantity_J.%20Lozano%20-%20Responsible%20AI%20in%20Canadian%20Financial%20Services.pptx_6654f388a9 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.presentationml.presentation ;
+    gist:name "J. Lozano - Responsible AI in Canadian Financial Services.pptx"^^xsd:string .
+
+congr3:_Content_Jump%20Start%20Your%20Knowledge%20Graph%20with%20gist%21%20V2.pptx_3488e34ef8 a gist:Content ;
+    congr:createDateTime "2023-05-15T15:45:51.129407"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-06-14T13:24:40"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_2023%20KGC_c094ac5d98 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Jump%20Start%20Your%20Knowledge%20Graph%20with%20gist%21%20V2.pptx_3488e34ef8 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.presentationml.presentation ;
+    gist:name "Jump Start Your Knowledge Graph with gist! V2.pptx"^^xsd:string .
+
+congr3:_Content_Knowledge%20Graph%20%26%20Semantics%20Community%20Call-20210901_173453-Besprechungsaufzeichnung.mp4_4b44df4e88 a gist:Content ;
+    congr:createDateTime "2022-12-08T09:18:52.871659"^^xsd:dateTime ;
+    congr:modifyDateTime "2021-09-07T13:51:49"^^xsd:dateTime ;
+    gist:hasLocation <http://example.com/files/> ;
+    gist:hasMagnitude congr3:_InformationQuantity_Knowledge%20Graph%20%26%20Semantics%20Community%20Call-20210901_173453-Besprechungsaufzeichnung.mp4_4b44df4e88 ;
+    gist:hasMediaType gist:_MediaType_videomp4 ;
+    gist:name "Knowledge Graph & Semantics Community Call-20210901_173453-Besprechungsaufzeichnung.mp4"^^xsd:string .
+
+congr3:_Content_Knowledge%20Graph%20and%20Data-Centric%20for%20Dupont-v2.pptx_7f5aa9fc9c a gist:Content ;
+    congr:createDateTime "2023-02-16T06:26:29.678547"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-02-17T06:17:47"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_2023%20Dupont%20Data%20Scientists_aedc3731d4 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Knowledge%20Graph%20and%20Data-Centric%20for%20Dupont-v2.pptx_7f5aa9fc9c ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.presentationml.presentation ;
+    gist:name "Knowledge Graph and Data-Centric for Dupont-v2.pptx"^^xsd:string .
+
+congr3:_Content_Knowledge%20Graph%20and%20Data-Centric%20for%20Dupont.pptx_fdffc6109e a gist:Content ;
+    congr:createDateTime "2023-02-13T07:49:35.868566"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-02-15T15:53:11"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_2023%20Dupont%20Data%20Scientists_aedc3731d4 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Knowledge%20Graph%20and%20Data-Centric%20for%20Dupont.pptx_fdffc6109e ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.presentationml.presentation ;
+    gist:name "Knowledge Graph and Data-Centric for Dupont.pptx"^^xsd:string .
+
+congr3:_Content_Labels.docx_065cf0276b a gist:Content ;
+    congr:createDateTime "2022-11-17T10:28:10.560436"^^xsd:dateTime ;
+    congr:modifyDateTime "2022-11-11T07:44:01"^^xsd:dateTime ;
+    gist:hasLocation <http://example.com/files/> ;
+    gist:hasMagnitude congr3:_InformationQuantity_Labels.docx_065cf0276b ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.wordprocessingml.document ;
+    gist:name "Labels.docx"^^xsd:string .
+
+congr3:_Content_Law%20Firms.xls_cfbdb6d99b a gist:Content ;
+    congr:createDateTime "2023-07-01T08:17:06.622220"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-03-14T10:34:18"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Colorado%20Companies_cc13c65973 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Law%20Firms.xls_cfbdb6d99b ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.ms-excel ;
+    gist:name "Law Firms.xls"^^xsd:string .
+
+congr3:_Content_Letterhead.docx_a746e2f0f5 a gist:Content ;
+    congr:createDateTime "2022-12-28T08:55:00.039772"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-06-08T08:38:24"^^xsd:dateTime ;
+    gist:hasLocation <http://example.com/files/> ;
+    gist:hasMagnitude congr3:_InformationQuantity_Letterhead.docx_a746e2f0f5 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.wordprocessingml.document ;
+    gist:name "Letterhead.docx"^^xsd:string .
+
+congr3:_Content_License%20on%20Global%205000.docx_f859697033 a gist:Content ;
+    congr:createDateTime "2023-04-13T07:16:59.489127"^^xsd:dateTime ;
+    congr:modifyDateTime "2022-02-28T08:11:38"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Fortune5000_74a8d49c9f ;
+    gist:hasMagnitude congr3:_InformationQuantity_License%20on%20Global%205000.docx_f859697033 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.wordprocessingml.document ;
+    gist:name "License on Global 5000.docx"^^xsd:string .
+
+congr3:_Content_Life-Sciences%20Companies.xls_4f0752d3e8 a gist:Content ;
+    congr:createDateTime "2023-07-01T08:17:06.678386"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-03-14T12:52:12"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Colorado%20Companies_cc13c65973 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Life-Sciences%20Companies.xls_4f0752d3e8 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.ms-excel ;
+    gist:name "Life-Sciences Companies.xls"^^xsd:string .
+
+congr3:_Content_LinkedInSize.jpg_3f6b38adb2 a gist:Content ;
+    congr:createDateTime "2022-11-17T10:28:10.532027"^^xsd:dateTime ;
+    congr:modifyDateTime "2022-11-09T15:50:07"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_JPG%20-%20Image_cfe03bddc0 ;
+    gist:hasMagnitude congr3:_InformationQuantity_LinkedInSize.jpg_3f6b38adb2 ;
+    gist:hasMediaType gist:_MediaType_imagejpeg ;
+    gist:name "LinkedInSize.jpg"^^xsd:string .
+
+congr3:_Content_MS%20MAP%20RFP%20Response_%20Resumes_SC%20edits.pptx_c78224987d a gist:Content ;
+    congr:createDateTime "2023-03-21T09:29:46.875083"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-03-22T07:43:57"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_PwC_27e2bf5731 ;
+    gist:hasMagnitude congr3:_InformationQuantity_MS%20MAP%20RFP%20Response_%20Resumes_SC%20edits.pptx_c78224987d ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.presentationml.presentation ;
+    gist:name "MS MAP RFP Response_ Resumes_SC edits.pptx"^^xsd:string .
+
+congr3:_Content_Making%20a%20Case%20for%20a%20Knowledge%20Commons.docx_20a2786442 a gist:Content ;
+    congr:createDateTime "2023-05-13T11:17:03.202456"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-05-14T10:41:34"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_EBI%20KM_3c19eae274 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Making%20a%20Case%20for%20a%20Knowledge%20Commons.docx_20a2786442 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.wordprocessingml.document ;
+    gist:name "Making a Case for a Knowledge Commons.docx"^^xsd:string .
+
+congr3:_Content_Making%20a%20Case%20for%20a%20Knowledge%20Commons2.docx_dc766f712a a gist:Content ;
+    congr:createDateTime "2023-05-22T13:51:15.487346"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-05-22T13:51:12"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_EBI%20KM_3c19eae274 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Making%20a%20Case%20for%20a%20Knowledge%20Commons2.docx_dc766f712a ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.wordprocessingml.document ;
+    gist:name "Making a Case for a Knowledge Commons2.docx"^^xsd:string .
+
+congr3:_Content_Making%20a%20Case%20for%20a%20Knowledge%20Commons2_LZ.docx_f0f4fc2d3f a gist:Content ;
+    congr:createDateTime "2023-05-26T06:46:06.529754"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-05-26T06:47:21"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_EBI%20KM_3c19eae274 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Making%20a%20Case%20for%20a%20Knowledge%20Commons2_LZ.docx_f0f4fc2d3f ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.wordprocessingml.document ;
+    gist:name "Making a Case for a Knowledge Commons2_LZ.docx"^^xsd:string .
+
+congr3:_Content_Manufacturers.xls_eaedb2b3ad a gist:Content ;
+    congr:createDateTime "2023-07-01T08:17:06.581796"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-03-14T10:56:04"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Colorado%20Companies_cc13c65973 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Manufacturers.xls_eaedb2b3ad ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.ms-excel ;
+    gist:name "Manufacturers.xls"^^xsd:string .
+
+congr3:_Content_Marketing%20Task%20List.docx_1ba021ad6c a gist:Content ;
+    congr:createDateTime "2023-05-03T16:44:34.230873"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-06-29T15:18:34"^^xsd:dateTime ;
+    gist:hasLocation <http://example.com/files/> ;
+    gist:hasMagnitude congr3:_InformationQuantity_Marketing%20Task%20List.docx_1ba021ad6c ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.wordprocessingml.document ;
+    gist:name "Marketing Task List.docx"^^xsd:string .
+
+congr3:_Content_McComb%20-%20Becoming%20Data-Centric.pptx_e4cc411d3a a gist:Content ;
+    congr:createDateTime "2023-06-07T15:48:11.893142"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-06-07T15:45:41"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_OtherPresentations_246ca346a6 ;
+    gist:hasMagnitude congr3:_InformationQuantity_McComb%20-%20Becoming%20Data-Centric.pptx_e4cc411d3a ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.presentationml.presentation ;
+    gist:name "McComb - Becoming Data-Centric.pptx"^^xsd:string .
+
+congr3:_Content_Mercury%20100%20Boulder%20Valley%20Flight%20I.xls_04b160b599 a gist:Content ;
+    congr:createDateTime "2023-07-01T08:17:07.079954"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-03-14T11:04:20"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Colorado%20Companies_cc13c65973 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Mercury%20100%20Boulder%20Valley%20Flight%20I.xls_04b160b599 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.ms-excel ;
+    gist:name "Mercury 100 Boulder Valley Flight I.xls"^^xsd:string .
+
+congr3:_Content_Mercury%20100%20Boulder%20Valley%20Flight%20II.xls_a216ae41a7 a gist:Content ;
+    congr:createDateTime "2023-07-01T08:17:06.744138"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-03-14T11:09:04"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Colorado%20Companies_cc13c65973 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Mercury%20100%20Boulder%20Valley%20Flight%20II.xls_a216ae41a7 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.ms-excel ;
+    gist:name "Mercury 100 Boulder Valley Flight II.xls"^^xsd:string .
+
+congr3:_Content_Mercury%20100%20Boulder%20Valley%20Flight%20III.xls_38e48fc523 a gist:Content ;
+    congr:createDateTime "2023-07-01T08:17:07.132150"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-03-14T11:10:12"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Colorado%20Companies_cc13c65973 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Mercury%20100%20Boulder%20Valley%20Flight%20III.xls_38e48fc523 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.ms-excel ;
+    gist:name "Mercury 100 Boulder Valley Flight III.xls"^^xsd:string .
+
+congr3:_Content_Mercury%20100%20Boulder%20Valley%20Flight%20IV.xls_e6b8141f3b a gist:Content ;
+    congr:createDateTime "2023-07-01T08:17:07.169322"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-03-14T11:11:20"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Colorado%20Companies_cc13c65973 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Mercury%20100%20Boulder%20Valley%20Flight%20IV.xls_e6b8141f3b ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.ms-excel ;
+    gist:name "Mercury 100 Boulder Valley Flight IV.xls"^^xsd:string .
+
+congr3:_Content_Mercury%20100%20Boulder%20Valley%20Flight%20V.xls_495fab9cb1 a gist:Content ;
+    congr:createDateTime "2023-07-01T08:17:06.885322"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-03-14T11:12:32"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Colorado%20Companies_cc13c65973 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Mercury%20100%20Boulder%20Valley%20Flight%20V.xls_495fab9cb1 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.ms-excel ;
+    gist:name "Mercury 100 Boulder Valley Flight V.xls"^^xsd:string .
+
+congr3:_Content_Mercury%20100%20Northern%20Colorado%20Flight%20I.xls_761873bdb4 a gist:Content ;
+    congr:createDateTime "2023-07-01T08:17:06.825864"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-03-14T11:13:36"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Colorado%20Companies_cc13c65973 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Mercury%20100%20Northern%20Colorado%20Flight%20I.xls_761873bdb4 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.ms-excel ;
+    gist:name "Mercury 100 Northern Colorado Flight I.xls"^^xsd:string .
+
+congr3:_Content_Mercury%20100%20Northern%20Colorado%20Flight%20I.xlsx_9b9aa7c7b1 a gist:Content ;
+    congr:createDateTime "2023-07-01T08:17:07.246255"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-07-01T08:11:50"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Colorado%20Companies_cc13c65973 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Mercury%20100%20Northern%20Colorado%20Flight%20I.xlsx_9b9aa7c7b1 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.spreadsheetml.sheet ;
+    gist:name "Mercury 100 Northern Colorado Flight I.xlsx"^^xsd:string .
+
+congr3:_Content_Mercury%20100%20Northern%20Colorado%20Flight%20II.xls_c8fb0daf7f a gist:Content ;
+    congr:createDateTime "2023-07-01T08:17:06.965339"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-03-14T11:14:32"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Colorado%20Companies_cc13c65973 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Mercury%20100%20Northern%20Colorado%20Flight%20II.xls_c8fb0daf7f ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.ms-excel ;
+    gist:name "Mercury 100 Northern Colorado Flight II.xls"^^xsd:string .
+
+congr3:_Content_Mercury%20100%20Northern%20Colorado%20Flight%20III.xls_d8a0ac80f1 a gist:Content ;
+    congr:createDateTime "2023-07-01T08:17:06.707052"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-03-14T11:15:28"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Colorado%20Companies_cc13c65973 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Mercury%20100%20Northern%20Colorado%20Flight%20III.xls_d8a0ac80f1 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.ms-excel ;
+    gist:name "Mercury 100 Northern Colorado Flight III.xls"^^xsd:string .
+
+congr3:_Content_Mercury%20100%20Northern%20Colorado%20Flight%20IV.xls_34b079291b a gist:Content ;
+    congr:createDateTime "2023-07-01T08:17:06.803385"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-03-14T11:16:18"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Colorado%20Companies_cc13c65973 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Mercury%20100%20Northern%20Colorado%20Flight%20IV.xls_34b079291b ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.ms-excel ;
+    gist:name "Mercury 100 Northern Colorado Flight IV.xls"^^xsd:string .
+
+congr3:_Content_Mercury%20100%20Northern%20Colorado%20Flight%20V.xls_c750252276 a gist:Content ;
+    congr:createDateTime "2023-07-01T08:17:07.025497"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-03-14T11:17:18"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Colorado%20Companies_cc13c65973 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Mercury%20100%20Northern%20Colorado%20Flight%20V.xls_c750252276 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.ms-excel ;
+    gist:name "Mercury 100 Northern Colorado Flight V.xls"^^xsd:string .
+
+congr3:_Content_Mercury%20100%20Northern%20Colorado%20Flight%20V.xlsx_9a054faa52 a gist:Content ;
+    congr:createDateTime "2023-07-01T08:17:07.237583"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-07-01T08:10:32"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Colorado%20Companies_cc13c65973 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Mercury%20100%20Northern%20Colorado%20Flight%20V.xlsx_9a054faa52 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.spreadsheetml.sheet ;
+    gist:name "Mercury 100 Northern Colorado Flight V.xlsx"^^xsd:string .
+
+congr3:_Content_Metrics%20Tracker.xlsx_69960c0311 a gist:Content ;
+    congr:createDateTime "2023-05-08T14:19:55.701990"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-07-03T07:22:19"^^xsd:dateTime ;
+    gist:hasLocation <http://example.com/files/> ;
+    gist:hasMagnitude congr3:_InformationQuantity_Metrics%20Tracker.xlsx_69960c0311 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.spreadsheetml.sheet ;
+    gist:name "Metrics Tracker.xlsx"^^xsd:string .
+
+congr3:_Content_Misunderstood%20route%20to%20simplicity-v1-GRAV.pptx_a27263b02e a gist:Content ;
+    congr:createDateTime "2023-02-13T07:44:15.911395"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-02-13T07:48:55"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_2023%20Dupont%20Data%20Scientists_aedc3731d4 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Misunderstood%20route%20to%20simplicity-v1-GRAV.pptx_a27263b02e ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.presentationml.presentation ;
+    gist:name "Misunderstood route to simplicity-v1-GRAV.pptx"^^xsd:string .
+
+congr3:_Content_Misunderstood%20route%20to%20simplicity-v1-GRAV.pptx_ac940b7207 a gist:Content ;
+    congr:createDateTime "2023-02-11T11:23:39.947829"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-02-15T15:34:06"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_2023%20Feb%20FDA_8e760a8509 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Misunderstood%20route%20to%20simplicity-v1-GRAV.pptx_ac940b7207 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.presentationml.presentation ;
+    gist:name "Misunderstood route to simplicity-v1-GRAV.pptx"^^xsd:string .
+
+congr3:_Content_Misunderstood%20route%20to%20simplicity.pptx_1111f821c6 a gist:Content ;
+    congr:createDateTime "2023-02-09T12:11:18.360068"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-02-09T12:13:22"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_2023%20Feb%20FDA_8e760a8509 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Misunderstood%20route%20to%20simplicity.pptx_1111f821c6 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.presentationml.presentation ;
+    gist:name "Misunderstood route to simplicity.pptx"^^xsd:string .
+
+congr3:_Content_MondaySymposisum.pptx_2ac1e62b1f a gist:Content ;
+    congr:createDateTime "2023-03-09T06:27:21.515290"^^xsd:dateTime ;
+    congr:modifyDateTime "2022-10-15T16:17:26"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_2023%20EDW%20Spring_0a0c1d7c8a ;
+    gist:hasMagnitude congr3:_InformationQuantity_MondaySymposisum.pptx_2ac1e62b1f ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.presentationml.presentation ;
+    gist:name "MondaySymposisum.pptx"^^xsd:string .
+
+congr3:_Content_Moody%27s_DiscoverOrg%5B21578%5D.pdf_b4211930ba a gist:Content ;
+    congr:createDateTime "2023-04-13T07:19:37.635051"^^xsd:dateTime ;
+    congr:modifyDateTime "2018-02-08T13:58:53"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Targets_adad9036eb ;
+    gist:hasMagnitude congr3:_InformationQuantity_Moody%27s_DiscoverOrg%5B21578%5D.pdf_b4211930ba ;
+    gist:hasMediaType gist:_MediaType_applicationpdf ;
+    gist:name "Moody's_DiscoverOrg[21578].pdf"^^xsd:string .
+
+congr3:_Content_Municipalities.xls_b5cb6a6cc9 a gist:Content ;
+    congr:createDateTime "2023-07-01T08:17:07.041553"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-03-14T12:57:54"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Colorado%20Companies_cc13c65973 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Municipalities.xls_b5cb6a6cc9 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.ms-excel ;
+    gist:name "Municipalities.xls"^^xsd:string .
+
+congr3:_Content_NYSE_CVS_2021.pdf_21228d5d65 a gist:Content ;
+    congr:createDateTime "2023-04-13T07:17:30.644220"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-02-21T12:47:56"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Annual%20Reports_39e6dd16fc ;
+    gist:hasMagnitude congr3:_InformationQuantity_NYSE_CVS_2021.pdf_21228d5d65 ;
+    gist:hasMediaType gist:_MediaType_applicationpdf ;
+    gist:name "NYSE_CVS_2021.pdf"^^xsd:string .
+
+congr3:_Content_Natural-Gas%20Production%20Companies.xls_1f10c10075 a gist:Content ;
+    congr:createDateTime "2023-07-01T08:17:06.892993"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-03-14T11:25:48"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Colorado%20Companies_cc13c65973 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Natural-Gas%20Production%20Companies.xls_1f10c10075 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.ms-excel ;
+    gist:name "Natural-Gas Production Companies.xls"^^xsd:string .
+
+congr3:_Content_Natural-Products%20Companies.xls_f4161b5338 a gist:Content ;
+    congr:createDateTime "2023-07-01T08:17:07.097836"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-03-15T09:36:52"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Colorado%20Companies_cc13c65973 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Natural-Products%20Companies.xls_f4161b5338 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.ms-excel ;
+    gist:name "Natural-Products Companies.xls"^^xsd:string .
+
+congr3:_Content_Next%20Generation%20Data%20Webinar%20Final%20Cut.mp4_a54d6cb8b8 a gist:Content ;
+    congr:createDateTime "2023-02-20T11:26:36.540807"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-02-20T09:46:33"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_2023%20Certes%20-%20PW_17415ec8c0 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Next%20Generation%20Data%20Webinar%20Final%20Cut.mp4_a54d6cb8b8 ;
+    gist:hasMediaType gist:_MediaType_videomp4 ;
+    gist:name "Next Generation Data Webinar Final Cut.mp4"^^xsd:string .
+
+congr3:_Content_Nonprofits%2C%20Boulder%20Valley.xls_3f33585fa1 a gist:Content ;
+    congr:createDateTime "2023-07-01T08:17:07.178472"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-03-15T09:38:56"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Colorado%20Companies_cc13c65973 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Nonprofits%2C%20Boulder%20Valley.xls_3f33585fa1 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.ms-excel ;
+    gist:name "Nonprofits, Boulder Valley.xls"^^xsd:string .
+
+congr3:_Content_Nonprofits%2C%20Northern%20Colorado.xls_1be187b02b a gist:Content ;
+    congr:createDateTime "2023-07-01T08:17:07.111595"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-03-15T09:40:02"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Colorado%20Companies_cc13c65973 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Nonprofits%2C%20Northern%20Colorado.xls_1be187b02b ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.ms-excel ;
+    gist:name "Nonprofits, Northern Colorado.xls"^^xsd:string .
+
+congr3:_Content_Note%20to%20steve%20creek_01_23_23.docx_93bc570751 a gist:Content ;
+    congr:createDateTime "2023-01-23T06:51:05.206918"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-01-23T06:38:32"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Steve%20Creek_03d461ffd3 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Note%20to%20steve%20creek_01_23_23.docx_93bc570751 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.wordprocessingml.document ;
+    gist:name "Note to steve creek_01_23_23.docx"^^xsd:string .
+
+congr3:_Content_Notes%20on%20the%20AIA%202023%20Conference.docx_ea489c3012 a gist:Content ;
+    congr:createDateTime "2023-06-12T09:27:35.124097"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-06-12T10:07:27"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Architectural%20Firm%20Market_d59c914b28 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Notes%20on%20the%20AIA%202023%20Conference.docx_ea489c3012 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.wordprocessingml.document ;
+    gist:name "Notes on the AIA 2023 Conference.docx"^^xsd:string .
+
+congr3:_Content_Notes%20on%20the%20AIA%202023%20Conference2.docx_dd69e81fe1 a gist:Content ;
+    congr:createDateTime "2023-06-12T10:33:47.146295"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-06-15T15:46:38"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Architectural%20Firm%20Market_d59c914b28 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Notes%20on%20the%20AIA%202023%20Conference2.docx_dd69e81fe1 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.wordprocessingml.document ;
+    gist:name "Notes on the AIA 2023 Conference2.docx"^^xsd:string .
+
+congr3:_Content_OKN%20Roadmap%20-%20Appendix%20A_v03.pdf_fa29b015c9 a gist:Content ;
+    congr:createDateTime "2023-04-13T07:21:12.538913"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-02-05T10:52:23"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_US%20NSF_3cea3afc8b ;
+    gist:hasMagnitude congr3:_InformationQuantity_OKN%20Roadmap%20-%20Appendix%20A_v03.pdf_fa29b015c9 ;
+    gist:hasMediaType gist:_MediaType_applicationpdf ;
+    gist:name "OKN Roadmap - Appendix A_v03.pdf"^^xsd:string .
+
+congr3:_Content_Office%20Furniture%20%26%20Design%20Companies.xls_40eacab1d1 a gist:Content ;
+    congr:createDateTime "2023-07-01T08:17:07.147353"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-03-14T10:34:52"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Colorado%20Companies_cc13c65973 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Office%20Furniture%20%26%20Design%20Companies.xls_40eacab1d1 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.ms-excel ;
+    gist:name "Office Furniture & Design Companies.xls"^^xsd:string .
+
+congr3:_Content_Oil-Production%20Companies.xls_9b8411cda4 a gist:Content ;
+    congr:createDateTime "2023-07-01T08:17:06.992256"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-03-14T11:26:24"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Colorado%20Companies_cc13c65973 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Oil-Production%20Companies.xls_9b8411cda4 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.ms-excel ;
+    gist:name "Oil-Production Companies.xls"^^xsd:string .
+
+congr3:_Content_Outdoor%20Companies.xls_d71ac0649e a gist:Content ;
+    congr:createDateTime "2023-07-01T08:17:07.118402"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-03-15T09:45:56"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Colorado%20Companies_cc13c65973 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Outdoor%20Companies.xls_d71ac0649e ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.ms-excel ;
+    gist:name "Outdoor Companies.xls"^^xsd:string .
+
+congr3:_Content_Payroll%20Service%20Providers.xls_3f943f1b61 a gist:Content ;
+    congr:createDateTime "2023-07-01T08:17:06.913873"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-03-14T12:59:04"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Colorado%20Companies_cc13c65973 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Payroll%20Service%20Providers.xls_3f943f1b61 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.ms-excel ;
+    gist:name "Payroll Service Providers.xls"^^xsd:string .
+
+congr3:_Content_Payroll%20Service%20Providers.xlsx_8482c3596b a gist:Content ;
+    congr:createDateTime "2023-07-01T08:17:07.252848"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-07-01T08:13:41"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Colorado%20Companies_cc13c65973 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Payroll%20Service%20Providers.xlsx_8482c3596b ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.spreadsheetml.sheet ;
+    gist:name "Payroll Service Providers.xlsx"^^xsd:string .
+
+congr3:_Content_Phil%20Hoetger%20-%20CPS%20Cyber%20DMC%20Presentation%202023%2005.pdf_5e5fcecdd6 a gist:Content ;
+    congr:createDateTime "2023-06-07T15:48:28.819005"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-06-07T15:47:15"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_OtherPresentations_246ca346a6 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Phil%20Hoetger%20-%20CPS%20Cyber%20DMC%20Presentation%202023%2005.pdf_5e5fcecdd6 ;
+    gist:hasMediaType gist:_MediaType_applicationpdf ;
+    gist:name "Phil Hoetger - CPS Cyber DMC Presentation 2023 05.pdf"^^xsd:string .
+
+congr3:_Content_Physical%20Therapy%20%26%20Rehabilitation%20Centers%2C%20Boulder%20Valley.xls_3c53dcf699 a gist:Content ;
+    congr:createDateTime "2023-07-01T08:17:06.698433"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-03-14T12:45:42"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Colorado%20Companies_cc13c65973 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Physical%20Therapy%20%26%20Rehabilitation%20Centers%2C%20Boulder%20Valley.xls_3c53dcf699 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.ms-excel ;
+    gist:name "Physical Therapy & Rehabilitation Centers, Boulder Valley.xls"^^xsd:string .
+
+congr3:_Content_Physical%20Therapy%20%26%20Rehabilitation%20Centers%2C%20Northern%20Colorado.xls_8795ead623 a gist:Content ;
+    congr:createDateTime "2023-07-01T08:17:06.724277"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-03-14T12:46:38"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Colorado%20Companies_cc13c65973 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Physical%20Therapy%20%26%20Rehabilitation%20Centers%2C%20Northern%20Colorado.xls_8795ead623 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.ms-excel ;
+    gist:name "Physical Therapy & Rehabilitation Centers, Northern Colorado.xls"^^xsd:string .
+
+congr3:_Content_Picture1.jpg_c09c86f8ee a gist:Content ;
+    congr:createDateTime "2022-11-17T10:28:10.537853"^^xsd:dateTime ;
+    congr:modifyDateTime "2022-11-09T15:50:07"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_JPG%20-%20Image_cfe03bddc0 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Picture1.jpg_c09c86f8ee ;
+    gist:hasMediaType gist:_MediaType_imagejpeg ;
+    gist:name "Picture1.jpg"^^xsd:string .
+
+congr3:_Content_Potential%20Book%20Reviews.xlsx_81d43a68b3 a gist:Content ;
+    congr:createDateTime "2023-02-07T17:12:24.165839"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-02-08T10:24:56"^^xsd:dateTime ;
+    gist:hasLocation <http://example.com/files/> ;
+    gist:hasMagnitude congr3:_InformationQuantity_Potential%20Book%20Reviews.xlsx_81d43a68b3 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.spreadsheetml.sheet ;
+    gist:name "Potential Book Reviews.xlsx"^^xsd:string .
+
+congr3:_Content_Presentation%20to%20Dupont.pptx_485f3fa98a a gist:Content ;
+    congr:createDateTime "2023-02-16T08:15:04.456126"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-02-16T08:15:18"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_2023%20Dupont%20Data%20Scientists_aedc3731d4 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Presentation%20to%20Dupont.pptx_485f3fa98a ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.presentationml.presentation ;
+    gist:name "Presentation to Dupont.pptx"^^xsd:string .
+
+congr3:_Content_PresentationTemplate.pptx_28cc98ec1e a gist:Content ;
+    congr:createDateTime "2022-11-17T10:28:10.557569"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-07-03T08:23:57"^^xsd:dateTime ;
+    gist:hasLocation <http://example.com/files/> ;
+    gist:hasMagnitude congr3:_InformationQuantity_PresentationTemplate.pptx_28cc98ec1e ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.presentationml.presentation ;
+    gist:name "PresentationTemplate.pptx"^^xsd:string .
+
+congr3:_Content_PresentationTemplateInvert.pptx_83ca37f200 a gist:Content ;
+    congr:createDateTime "2023-06-29T11:58:01.210323"^^xsd:dateTime ;
+    congr:modifyDateTime "2022-10-15T14:45:53"^^xsd:dateTime ;
+    gist:hasLocation <http://example.com/files/> ;
+    gist:hasMagnitude congr3:_InformationQuantity_PresentationTemplateInvert.pptx_83ca37f200 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.presentationml.presentation ;
+    gist:name "PresentationTemplateInvert.pptx"^^xsd:string .
+
+congr3:_Content_Private%20Schools.xls_42e62c37fe a gist:Content ;
+    congr:createDateTime "2023-07-01T08:17:06.818893"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-03-15T09:33:56"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Colorado%20Companies_cc13c65973 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Private%20Schools.xls_42e62c37fe ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.ms-excel ;
+    gist:name "Private Schools.xls"^^xsd:string .
+
+congr3:_Content_Project%20Management%20Software%20Feedback.pdf_1592cbe3d7 a gist:Content ;
+    congr:createDateTime "2023-06-21T08:42:55.474751"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-06-21T06:54:43"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Architectural%20Firm%20Market_d59c914b28 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Project%20Management%20Software%20Feedback.pdf_1592cbe3d7 ;
+    gist:hasMediaType gist:_MediaType_applicationpdf ;
+    gist:name "Project Management Software Feedback.pdf"^^xsd:string .
+
+congr3:_Content_Projects%20for%20Scottish%20Govt%20proposal.docx_40d1d461b5 a gist:Content ;
+    congr:createDateTime "2023-03-14T08:09:37.952527"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-04-12T07:58:05"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Scottish%20Government_d2ed491fe2 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Projects%20for%20Scottish%20Govt%20proposal.docx_40d1d461b5 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.wordprocessingml.document ;
+    gist:name "Projects for Scottish Govt proposal.docx"^^xsd:string .
+
+congr3:_Content_Proposal%20to%20Assist%20Amgen%20in%20Creating%20a%20Semantic%20Layer%20for%20the%20Data%20Fabric.docx_82212fab74 a gist:Content ;
+    congr:createDateTime "2023-06-26T12:57:03.700793"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-06-27T10:39:59"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Amgen-2_2a38b74f13 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Proposal%20to%20Assist%20Amgen%20in%20Creating%20a%20Semantic%20Layer%20for%20the%20Data%20Fabric.docx_82212fab74 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.wordprocessingml.document ;
+    gist:name "Proposal to Assist Amgen in Creating a Semantic Layer for the Data Fabric.docx"^^xsd:string .
+
+congr3:_Content_Proposal%20to%20assisting%20Infrabell%20Enterprise%20and%20Domain%20Ontology_03_01_23.docx_f81bee0504 a gist:Content ;
+    congr:createDateTime "2023-02-28T18:15:17.080658"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-03-01T11:54:57"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Infrabel_9bcab91a1c ;
+    gist:hasMagnitude congr3:_InformationQuantity_Proposal%20to%20assisting%20Infrabell%20Enterprise%20and%20Domain%20Ontology_03_01_23.docx_f81bee0504 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.wordprocessingml.document ;
+    gist:name "Proposal to assisting Infrabell Enterprise and Domain Ontology_03_01_23.docx"^^xsd:string .
+
+congr3:_Content_Proposal_Provision%20of%20Graph%20Data%20Base%20Pilot_03_20_23.pdf_182ef8f446 a gist:Content ;
+    congr:createDateTime "2023-03-20T17:10:41.699902"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-03-20T17:10:11"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Scottish%20Government_d2ed491fe2 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Proposal_Provision%20of%20Graph%20Data%20Base%20Pilot_03_20_23.pdf_182ef8f446 ;
+    gist:hasMediaType gist:_MediaType_applicationpdf ;
+    gist:name "Proposal_Provision of Graph Data Base Pilot_03_20_23.pdf"^^xsd:string .
+
+congr3:_Content_Public%20Companies.xls_785b4ffd25 a gist:Content ;
+    congr:createDateTime "2023-07-01T08:17:06.563162"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-03-14T11:22:52"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Colorado%20Companies_cc13c65973 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Public%20Companies.xls_785b4ffd25 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.ms-excel ;
+    gist:name "Public Companies.xls"^^xsd:string .
+
+congr3:_Content_Public%20Companies.xlsx_a9352d17be a gist:Content ;
+    congr:createDateTime "2023-07-01T08:17:07.271799"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-07-01T08:15:16"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Colorado%20Companies_cc13c65973 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Public%20Companies.xlsx_a9352d17be ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.spreadsheetml.sheet ;
+    gist:name "Public Companies.xlsx"^^xsd:string .
+
+congr3:_Content_Public-Sector%20Employers.xls_d3d156c2b4 a gist:Content ;
+    congr:createDateTime "2023-07-01T08:17:06.877364"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-03-14T11:23:30"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Colorado%20Companies_cc13c65973 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Public-Sector%20Employers.xls_d3d156c2b4 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.ms-excel ;
+    gist:name "Public-Sector Employers.xls"^^xsd:string .
+
+congr3:_Content_Public-Sector%20Employers.xlsx_7c376d632b a gist:Content ;
+    congr:createDateTime "2023-07-01T08:17:17.222728"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-07-01T08:17:09"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Colorado%20Companies_cc13c65973 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Public-Sector%20Employers.xlsx_7c376d632b ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.spreadsheetml.sheet ;
+    gist:name "Public-Sector Employers.xlsx"^^xsd:string .
+
+congr3:_Content_Publication%20Award%20Offers%202023.xlsx_9365fbfb99 a gist:Content ;
+    congr:createDateTime "2023-02-08T10:20:12.307492"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-04-25T05:32:59"^^xsd:dateTime ;
+    gist:hasLocation <http://example.com/files/> ;
+    gist:hasMagnitude congr3:_InformationQuantity_Publication%20Award%20Offers%202023.xlsx_9365fbfb99 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.spreadsheetml.sheet ;
+    gist:name "Publication Award Offers 2023.xlsx"^^xsd:string .
+
+congr3:_Content_RC%20pitch.docx_66d1005aaf a gist:Content ;
+    congr:createDateTime "2023-06-02T14:40:32.306577"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-06-02T14:40:30"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Pitch_6b30e97371 ;
+    gist:hasMagnitude congr3:_InformationQuantity_RC%20pitch.docx_66d1005aaf ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.wordprocessingml.document ;
+    gist:name "RC pitch.docx"^^xsd:string .
+
+congr3:_Content_RFP%20Resources.docx_824231bb9c a gist:Content ;
+    congr:createDateTime "2023-01-25T09:02:20.246223"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-01-25T09:02:10"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Proposals_f1a1fd1d52 ;
+    gist:hasMagnitude congr3:_InformationQuantity_RFP%20Resources.docx_824231bb9c ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.wordprocessingml.document ;
+    gist:name "RFP Resources.docx"^^xsd:string .
+
+congr3:_Content_Response%20to%20de%20Volksbank_Dan%20Carey.pptx_ffca14f63c a gist:Content ;
+    congr:createDateTime "2023-05-08T08:09:48.629537"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-05-08T05:58:37"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_de%20Volksbank_cfdaadefa2 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Response%20to%20de%20Volksbank_Dan%20Carey.pptx_ffca14f63c ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.presentationml.presentation ;
+    gist:name "Response to de Volksbank_Dan Carey.pptx"^^xsd:string .
+
+congr3:_Content_SA22_black.pdf_9de902ae35 a gist:Content ;
+    congr:createDateTime "2022-11-17T10:28:10.494046"^^xsd:dateTime ;
+    congr:modifyDateTime "2022-11-09T15:50:04"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Vector_b4f31c3e58 ;
+    gist:hasMagnitude congr3:_InformationQuantity_SA22_black.pdf_9de902ae35 ;
+    gist:hasMediaType gist:_MediaType_applicationpdf ;
+    gist:name "SA22_black.pdf"^^xsd:string .
+
+congr3:_Content_SA22_black.svg_814f252926 a gist:Content ;
+    congr:createDateTime "2022-11-17T10:28:10.493067"^^xsd:dateTime ;
+    congr:modifyDateTime "2022-11-09T15:50:04"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Vector_b4f31c3e58 ;
+    gist:hasMagnitude congr3:_InformationQuantity_SA22_black.svg_814f252926 ;
+    gist:hasMediaType gist:_MediaType_imagesvg%2Bxml ;
+    gist:name "SA22_black.svg"^^xsd:string .
+
+congr3:_Content_SA22_black_144.jpg_6cf49b8186 a gist:Content ;
+    congr:createDateTime "2022-11-17T10:28:10.482049"^^xsd:dateTime ;
+    congr:modifyDateTime "2022-11-09T15:50:02"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_JPG%20-%20Image_7dfa706cda ;
+    gist:hasMagnitude congr3:_InformationQuantity_SA22_black_144.jpg_6cf49b8186 ;
+    gist:hasMediaType gist:_MediaType_imagejpeg ;
+    gist:name "SA22_black_144.jpg"^^xsd:string .
+
+congr3:_Content_SA22_black_144.png_17e5c18304 a gist:Content ;
+    congr:createDateTime "2022-11-17T10:28:10.498046"^^xsd:dateTime ;
+    congr:modifyDateTime "2022-11-09T15:50:05"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_PNG%20-%20Transparent_adb189bb0b ;
+    gist:hasMagnitude congr3:_InformationQuantity_SA22_black_144.png_17e5c18304 ;
+    gist:hasMediaType gist:_MediaType_imagepng ;
+    gist:name "SA22_black_144.png"^^xsd:string .
+
+congr3:_Content_SA22_black_266.jpg_23a669d63e a gist:Content ;
+    congr:createDateTime "2022-11-17T10:28:10.484047"^^xsd:dateTime ;
+    congr:modifyDateTime "2022-11-09T15:50:02"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_JPG%20-%20Image_7dfa706cda ;
+    gist:hasMagnitude congr3:_InformationQuantity_SA22_black_266.jpg_23a669d63e ;
+    gist:hasMediaType gist:_MediaType_imagejpeg ;
+    gist:name "SA22_black_266.jpg"^^xsd:string .
+
+congr3:_Content_SA22_black_266.png_9f0acd3afc a gist:Content ;
+    congr:createDateTime "2022-11-17T10:28:10.502049"^^xsd:dateTime ;
+    congr:modifyDateTime "2022-11-09T15:50:06"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_PNG%20-%20Transparent_adb189bb0b ;
+    gist:hasMagnitude congr3:_InformationQuantity_SA22_black_266.png_9f0acd3afc ;
+    gist:hasMediaType gist:_MediaType_imagepng ;
+    gist:name "SA22_black_266.png"^^xsd:string .
+
+congr3:_Content_SA22_black_600.jpg_f63430a9b2 a gist:Content ;
+    congr:createDateTime "2022-11-17T10:28:10.488047"^^xsd:dateTime ;
+    congr:modifyDateTime "2022-11-09T15:50:03"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_JPG%20-%20Image_7dfa706cda ;
+    gist:hasMagnitude congr3:_InformationQuantity_SA22_black_600.jpg_f63430a9b2 ;
+    gist:hasMediaType gist:_MediaType_imagejpeg ;
+    gist:name "SA22_black_600.jpg"^^xsd:string .
+
+congr3:_Content_SA22_black_600.png_1e51ab7cc8 a gist:Content ;
+    congr:createDateTime "2022-11-17T10:28:10.507931"^^xsd:dateTime ;
+    congr:modifyDateTime "2022-11-09T15:50:06"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_PNG%20-%20Transparent_adb189bb0b ;
+    gist:hasMagnitude congr3:_InformationQuantity_SA22_black_600.png_1e51ab7cc8 ;
+    gist:hasMediaType gist:_MediaType_imagepng ;
+    gist:name "SA22_black_600.png"^^xsd:string .
+
+congr3:_Content_SA22_black_72.jpg_c91359c0b6 a gist:Content ;
+    congr:createDateTime "2022-11-17T10:28:10.486047"^^xsd:dateTime ;
+    congr:modifyDateTime "2022-11-09T15:50:03"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_JPG%20-%20Image_7dfa706cda ;
+    gist:hasMagnitude congr3:_InformationQuantity_SA22_black_72.jpg_c91359c0b6 ;
+    gist:hasMediaType gist:_MediaType_imagejpeg ;
+    gist:name "SA22_black_72.jpg"^^xsd:string .
+
+congr3:_Content_SA22_black_72.png_dfcabf852b a gist:Content ;
+    congr:createDateTime "2022-11-17T10:28:10.505048"^^xsd:dateTime ;
+    congr:modifyDateTime "2022-11-09T15:50:07"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_PNG%20-%20Transparent_adb189bb0b ;
+    gist:hasMagnitude congr3:_InformationQuantity_SA22_black_72.png_dfcabf852b ;
+    gist:hasMediaType gist:_MediaType_imagepng ;
+    gist:name "SA22_black_72.png"^^xsd:string .
+
+congr3:_Content_SA22_color.pdf_7010621908 a gist:Content ;
+    congr:createDateTime "2022-11-17T10:28:10.524930"^^xsd:dateTime ;
+    congr:modifyDateTime "2022-11-09T15:50:06"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Vector_e1cd05d30d ;
+    gist:hasMagnitude congr3:_InformationQuantity_SA22_color.pdf_7010621908 ;
+    gist:hasMediaType gist:_MediaType_applicationpdf ;
+    gist:name "SA22_color.pdf"^^xsd:string .
+
+congr3:_Content_SA22_color.svg_7cd1ab498a a gist:Content ;
+    congr:createDateTime "2022-11-17T10:28:10.527931"^^xsd:dateTime ;
+    congr:modifyDateTime "2022-11-09T15:50:06"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Vector_e1cd05d30d ;
+    gist:hasMagnitude congr3:_InformationQuantity_SA22_color.svg_7cd1ab498a ;
+    gist:hasMediaType gist:_MediaType_imagesvg%2Bxml ;
+    gist:name "SA22_color.svg"^^xsd:string .
+
+congr3:_Content_SA22_color_144.jpg_4973e65b15 a gist:Content ;
+    congr:createDateTime "2022-11-17T10:28:10.539906"^^xsd:dateTime ;
+    congr:modifyDateTime "2022-11-09T15:50:07"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_JPG%20-%20Image_cfe03bddc0 ;
+    gist:hasMagnitude congr3:_InformationQuantity_SA22_color_144.jpg_4973e65b15 ;
+    gist:hasMediaType gist:_MediaType_imagejpeg ;
+    gist:name "SA22_color_144.jpg"^^xsd:string .
+
+congr3:_Content_SA22_color_144.png_5200f1c1c6 a gist:Content ;
+    congr:createDateTime "2022-11-17T10:28:10.513975"^^xsd:dateTime ;
+    congr:modifyDateTime "2022-11-09T15:50:04"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_PNG%20-%20Transparent_e344be9103 ;
+    gist:hasMagnitude congr3:_InformationQuantity_SA22_color_144.png_5200f1c1c6 ;
+    gist:hasMediaType gist:_MediaType_imagepng ;
+    gist:name "SA22_color_144.png"^^xsd:string .
+
+congr3:_Content_SA22_color_266.jpg_a1606f449c a gist:Content ;
+    congr:createDateTime "2022-11-17T10:28:10.544189"^^xsd:dateTime ;
+    congr:modifyDateTime "2022-11-09T15:50:07"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_JPG%20-%20Image_cfe03bddc0 ;
+    gist:hasMagnitude congr3:_InformationQuantity_SA22_color_266.jpg_a1606f449c ;
+    gist:hasMediaType gist:_MediaType_imagejpeg ;
+    gist:name "SA22_color_266.jpg"^^xsd:string .
+
+congr3:_Content_SA22_color_266.png_7b74b95417 a gist:Content ;
+    congr:createDateTime "2022-11-17T10:28:10.515631"^^xsd:dateTime ;
+    congr:modifyDateTime "2022-11-09T15:50:04"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_PNG%20-%20Transparent_e344be9103 ;
+    gist:hasMagnitude congr3:_InformationQuantity_SA22_color_266.png_7b74b95417 ;
+    gist:hasMediaType gist:_MediaType_imagepng ;
+    gist:name "SA22_color_266.png"^^xsd:string .
+
+congr3:_Content_SA22_color_600.jpg_2652aa76a4 a gist:Content ;
+    congr:createDateTime "2022-11-17T10:28:10.549281"^^xsd:dateTime ;
+    congr:modifyDateTime "2022-11-09T15:50:09"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_JPG%20-%20Image_cfe03bddc0 ;
+    gist:hasMagnitude congr3:_InformationQuantity_SA22_color_600.jpg_2652aa76a4 ;
+    gist:hasMediaType gist:_MediaType_imagejpeg ;
+    gist:name "SA22_color_600.jpg"^^xsd:string .
+
+congr3:_Content_SA22_color_600.png_3448c36cca a gist:Content ;
+    congr:createDateTime "2022-11-17T10:28:10.519345"^^xsd:dateTime ;
+    congr:modifyDateTime "2022-11-09T15:50:05"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_PNG%20-%20Transparent_e344be9103 ;
+    gist:hasMagnitude congr3:_InformationQuantity_SA22_color_600.png_3448c36cca ;
+    gist:hasMediaType gist:_MediaType_imagepng ;
+    gist:name "SA22_color_600.png"^^xsd:string .
+
+congr3:_Content_SA22_color_72.jpg_8b992fb168 a gist:Content ;
+    congr:createDateTime "2022-11-17T10:28:10.545213"^^xsd:dateTime ;
+    congr:modifyDateTime "2022-11-09T15:50:08"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_JPG%20-%20Image_cfe03bddc0 ;
+    gist:hasMagnitude congr3:_InformationQuantity_SA22_color_72.jpg_8b992fb168 ;
+    gist:hasMediaType gist:_MediaType_imagejpeg ;
+    gist:name "SA22_color_72.jpg"^^xsd:string .
+
+congr3:_Content_SA22_color_72.png_5826bc26ce a gist:Content ;
+    congr:createDateTime "2022-11-17T10:28:10.517152"^^xsd:dateTime ;
+    congr:modifyDateTime "2022-11-09T15:50:05"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_PNG%20-%20Transparent_e344be9103 ;
+    gist:hasMagnitude congr3:_InformationQuantity_SA22_color_72.png_5826bc26ce ;
+    gist:hasMediaType gist:_MediaType_imagepng ;
+    gist:name "SA22_color_72.png"^^xsd:string .
+
+congr3:_Content_SA22_white.pdf_01da788ba4 a gist:Content ;
+    congr:createDateTime "2022-11-17T10:28:10.467065"^^xsd:dateTime ;
+    congr:modifyDateTime "2022-11-09T15:50:01"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Vector_989d14ba49 ;
+    gist:hasMagnitude congr3:_InformationQuantity_SA22_white.pdf_01da788ba4 ;
+    gist:hasMediaType gist:_MediaType_applicationpdf ;
+    gist:name "SA22_white.pdf"^^xsd:string .
+
+congr3:_Content_SA22_white.svg_511a12e9f3 a gist:Content ;
+    congr:createDateTime "2022-11-17T10:28:10.472049"^^xsd:dateTime ;
+    congr:modifyDateTime "2022-11-09T15:50:02"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Vector_989d14ba49 ;
+    gist:hasMagnitude congr3:_InformationQuantity_SA22_white.svg_511a12e9f3 ;
+    gist:hasMediaType gist:_MediaType_imagesvg%2Bxml ;
+    gist:name "SA22_white.svg"^^xsd:string .
+
+congr3:_Content_SA22_white_144.png_a09728bb80 a gist:Content ;
+    congr:createDateTime "2022-11-17T10:28:10.458048"^^xsd:dateTime ;
+    congr:modifyDateTime "2022-11-09T15:50:00"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_PNG%20-%20Transparent_b177428db4 ;
+    gist:hasMagnitude congr3:_InformationQuantity_SA22_white_144.png_a09728bb80 ;
+    gist:hasMediaType gist:_MediaType_imagepng ;
+    gist:name "SA22_white_144.png"^^xsd:string .
+
+congr3:_Content_SA22_white_266.png_09e5328cb8 a gist:Content ;
+    congr:createDateTime "2022-11-17T10:28:10.456068"^^xsd:dateTime ;
+    congr:modifyDateTime "2022-11-09T15:50:00"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_PNG%20-%20Transparent_b177428db4 ;
+    gist:hasMagnitude congr3:_InformationQuantity_SA22_white_266.png_09e5328cb8 ;
+    gist:hasMediaType gist:_MediaType_imagepng ;
+    gist:name "SA22_white_266.png"^^xsd:string .
+
+congr3:_Content_SA22_white_600.png_0a25a8c2c2 a gist:Content ;
+    congr:createDateTime "2022-11-17T10:28:10.463047"^^xsd:dateTime ;
+    congr:modifyDateTime "2022-11-09T15:50:01"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_PNG%20-%20Transparent_b177428db4 ;
+    gist:hasMagnitude congr3:_InformationQuantity_SA22_white_600.png_0a25a8c2c2 ;
+    gist:hasMediaType gist:_MediaType_imagepng ;
+    gist:name "SA22_white_600.png"^^xsd:string .
+
+congr3:_Content_SA22_white_72.png_a3a618f0d2 a gist:Content ;
+    congr:createDateTime "2022-11-17T10:28:10.460047"^^xsd:dateTime ;
+    congr:modifyDateTime "2022-11-09T15:50:01"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_PNG%20-%20Transparent_b177428db4 ;
+    gist:hasMagnitude congr3:_InformationQuantity_SA22_white_72.png_a3a618f0d2 ;
+    gist:hasMediaType gist:_MediaType_imagepng ;
+    gist:name "SA22_white_72.png"^^xsd:string .
+
+congr3:_Content_SAPresentationTheme.thmx_9f31295754 a gist:Content ;
+    congr:createDateTime "2022-11-17T10:28:10.559270"^^xsd:dateTime ;
+    congr:modifyDateTime "2022-11-09T15:50:33"^^xsd:dateTime ;
+    gist:hasLocation <http://example.com/files/> ;
+    gist:hasMagnitude congr3:_InformationQuantity_SAPresentationTheme.thmx_9f31295754 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.ms-officetheme ;
+    gist:name "SAPresentationTheme.thmx"^^xsd:string .
+
+congr3:_Content_SBA%20Lenders.xls_14a782361d a gist:Content ;
+    congr:createDateTime "2023-07-01T08:17:06.831771"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-03-14T13:12:10"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Colorado%20Companies_cc13c65973 ;
+    gist:hasMagnitude congr3:_InformationQuantity_SBA%20Lenders.xls_14a782361d ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.ms-excel ;
+    gist:name "SBA Lenders.xls"^^xsd:string .
+
+congr3:_Content_Scottish%20Govt_KG%20POC_Resource%20Estimate%2003_09_23.xlsx_d62f30ecaa a gist:Content ;
+    congr:createDateTime "2023-03-09T08:02:33.320957"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-03-20T10:50:23"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Scottish%20Government_d2ed491fe2 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Scottish%20Govt_KG%20POC_Resource%20Estimate%2003_09_23.xlsx_d62f30ecaa ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.spreadsheetml.sheet ;
+    gist:name "Scottish Govt_KG POC_Resource Estimate 03_09_23.xlsx"^^xsd:string .
+
+congr3:_Content_Semantic%20Arts%20logo%20in%20PPT.pptx_09e6f918fb a gist:Content ;
+    congr:createDateTime "2022-11-17T10:28:10.552136"^^xsd:dateTime ;
+    congr:modifyDateTime "2022-11-09T15:49:58"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Semantic%20Arts%20Logo_fe730ff47f ;
+    gist:hasMagnitude congr3:_InformationQuantity_Semantic%20Arts%20logo%20in%20PPT.pptx_09e6f918fb ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.presentationml.presentation ;
+    gist:name "Semantic Arts logo in PPT.pptx"^^xsd:string .
+
+congr3:_Content_Semantic%20Arts_%20Odase%20Ontology%20doc%20Proposal%2003_30_2023.docx_63611660cf a gist:Content ;
+    congr:createDateTime "2023-03-30T08:11:06.749001"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-03-30T12:20:02"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_ioDase_6e3dea2e89 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Semantic%20Arts_%20Odase%20Ontology%20doc%20Proposal%2003_30_2023.docx_63611660cf ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.wordprocessingml.document ;
+    gist:name "Semantic Arts_ Odase Ontology doc Proposal 03_30_2023.docx"^^xsd:string .
+
+congr3:_Content_Semantic%20Arts_FDANIH%20ontology%20round%20table_02172023.mp4_c378b346e4 a gist:Content ;
+    congr:createDateTime "2023-02-24T14:31:05.014254"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-02-24T14:31:02"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_2023%20Feb%20FDA_8e760a8509 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Semantic%20Arts_FDANIH%20ontology%20round%20table_02172023.mp4_c378b346e4 ;
+    gist:hasMediaType gist:_MediaType_videomp4 ;
+    gist:name "Semantic Arts_FDANIH ontology round table_02172023.mp4"^^xsd:string .
+
+congr3:_Content_SemanticArts%20-%20New%20Customer%20Administration.pptx_911ec7a7ee a gist:Content ;
+    congr:createDateTime "2023-04-13T07:20:58.632807"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-04-07T15:17:55"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_NL%20Volksbank_d9882c047f ;
+    gist:hasMagnitude congr3:_InformationQuantity_SemanticArts%20-%20New%20Customer%20Administration.pptx_911ec7a7ee ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.presentationml.presentation ;
+    gist:name "SemanticArts - New Customer Administration.pptx"^^xsd:string .
+
+congr3:_Content_Session%206%20Design%20and%20Approach.pptx_ae504342e8 a gist:Content ;
+    congr:createDateTime "2023-01-20T10:49:49.973775"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-01-20T10:54:14"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_2023%20Data%20Day%20Austin_a30e938f03 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Session%206%20Design%20and%20Approach.pptx_ae504342e8 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.presentationml.presentation ;
+    gist:name "Session 6 Design and Approach.pptx"^^xsd:string .
+
+congr3:_Content_Skilled-Nursing%20Facilities%2C%20Northern%20Colorado.xls_d484888c8c a gist:Content ;
+    congr:createDateTime "2023-07-01T08:17:06.791956"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-03-14T12:59:56"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Colorado%20Companies_cc13c65973 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Skilled-Nursing%20Facilities%2C%20Northern%20Colorado.xls_d484888c8c ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.ms-excel ;
+    gist:name "Skilled-Nursing Facilities, Northern Colorado.xls"^^xsd:string .
+
+congr3:_Content_Small%20Group%20Health%20Insurance%20Carriers.xls_a52de8adf6 a gist:Content ;
+    congr:createDateTime "2023-07-01T08:17:06.907373"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-03-14T12:47:26"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Colorado%20Companies_cc13c65973 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Small%20Group%20Health%20Insurance%20Carriers.xls_a52de8adf6 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.ms-excel ;
+    gist:name "Small Group Health Insurance Carriers.xls"^^xsd:string .
+
+congr3:_Content_Software%20Companies.xls_82986f64f3 a gist:Content ;
+    congr:createDateTime "2023-07-01T08:17:06.671275"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-03-14T12:53:06"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Colorado%20Companies_cc13c65973 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Software%20Companies.xls_82986f64f3 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.ms-excel ;
+    gist:name "Software Companies.xls"^^xsd:string .
+
+congr3:_Content_Software%20Companies.xlsx_84f532af68 a gist:Content ;
+    congr:createDateTime "2023-07-01T08:17:07.208981"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-07-01T08:03:58"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Colorado%20Companies_cc13c65973 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Software%20Companies.xlsx_84f532af68 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.spreadsheetml.sheet ;
+    gist:name "Software Companies.xlsx"^^xsd:string .
+
+congr3:_Content_Surgery%20Centers%2C%20Boulder%20Valley.xls_959ab21b42 a gist:Content ;
+    congr:createDateTime "2023-07-01T08:17:07.064410"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-03-14T12:48:08"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Colorado%20Companies_cc13c65973 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Surgery%20Centers%2C%20Boulder%20Valley.xls_959ab21b42 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.ms-excel ;
+    gist:name "Surgery Centers, Boulder Valley.xls"^^xsd:string .
+
+congr3:_Content_Surgery%20Centers%2C%20Northern%20Colorado.xls_0a1c6ac9ee a gist:Content ;
+    congr:createDateTime "2023-07-01T08:17:07.139281"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-03-14T12:49:28"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Colorado%20Companies_cc13c65973 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Surgery%20Centers%2C%20Northern%20Colorado.xls_0a1c6ac9ee ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.ms-excel ;
+    gist:name "Surgery Centers, Northern Colorado.xls"^^xsd:string .
+
+congr3:_Content_Telescope.jpg_85a5114386 a gist:Content ;
+    congr:createDateTime "2023-02-11T14:21:01.547361"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-02-11T13:31:58"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_2023%20Feb%20FDA_8e760a8509 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Telescope.jpg_85a5114386 ;
+    gist:hasMediaType gist:_MediaType_imagejpeg ;
+    gist:name "Telescope.jpg"^^xsd:string .
+
+congr3:_Content_Thoughts%20on%20the%20Data%20Explosion.docx_f9b656b9d9 a gist:Content ;
+    congr:createDateTime "2023-06-04T13:58:35.887140"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-06-04T14:21:15"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Pitch_6b30e97371 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Thoughts%20on%20the%20Data%20Explosion.docx_f9b656b9d9 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.wordprocessingml.document ;
+    gist:name "Thoughts on the Data Explosion.docx"^^xsd:string .
+
+congr3:_Content_Tim%20Wenzel%20-%20Patching%20the%20Human%20firewall.pptx_0da850bbeb a gist:Content ;
+    congr:createDateTime "2023-06-07T15:48:08.639714"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-06-07T15:41:50"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_OtherPresentations_246ca346a6 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Tim%20Wenzel%20-%20Patching%20the%20Human%20firewall.pptx_0da850bbeb ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.presentationml.presentation ;
+    gist:name "Tim Wenzel - Patching the Human firewall.pptx"^^xsd:string .
+
+congr3:_Content_Top%20300%20architectural%20firms.xlsx_508c73d6e6 a gist:Content ;
+    congr:createDateTime "2023-04-13T07:19:17.388712"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-04-09T11:30:59"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Architectural%20Firms_2dd7944279 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Top%20300%20architectural%20firms.xlsx_508c73d6e6 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.spreadsheetml.sheet ;
+    gist:name "Top 300 architectural firms.xlsx"^^xsd:string .
+
+congr3:_Content_TuesdayWorkshop.pptx_49f9d327d4 a gist:Content ;
+    congr:createDateTime "2023-03-09T06:27:21.520130"^^xsd:dateTime ;
+    congr:modifyDateTime "2022-10-15T16:13:30"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_2023%20EDW%20Spring_0a0c1d7c8a ;
+    gist:hasMagnitude congr3:_InformationQuantity_TuesdayWorkshop.pptx_49f9d327d4 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.presentationml.presentation ;
+    gist:name "TuesdayWorkshop.pptx"^^xsd:string .
+
+congr3:_Content_UNH-Q4-2021-Form-10-K.pdf_b883a8d6f0 a gist:Content ;
+    congr:createDateTime "2023-04-13T07:17:28.182275"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-02-21T12:51:51"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Annual%20Reports_39e6dd16fc ;
+    gist:hasMagnitude congr3:_InformationQuantity_UNH-Q4-2021-Form-10-K.pdf_b883a8d6f0 ;
+    gist:hasMediaType gist:_MediaType_applicationpdf ;
+    gist:name "UNH-Q4-2021-Form-10-K.pdf"^^xsd:string .
+
+congr3:_Content_Understanding%20Knowledge%20Graphs.pptx_b209741174 a gist:Content ;
+    congr:createDateTime "2023-03-06T06:13:31.121936"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-03-28T17:39:24"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_2023%20EDW%20Spring_0a0c1d7c8a ;
+    gist:hasMagnitude congr3:_InformationQuantity_Understanding%20Knowledge%20Graphs.pptx_b209741174 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.presentationml.presentation ;
+    gist:name "Understanding Knowledge Graphs.pptx"^^xsd:string .
+
+congr3:_Content_Understanding%20Knowledge%20Graphs2%20-talk.pptx_e676ad37cf a gist:Content ;
+    congr:createDateTime "2023-03-26T14:28:00.544496"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-04-11T10:23:03"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_2023%20EDW%20Spring_0a0c1d7c8a ;
+    gist:hasMagnitude congr3:_InformationQuantity_Understanding%20Knowledge%20Graphs2%20-talk.pptx_e676ad37cf ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.presentationml.presentation ;
+    gist:name "Understanding Knowledge Graphs2 -talk.pptx"^^xsd:string .
+
+congr3:_Content_Utility%20Providers.xls_b4c08e3ebd a gist:Content ;
+    congr:createDateTime "2023-07-01T08:17:06.927373"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-03-14T11:27:14"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Colorado%20Companies_cc13c65973 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Utility%20Providers.xls_b4c08e3ebd ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.ms-excel ;
+    gist:name "Utility Providers.xls"^^xsd:string .
+
+congr3:_Content_WMT-FY2022-Annual-Report.pdf_d2f9708b75 a gist:Content ;
+    congr:createDateTime "2023-04-13T07:17:28.193616"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-02-21T12:30:15"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Annual%20Reports_39e6dd16fc ;
+    gist:hasMagnitude congr3:_InformationQuantity_WMT-FY2022-Annual-Report.pdf_d2f9708b75 ;
+    gist:hasMediaType gist:_MediaType_applicationpdf ;
+    gist:name "WMT-FY2022-Annual-Report.pdf"^^xsd:string .
+
+congr3:_Content_Wikipedia%20Copy.docx_b86f3a35e1 a gist:Content ;
+    congr:createDateTime "2023-05-17T08:34:56.747846"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-05-17T08:34:47"^^xsd:dateTime ;
+    gist:hasLocation <http://example.com/files/> ;
+    gist:hasMagnitude congr3:_InformationQuantity_Wikipedia%20Copy.docx_b86f3a35e1 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.wordprocessingml.document ;
+    gist:name "Wikipedia Copy.docx"^^xsd:string .
+
+congr3:_Content_WolterKluwer_Workplan_6_12_23.xlsx_fbd42f0815 a gist:Content ;
+    congr:createDateTime "2023-06-26T12:11:01.302042"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-06-27T11:41:08"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_WoltersKluwer_e2fc1a5c65 ;
+    gist:hasMagnitude congr3:_InformationQuantity_WolterKluwer_Workplan_6_12_23.xlsx_fbd42f0815 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.spreadsheetml.sheet ;
+    gist:name "WolterKluwer_Workplan_6_12_23.xlsx"^^xsd:string .
+
+congr3:_Content_Wolters_Kluwer_SOW_6_19_2023.docx_de0e6ba504 a gist:Content ;
+    congr:createDateTime "2023-06-26T12:11:01.311156"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-06-26T12:10:55"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_WoltersKluwer_e2fc1a5c65 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Wolters_Kluwer_SOW_6_19_2023.docx_de0e6ba504 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.wordprocessingml.document ;
+    gist:name "Wolters_Kluwer_SOW_6_19_2023.docx"^^xsd:string .
+
+congr3:_Content_Wolters_Kluwer_SOW_6_28_2023.docx_cc8970ca79 a gist:Content ;
+    congr:createDateTime "2023-06-28T14:22:05.879313"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-06-28T13:55:48"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_WoltersKluwer_e2fc1a5c65 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Wolters_Kluwer_SOW_6_28_2023.docx_cc8970ca79 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.wordprocessingml.document ;
+    gist:name "Wolters_Kluwer_SOW_6_28_2023.docx"^^xsd:string .
+
+congr3:_Content_Women-Owned%20Businesses%20Boulder%20Valley.xls_3400ac379f a gist:Content ;
+    congr:createDateTime "2023-07-01T08:17:07.090659"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-03-14T11:24:18"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Colorado%20Companies_cc13c65973 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Women-Owned%20Businesses%20Boulder%20Valley.xls_3400ac379f ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.ms-excel ;
+    gist:name "Women-Owned Businesses Boulder Valley.xls"^^xsd:string .
+
+congr3:_Content_Women-Owned%20Businesses%20Northern%20Colorado.xls_defa6d9478 a gist:Content ;
+    congr:createDateTime "2023-07-01T08:17:06.957529"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-03-14T11:24:58"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Colorado%20Companies_cc13c65973 ;
+    gist:hasMagnitude congr3:_InformationQuantity_Women-Owned%20Businesses%20Northern%20Colorado.xls_defa6d9478 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.ms-excel ;
+    gist:name "Women-Owned Businesses Northern Colorado.xls"^^xsd:string .
+
+congr3:_Content_XOM%202021%2010K%200000034088-22-000011.pdf_01ed80cdd0 a gist:Content ;
+    congr:createDateTime "2023-04-13T07:17:30.649841"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-02-21T12:55:54"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Annual%20Reports_39e6dd16fc ;
+    gist:hasMagnitude congr3:_InformationQuantity_XOM%202021%2010K%200000034088-22-000011.pdf_01ed80cdd0 ;
+    gist:hasMediaType gist:_MediaType_applicationpdf ;
+    gist:name "XOM 2021 10K 0000034088-22-000011.pdf"^^xsd:string .
+
+congr3:_Content_Zero%20copy.docx_2d0ba6b991 a gist:Content ;
+    congr:createDateTime "2023-04-06T09:06:35.635411"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-04-06T09:06:33"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_2023%20EDW%20Fall%20Anaheim_3f39243aad ;
+    gist:hasMagnitude congr3:_InformationQuantity_Zero%20copy.docx_2d0ba6b991 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.wordprocessingml.document ;
+    gist:name "Zero copy.docx"^^xsd:string .
+
+congr3:_Content_ZeroCopyIntegration.pptx_35e916b5e9 a gist:Content ;
+    congr:createDateTime "2023-02-07T15:23:01.907546"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-02-06T08:43:05"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_2023%20Data%20Day%20Austin_a30e938f03 ;
+    gist:hasMagnitude congr3:_InformationQuantity_ZeroCopyIntegration.pptx_35e916b5e9 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.presentationml.presentation ;
+    gist:name "ZeroCopyIntegration.pptx"^^xsd:string .
+
+congr3:_Content_ZeroCopyIntegration.pptx_3cfa7573ca a gist:Content ;
+    congr:createDateTime "2023-05-20T06:56:26.747217"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-05-20T06:56:24"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_2023%20DMC%20Calgary_81a5262a64 ;
+    gist:hasMagnitude congr3:_InformationQuantity_ZeroCopyIntegration.pptx_3cfa7573ca ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.presentationml.presentation ;
+    gist:name "ZeroCopyIntegration.pptx"^^xsd:string .
+
+congr3:_Content_abstract.docx_3318989a1e a gist:Content ;
+    congr:createDateTime "2023-02-11T16:21:40.750388"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-02-11T16:02:47"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_2023%20Feb%20FDA_8e760a8509 ;
+    gist:hasMagnitude congr3:_InformationQuantity_abstract.docx_3318989a1e ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.wordprocessingml.document ;
+    gist:name "abstract.docx"^^xsd:string .
+
+congr3:_Content_ameren%2010K%202022.pdf_64c8a90d83 a gist:Content ;
+    congr:createDateTime "2023-04-13T07:20:30.565329"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-02-21T13:20:36"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Annual%20Reports_39e6dd16fc ;
+    gist:hasMagnitude congr3:_InformationQuantity_ameren%2010K%202022.pdf_64c8a90d83 ;
+    gist:hasMediaType gist:_MediaType_applicationpdf ;
+    gist:name "ameren 10K 2022.pdf"^^xsd:string .
+
+congr3:_Content_americaousrce%20bergen.pdf_f937a8dbc2 a gist:Content ;
+    congr:createDateTime "2023-04-13T07:17:28.189394"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-02-21T13:16:26"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Annual%20Reports_39e6dd16fc ;
+    gist:hasMagnitude congr3:_InformationQuantity_americaousrce%20bergen.pdf_f937a8dbc2 ;
+    gist:hasMediaType gist:_MediaType_applicationpdf ;
+    gist:name "americaousrce bergen.pdf"^^xsd:string .
+
+congr3:_Content_apple%202022.pdf_b335353665 a gist:Content ;
+    congr:createDateTime "2023-04-13T07:17:28.167744"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-02-21T12:44:51"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Annual%20Reports_39e6dd16fc ;
+    gist:hasMagnitude congr3:_InformationQuantity_apple%202022.pdf_b335353665 ;
+    gist:hasMediaType gist:_MediaType_applicationpdf ;
+    gist:name "apple 2022.pdf"^^xsd:string .
+
+congr3:_Content_banner.png_730c0f4c86 a gist:Content ;
+    congr:createDateTime "2022-11-17T10:28:10.477074"^^xsd:dateTime ;
+    congr:modifyDateTime "2022-11-09T15:50:00"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_White_c8c8d54709 ;
+    gist:hasMagnitude congr3:_InformationQuantity_banner.png_730c0f4c86 ;
+    gist:hasMediaType gist:_MediaType_imagepng ;
+    gist:name "banner.png"^^xsd:string .
+
+congr3:_Content_bannerSmaller.png_1506a82c7d a gist:Content ;
+    congr:createDateTime "2022-11-17T10:28:10.475047"^^xsd:dateTime ;
+    congr:modifyDateTime "2022-11-09T15:50:00"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_White_c8c8d54709 ;
+    gist:hasMagnitude congr3:_InformationQuantity_bannerSmaller.png_1506a82c7d ;
+    gist:hasMediaType gist:_MediaType_imagepng ;
+    gist:name "bannerSmaller.png"^^xsd:string .
+
+congr3:_Content_communication.jpg_1a65d4ee95 a gist:Content ;
+    congr:createDateTime "2023-06-24T07:50:12.339291"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-06-24T07:32:41"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_ArtAndCartoons_984dfa4a96 ;
+    gist:hasMagnitude congr3:_InformationQuantity_communication.jpg_1a65d4ee95 ;
+    gist:hasMediaType gist:_MediaType_imagejpeg ;
+    gist:name "communication.jpg"^^xsd:string .
+
+congr3:_Content_dashboard.jpg_4abdb1e5c0 a gist:Content ;
+    congr:createDateTime "2023-06-12T09:27:35.155115"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-06-12T07:18:00"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Architectural%20Firm%20Market_d59c914b28 ;
+    gist:hasMagnitude congr3:_InformationQuantity_dashboard.jpg_4abdb1e5c0 ;
+    gist:hasMediaType gist:_MediaType_imagejpeg ;
+    gist:name "dashboard.jpg"^^xsd:string .
+
+congr3:_Content_db%20icon.jpg_3afa62cb56 a gist:Content ;
+    congr:createDateTime "2023-06-04T15:44:41.927845"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-06-04T15:44:22"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Pitch_6b30e97371 ;
+    gist:hasMagnitude congr3:_InformationQuantity_db%20icon.jpg_3afa62cb56 ;
+    gist:hasMediaType gist:_MediaType_imagejpeg ;
+    gist:name "db icon.jpg"^^xsd:string .
+
+congr3:_Content_deltek.jpg_cdb7749bed a gist:Content ;
+    congr:createDateTime "2023-06-12T09:27:35.163744"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-06-12T07:17:20"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Architectural%20Firm%20Market_d59c914b28 ;
+    gist:hasMagnitude congr3:_InformationQuantity_deltek.jpg_cdb7749bed ;
+    gist:hasMediaType gist:_MediaType_imagejpeg ;
+    gist:name "deltek.jpg"^^xsd:string .
+
+congr3:_Content_doctor.jpg_4ddcf50729 a gist:Content ;
+    congr:createDateTime "2023-02-11T14:21:01.554531"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-02-11T13:50:49"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_2023%20Feb%20FDA_8e760a8509 ;
+    gist:hasMagnitude congr3:_InformationQuantity_doctor.jpg_4ddcf50729 ;
+    gist:hasMediaType gist:_MediaType_imagejpeg ;
+    gist:name "doctor.jpg"^^xsd:string .
+
+congr3:_Content_fortune%20500.xlsx_56147440e8 a gist:Content ;
+    congr:createDateTime "2023-04-13T07:16:59.495744"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-02-21T15:01:35"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Fortune5000_74a8d49c9f ;
+    gist:hasMagnitude congr3:_InformationQuantity_fortune%20500.xlsx_56147440e8 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.spreadsheetml.sheet ;
+    gist:name "fortune 500.xlsx"^^xsd:string .
+
+congr3:_Content_gears.pdf_173d539ef0 a gist:Content ;
+    congr:createDateTime "2023-02-15T10:55:13.580540"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-02-15T10:54:45"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_2023%20Dupont%20Data%20Scientists_aedc3731d4 ;
+    gist:hasMagnitude congr3:_InformationQuantity_gears.pdf_173d539ef0 ;
+    gist:hasMediaType gist:_MediaType_applicationpdf ;
+    gist:name "gears.pdf"^^xsd:string .
+
+congr3:_Content_generic%20person.jpg_0ac51f9361 a gist:Content ;
+    congr:createDateTime "2023-02-11T14:21:01.561531"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-02-11T13:54:16"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_2023%20Feb%20FDA_8e760a8509 ;
+    gist:hasMagnitude congr3:_InformationQuantity_generic%20person.jpg_0ac51f9361 ;
+    gist:hasMediaType gist:_MediaType_imagejpeg ;
+    gist:name "generic person.jpg"^^xsd:string .
+
+congr3:_Content_global%202000.xlsx_e40f45f5c3 a gist:Content ;
+    congr:createDateTime "2023-04-13T07:19:17.383936"^^xsd:dateTime ;
+    congr:modifyDateTime "2019-03-06T10:28:34"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Targets_adad9036eb ;
+    gist:hasMagnitude congr3:_InformationQuantity_global%202000.xlsx_e40f45f5c3 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.spreadsheetml.sheet ;
+    gist:name "global 2000.xlsx"^^xsd:string .
+
+congr3:_Content_global%202000a.xlsx_73bb81a4ff a gist:Content ;
+    congr:createDateTime "2023-04-13T07:19:17.382253"^^xsd:dateTime ;
+    congr:modifyDateTime "2019-03-06T10:30:34"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Targets_adad9036eb ;
+    gist:hasMagnitude congr3:_InformationQuantity_global%202000a.xlsx_73bb81a4ff ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.spreadsheetml.sheet ;
+    gist:name "global 2000a.xlsx"^^xsd:string .
+
+congr3:_Content_global%202000b.xlsx_615d958bd2 a gist:Content ;
+    congr:createDateTime "2023-04-13T07:19:17.376482"^^xsd:dateTime ;
+    congr:modifyDateTime "2019-03-06T10:34:26"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Targets_adad9036eb ;
+    gist:hasMagnitude congr3:_InformationQuantity_global%202000b.xlsx_615d958bd2 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.spreadsheetml.sheet ;
+    gist:name "global 2000b.xlsx"^^xsd:string .
+
+congr3:_Content_global%202000c.xlsx_b2fb927c54 a gist:Content ;
+    congr:createDateTime "2023-04-13T07:19:17.379582"^^xsd:dateTime ;
+    congr:modifyDateTime "2019-03-06T10:46:20"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Targets_adad9036eb ;
+    gist:hasMagnitude congr3:_InformationQuantity_global%202000c.xlsx_b2fb927c54 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.spreadsheetml.sheet ;
+    gist:name "global 2000c.xlsx"^^xsd:string .
+
+congr3:_Content_iStock-1416006689.jpg_673834b306 a gist:Content ;
+    congr:createDateTime "2023-02-13T08:16:53.651317"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-02-13T08:16:21"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_2023%20Dupont%20Data%20Scientists_aedc3731d4 ;
+    gist:hasMagnitude congr3:_InformationQuantity_iStock-1416006689.jpg_673834b306 ;
+    gist:hasMediaType gist:_MediaType_imagejpeg ;
+    gist:name "iStock-1416006689.jpg"^^xsd:string .
+
+congr3:_Content_iStock-535991075.jpg_8edceac571 a gist:Content ;
+    congr:createDateTime "2023-02-15T15:23:41.503453"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-02-15T15:23:02"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_2023%20Feb%20FDA_8e760a8509 ;
+    gist:hasMagnitude congr3:_InformationQuantity_iStock-535991075.jpg_8edceac571 ;
+    gist:hasMediaType gist:_MediaType_imagejpeg ;
+    gist:name "iStock-535991075.jpg"^^xsd:string .
+
+congr3:_Content_lawfirms.xlsx_6b98adacd6 a gist:Content ;
+    congr:createDateTime "2023-04-13T07:19:17.373143"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-03-07T07:31:39"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Targets_adad9036eb ;
+    gist:hasMagnitude congr3:_InformationQuantity_lawfirms.xlsx_6b98adacd6 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.spreadsheetml.sheet ;
+    gist:name "lawfirms.xlsx"^^xsd:string .
+
+congr3:_Content_layers.pptx_f4c5e572f2 a gist:Content ;
+    congr:createDateTime "2023-06-04T15:35:07.229802"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-06-04T15:45:58"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Pitch_6b30e97371 ;
+    gist:hasMagnitude congr3:_InformationQuantity_layers.pptx_f4c5e572f2 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.presentationml.presentation ;
+    gist:name "layers.pptx"^^xsd:string .
+
+congr3:_Content_nemetshcek.jpg_7e8f79fe55 a gist:Content ;
+    congr:createDateTime "2023-06-12T09:27:35.170744"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-06-12T07:17:00"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Architectural%20Firm%20Market_d59c914b28 ;
+    gist:hasMagnitude congr3:_InformationQuantity_nemetshcek.jpg_7e8f79fe55 ;
+    gist:hasMediaType gist:_MediaType_imagejpeg ;
+    gist:name "nemetshcek.jpg"^^xsd:string .
+
+congr3:_Content_notes%20on%20PKG.docx_c3bd168906 a gist:Content ;
+    congr:createDateTime "2023-04-09T04:14:53.426331"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-04-08T17:25:28"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_writing%20gigs_a86ec38f14 ;
+    gist:hasMagnitude congr3:_InformationQuantity_notes%20on%20PKG.docx_c3bd168906 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.wordprocessingml.document ;
+    gist:name "notes on PKG.docx"^^xsd:string .
+
+congr3:_Content_our%20ranking%20of%20G5000.xlsx_238892e982 a gist:Content ;
+    congr:createDateTime "2023-04-13T07:17:03.930198"^^xsd:dateTime ;
+    congr:modifyDateTime "2022-03-01T12:14:14"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Fortune5000_74a8d49c9f ;
+    gist:hasMagnitude congr3:_InformationQuantity_our%20ranking%20of%20G5000.xlsx_238892e982 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.spreadsheetml.sheet ;
+    gist:name "our ranking of G5000.xlsx"^^xsd:string .
+
+congr3:_Content_patient.jpg_747449e181 a gist:Content ;
+    congr:createDateTime "2023-02-11T14:21:01.551526"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-02-11T13:50:39"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_2023%20Feb%20FDA_8e760a8509 ;
+    gist:hasMagnitude congr3:_InformationQuantity_patient.jpg_747449e181 ;
+    gist:hasMediaType gist:_MediaType_imagejpeg ;
+    gist:name "patient.jpg"^^xsd:string .
+
+congr3:_Content_smaller.jpg_7b96efda10 a gist:Content ;
+    congr:createDateTime "2022-11-17T10:28:10.547252"^^xsd:dateTime ;
+    congr:modifyDateTime "2022-11-09T15:50:08"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_JPG%20-%20Image_cfe03bddc0 ;
+    gist:hasMagnitude congr3:_InformationQuantity_smaller.jpg_7b96efda10 ;
+    gist:hasMediaType gist:_MediaType_imagejpeg ;
+    gist:name "smaller.jpg"^^xsd:string .
+
+congr3:_Content_smaller.png_323629cfeb a gist:Content ;
+    congr:createDateTime "2022-11-17T10:28:10.521921"^^xsd:dateTime ;
+    congr:modifyDateTime "2022-11-09T15:50:05"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_PNG%20-%20Transparent_e344be9103 ;
+    gist:hasMagnitude congr3:_InformationQuantity_smaller.png_323629cfeb ;
+    gist:hasMediaType gist:_MediaType_imagepng ;
+    gist:name "smaller.png"^^xsd:string .
+
+congr3:_Content_specialist.jpg_9d58b4702d a gist:Content ;
+    congr:createDateTime "2023-02-11T14:21:01.558531"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-02-11T13:51:24"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_2023%20Feb%20FDA_8e760a8509 ;
+    gist:hasMagnitude congr3:_InformationQuantity_specialist.jpg_9d58b4702d ;
+    gist:hasMediaType gist:_MediaType_imagejpeg ;
+    gist:name "specialist.jpg"^^xsd:string .
+
+congr3:_Content_targets%20in%20our%20cities.xlsx_3c250e2e20 a gist:Content ;
+    congr:createDateTime "2023-04-13T07:19:17.371102"^^xsd:dateTime ;
+    congr:modifyDateTime "2023-06-20T14:05:17"^^xsd:dateTime ;
+    gist:hasLocation congr3:_Directory_Targets_adad9036eb ;
+    gist:hasMagnitude congr3:_InformationQuantity_targets%20in%20our%20cities.xlsx_3c250e2e20 ;
+    gist:hasMediaType gist:_MediaType_applicationvnd.openxmlformats-officedocument.spreadsheetml.sheet ;
+    gist:name "targets in our cities.xlsx"^^xsd:string .
+
+congr3:_Directory_Black_180b6751d0 a gist:Location ;
+    congr:pathString ".\\Semantic Arts Logo\\Black"^^xsd:anyURI ;
+    gist:hasLocation <http://example.com/files/> ;
+    gist:name "Black"^^xsd:string .
+
+congr3:_Directory_Color_3faf3153c4 a gist:Location ;
+    congr:pathString ".\\Semantic Arts Logo\\Color"^^xsd:anyURI ;
+    gist:hasLocation <http://example.com/files/> ;
+    gist:name "Color"^^xsd:string .
+
+congr3:_Directory_External%20Presentations_d7fc66693c a gist:Location ;
+    congr:pathString ".\\External Presentations"^^xsd:anyURI ;
+    gist:hasLocation <http://example.com/files/> ;
+    gist:name "External Presentations"^^xsd:string .
+
+congr3:_Directory_2023%20Certes%20-%20PW_17415ec8c0 a gist:Location ;
+    congr:pathString ".\\External Presentations\\2023 Certes - PW"^^xsd:anyURI ;
+    gist:hasLocation <http://example.com/files/> ;
+    gist:name "2023 Certes - PW"^^xsd:string .
+
+congr3:_Directory_2023%20DCA%20Virtual%20Sympossium_9d0fd4a2a7 a gist:Location ;
+    congr:pathString ".\\External Presentations\\2023 DCA Virtual Sympossium"^^xsd:anyURI ;
+    gist:hasLocation <http://example.com/files/> ;
+    gist:name "2023 DCA Virtual Sympossium"^^xsd:string .
+
+congr3:_Directory_2023%20DCAF%20FortCollins_26b87713c2 a gist:Location ;
+    congr:pathString ".\\External Presentations\\2023 DCAF FortCollins"^^xsd:anyURI ;
+    gist:hasLocation <http://example.com/files/> ;
+    gist:name "2023 DCAF FortCollins"^^xsd:string .
+
+congr3:_Directory_2023%20EDW%20Fall%20Anaheim_3f39243aad a gist:Location ;
+    congr:pathString ".\\External Presentations\\2023 EDW Fall Anaheim"^^xsd:anyURI ;
+    gist:hasLocation <http://example.com/files/> ;
+    gist:name "2023 EDW Fall Anaheim"^^xsd:string .
+
+congr3:_Directory_2023%20KGC_c094ac5d98 a gist:Location ;
+    congr:pathString ".\\External Presentations\\2023 KGC"^^xsd:anyURI ;
+    gist:hasLocation <http://example.com/files/> ;
+    gist:name "2023 KGC"^^xsd:string .
+
+congr3:_Directory_Amgen-2_2a38b74f13 a gist:Location ;
+    congr:pathString ".\\Proposals\\Amgen-2"^^xsd:anyURI ;
+    gist:hasLocation <http://example.com/files/> ;
+    gist:name "Amgen-2"^^xsd:string .
+
+congr3:_Directory_Architectural%20Firms_2dd7944279 a gist:Location ;
+    congr:pathString ".\\Targets\\Architectural Firms"^^xsd:anyURI ;
+    gist:hasLocation <http://example.com/files/> ;
+    gist:name "Architectural Firms"^^xsd:string .
+
+congr3:_Directory_ArtAndCartoons_984dfa4a96 a gist:Location ;
+    congr:pathString ".\\ArtAndCartoons"^^xsd:anyURI ;
+    gist:hasLocation <http://example.com/files/> ;
+    gist:name "ArtAndCartoons"^^xsd:string .
+
+congr3:_Directory_Infrabel_9bcab91a1c a gist:Location ;
+    congr:pathString ".\\Proposals\\Infrabel"^^xsd:anyURI ;
+    gist:hasLocation <http://example.com/files/> ;
+    gist:name "Infrabel"^^xsd:string .
+
+congr3:_Directory_NL%20Volksbank_d9882c047f a gist:Location ;
+    congr:pathString ".\\Proposals\\NL Volksbank"^^xsd:anyURI ;
+    gist:hasLocation <http://example.com/files/> ;
+    gist:name "NL Volksbank"^^xsd:string .
+
+congr3:_Directory_Proposals_f1a1fd1d52 a gist:Location ;
+    congr:pathString ".\\Proposals"^^xsd:anyURI ;
+    gist:hasLocation <http://example.com/files/> ;
+    gist:name "Proposals"^^xsd:string .
+
+congr3:_Directory_PwC_27e2bf5731 a gist:Location ;
+    congr:pathString ".\\Proposals\\PwC"^^xsd:anyURI ;
+    gist:hasLocation <http://example.com/files/> ;
+    gist:name "PwC"^^xsd:string .
+
+congr3:_Directory_Steve%20Creek_03d461ffd3 a gist:Location ;
+    congr:pathString ".\\Proposals\\Steve Creek"^^xsd:anyURI ;
+    gist:hasLocation <http://example.com/files/> ;
+    gist:name "Steve Creek"^^xsd:string .
+
+congr3:_Directory_US%20NSF_3cea3afc8b a gist:Location ;
+    congr:pathString ".\\Proposals\\US NSF"^^xsd:anyURI ;
+    gist:hasLocation <http://example.com/files/> ;
+    gist:name "US NSF"^^xsd:string .
+
+congr3:_Directory_de%20Volksbank_cfdaadefa2 a gist:Location ;
+    congr:pathString ".\\Proposals\\de Volksbank"^^xsd:anyURI ;
+    gist:hasLocation <http://example.com/files/> ;
+    gist:name "de Volksbank"^^xsd:string .
+
+congr3:_Directory_ioDase_6e3dea2e89 a gist:Location ;
+    congr:pathString ".\\Proposals\\ioDase"^^xsd:anyURI ;
+    gist:hasLocation <http://example.com/files/> ;
+    gist:name "ioDase"^^xsd:string .
+
+congr3:_Directory_writing%20gigs_a86ec38f14 a gist:Location ;
+    congr:pathString ".\\writing gigs"^^xsd:anyURI ;
+    gist:hasLocation <http://example.com/files/> ;
+    gist:name "writing gigs"^^xsd:string .
+
+congr3:_InformationQuantity_%28SA22%29%20file%20set-01.jpg_67acee872c gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 353399 .
+
+congr3:_InformationQuantity_2022-MCK-ANNUAL-REPORT.pdf_dee1c82102 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 2626255 .
+
+congr3:_InformationQuantity_2022Q4_alphabet_earnings_release.pdf_7f457d5dd5 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 148053 .
+
+congr3:_InformationQuantity_2023-03-18_ScottishGovernment_Schedule.xlsx_f653151c46 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 18071 .
+
+congr3:_InformationQuantity_9.1.1%20-%20WK%20Contract%20Template%20-%20MSA%232%20-%20v1.1%20%281%29--DMc.docx_27afa9814d gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 134021 .
+
+congr3:_InformationQuantity_AIA%20presentation%202.pptx_cc819cdbe5 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 2498735 .
+
+congr3:_InformationQuantity_AIA%20presentation.pptx_ea3670a2f9 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 2495032 .
+
+congr3:_InformationQuantity_AZ_MondaySymposisum2c.pptx_82415320a7 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 40101045 .
+
+congr3:_InformationQuantity_AZ_TuesdayWorkshopAP.pptx_6a76fdd1cd gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 21564381 .
+
+congr3:_InformationQuantity_Advertising%2C%20PR%20%26%20Web%20Firms%2C%20Boulder%20Valley.xls_81f75b3fb2 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 9079 .
+
+congr3:_InformationQuantity_Advertising%2C%20PR%20%26%20Web%20Firms%2C%20Northern%20Colorado.xls_a9e5651d81 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 11058 .
+
+congr3:_InformationQuantity_Aerospace%20Companies.xls_0b0fb70cb7 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 11841 .
+
+congr3:_InformationQuantity_Agreement%20with%20DMc%20signature.pdf_57e6a5c3ad gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 81244 .
+
+congr3:_InformationQuantity_Agribusinesses.xls_b501037646 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 11665 .
+
+congr3:_InformationQuantity_Aiken%20-%202023-06%20Data%20Literacy%20for%20Knowledge%20Workers%20%28Calgary%29.pdf_201e6f30b5 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 3525467 .
+
+congr3:_InformationQuantity_Amazon-2021-Annual-Report.pdf_90dc485095 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 1277990 .
+
+congr3:_InformationQuantity_Architecture%20Firms.xls_2124015ed5 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 13501 .
+
+congr3:_InformationQuantity_Architecture%20Firms.xlsx_c0653a9074 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 25331 .
+
+congr3:_InformationQuantity_Assisted%20Living%2C%20Independent%20Living%20and%20Skilled-Nursing%20Facilities%2C%20Boulder%20Valley.xls_7888ae7a52 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 31501 .
+
+congr3:_InformationQuantity_Assisted-Living%20Centers%2C%20Northern%20Colorado.xls_0cca27bfc8 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 8998 .
+
+congr3:_InformationQuantity_Attendees.pptx_2db9c22951 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 380572 .
+
+congr3:_InformationQuantity_Banks%20by%20Deposit.xls_9ba91b7c5f gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 12380 .
+
+congr3:_InformationQuantity_Banks%2C%20Colorado-based.xls_e1c00adce4 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 10736 .
+
+congr3:_InformationQuantity_Banks%2C%20Out-of-State.xls_33c16fa199 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 5717 .
+
+congr3:_InformationQuantity_Becoming%20Data-Centric.pptx_91d18c0045 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 2983794 .
+
+congr3:_InformationQuantity_Becoming%20Data.docx_4c1ed8ddf5 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 42933 .
+
+congr3:_InformationQuantity_Berkshire%20Hathaway2021ar.pdf_d852538588 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 934618 .
+
+congr3:_InformationQuantity_Bill%20C-27%20Status%20Update.pdf_11eadb2159 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 548236 .
+
+congr3:_InformationQuantity_Breweries%20%26%20Brewpubs.xls_e5e59b4e39 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 8642 .
+
+congr3:_InformationQuantity_BritishMuseumQuery.txt_cfcf6bafc7 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 242 .
+
+congr3:_InformationQuantity_CPA%20Firms%2C%20Boulder%20Valley.xls_0fe3fcd9c5 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 10460 .
+
+congr3:_InformationQuantity_CPA%20Firms%2C%20Northern%20Colorado.xls_d75a4e6dd4 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 11275 .
+
+congr3:_InformationQuantity_Cannabis%20Companies.xls_8626290170 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 9593 .
+
+congr3:_InformationQuantity_Case%20Study%20Template.docx_9a7c956a7f gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 22255 .
+
+congr3:_InformationQuantity_Citi%20Session%203.pptx_2c5a7bd64b gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 3868798 .
+
+congr3:_InformationQuantity_Citi%20lesson%20A%20slides.pptx_a661bb9d9b gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 19606676 .
+
+congr3:_InformationQuantity_Clean-Tech%20Companies.xls_a188b74682 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 9962 .
+
+congr3:_InformationQuantity_Colleges%20%26%20Universities.xls_6ed46d40e7 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 3988 .
+
+congr3:_InformationQuantity_Commercial%20General%20Contractors.xls_92ac417bbf gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 14179 .
+
+congr3:_InformationQuantity_Commercial%20Real%20Estate%20Brokerages.xls_fdd9c27e7e gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 4540 .
+
+congr3:_InformationQuantity_DCAF-2023-gist.pptx_ac0adfcc8e gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 7921355 .
+
+congr3:_InformationQuantity_DMC%20Conference%20Expense%20Report%20Template.xlsx_29f2ca9355 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 80066 .
+
+congr3:_InformationQuantity_DMc%20Notes.docx_6d60257fd2 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 29349 .
+
+congr3:_InformationQuantity_DataCentric%20Journey.pptx_c6312b5cf1 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 686498 .
+
+congr3:_InformationQuantity_Day%201%20Symposium.pptx_218fd7e658 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 3373399 .
+
+congr3:_InformationQuantity_ERP%20icon.jpg_c5944dec55 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 41581 .
+
+congr3:_InformationQuantity_ESBN%20EY%20participants%20list_2023.docx_53e6612b7b gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 21200 .
+
+congr3:_InformationQuantity_ESBN%20project%20-%20Semantic%20Arts%20Subcontract%20Agreement_Peter%20Winstanley.docx_4f97be66a0 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 29808 .
+
+congr3:_InformationQuantity_Electrical%20Contractors.xls_55caea77b3 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 5486 .
+
+congr3:_InformationQuantity_Engineering%20Firms.xls_42dcf775eb gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 10289 .
+
+congr3:_InformationQuantity_Equal%20Employment%20Opportunity_Semantic%20Arts%20Digital%20Handbook.docx_60b1f5b042 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 24833 .
+
+congr3:_InformationQuantity_FDA%20known.%20attendeesdocx.docx_3a15c51caa gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 71506 .
+
+congr3:_InformationQuantity_FDA%20v2.pptx_cb1611e3f7 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 16206935 .
+
+congr3:_InformationQuantity_FocussedWhitepaper_16062023.docx_84521c7896 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 173908 .
+
+congr3:_InformationQuantity_For%20a%20skeptic-2.docx_af18dd1325 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 21076 .
+
+congr3:_InformationQuantity_For%20a%20skeptic.docx_246de86f37 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 21106 .
+
+congr3:_InformationQuantity_Getting%20started.pptx_35175bf5c2 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 4617926 .
+
+congr3:_InformationQuantity_Global%205000%20db%2022%20Feb%2022.xlsx_65ed933ed6 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 1634120 .
+
+congr3:_InformationQuantity_Graph%20Data%20Base%20Pilot%20-%20ITT%20-%201.0.docx_471198b353 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 985738 .
+
+congr3:_InformationQuantity_Highest-Paid%20Executives.xls_2e0cc101bc gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 4491 .
+
+congr3:_InformationQuantity_Highest-Paid%20Executives.xlsx_6dae3d0b88 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 21992 .
+
+congr3:_InformationQuantity_Home%20Builders.xls_84ae1b7bcb gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 6505 .
+
+congr3:_InformationQuantity_Honeycomb%20to%20gist%20for%20xref.docx_e1b65da4e2 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 36825 .
+
+congr3:_InformationQuantity_Hospitals%2C%20Boulder%20Valley.xls_bcf7466518 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 2636 .
+
+congr3:_InformationQuantity_Hospitals%2C%20Northern%20Colorado.xls_1bfdd4f8a8 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 3340 .
+
+congr3:_InformationQuantity_How%20to%20Write%20a%20Case%20Study.mp4_c12ba76ea8 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 458265904 .
+
+congr3:_InformationQuantity_How%20to%20Write%20a%20Case%20Study.pptx_716627b887 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 20379809 .
+
+congr3:_InformationQuantity_IB%20Pitch%20-%20Final.docx_3209dc42a0 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 21241 .
+
+congr3:_InformationQuantity_IT%20Consultants.xls_55871c8f5a gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 6789 .
+
+congr3:_InformationQuantity_IT%20Consultants.xlsx_1e739b9495 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 19925 .
+
+congr3:_InformationQuantity_Independent%20Subcontract%20Agreement%20Template%20for%20ESBN%20project.docx_8fe1ceb035 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 29915 .
+
+congr3:_InformationQuantity_Independent-Living%20Facilities%2C%20Northern%20Colorado.xls_847f304790 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 8040 .
+
+congr3:_InformationQuantity_Insurance%20Brokerages.xls_3bb63d1182 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 4639 .
+
+congr3:_InformationQuantity_Is%20a%20Knowledge%20Ontology%20the%20Missing%20Link.docx_bbb112671d gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 563727 .
+
+congr3:_InformationQuantity_Is%20a%20Knowledge%20Ontology%20the%20Missing%20Link2.docx_3dbfafffe2 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 563869 .
+
+congr3:_InformationQuantity_J.%20Lozano%20-%20Responsible%20AI%20in%20Canadian%20Financial%20Services.pptx_6654f388a9 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 18674594 .
+
+congr3:_InformationQuantity_Jump%20Start%20Your%20Knowledge%20Graph%20with%20gist%21%20V2.pptx_3488e34ef8 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 1125019 .
+
+congr3:_InformationQuantity_Knowledge%20Graph%20%26%20Semantics%20Community%20Call-20210901_173453-Besprechungsaufzeichnung.mp4_4b44df4e88 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 478453096 .
+
+congr3:_InformationQuantity_Knowledge%20Graph%20and%20Data-Centric%20for%20Dupont-v2.pptx_7f5aa9fc9c gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 7669657 .
+
+congr3:_InformationQuantity_Knowledge%20Graph%20and%20Data-Centric%20for%20Dupont.pptx_fdffc6109e gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 4940664 .
+
+congr3:_InformationQuantity_Labels.docx_065cf0276b gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 40777 .
+
+congr3:_InformationQuantity_Law%20Firms.xls_cfbdb6d99b gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 19179 .
+
+congr3:_InformationQuantity_Letterhead.docx_a746e2f0f5 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 90469 .
+
+congr3:_InformationQuantity_License%20on%20Global%205000.docx_f859697033 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 16952 .
+
+congr3:_InformationQuantity_Life-Sciences%20Companies.xls_4f0752d3e8 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 11094 .
+
+congr3:_InformationQuantity_LinkedInSize.jpg_3f6b38adb2 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 7848 .
+
+congr3:_InformationQuantity_MS%20MAP%20RFP%20Response_%20Resumes_SC%20edits.pptx_c78224987d gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 1822200 .
+
+congr3:_InformationQuantity_Making%20a%20Case%20for%20a%20Knowledge%20Commons.docx_20a2786442 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 27138 .
+
+congr3:_InformationQuantity_Making%20a%20Case%20for%20a%20Knowledge%20Commons2.docx_dc766f712a gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 27577 .
+
+congr3:_InformationQuantity_Making%20a%20Case%20for%20a%20Knowledge%20Commons2_LZ.docx_f0f4fc2d3f gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 36661 .
+
+congr3:_InformationQuantity_Manufacturers.xls_eaedb2b3ad gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 24754 .
+
+congr3:_InformationQuantity_Marketing%20Task%20List.docx_1ba021ad6c gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 28667 .
+
+congr3:_InformationQuantity_McComb%20-%20Becoming%20Data-Centric.pptx_e4cc411d3a gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 2982476 .
+
+congr3:_InformationQuantity_Mercury%20100%20Boulder%20Valley%20Flight%20I.xls_04b160b599 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 5064 .
+
+congr3:_InformationQuantity_Mercury%20100%20Boulder%20Valley%20Flight%20II.xls_a216ae41a7 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 5211 .
+
+congr3:_InformationQuantity_Mercury%20100%20Boulder%20Valley%20Flight%20III.xls_38e48fc523 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 4969 .
+
+congr3:_InformationQuantity_Mercury%20100%20Boulder%20Valley%20Flight%20IV.xls_e6b8141f3b gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 4704 .
+
+congr3:_InformationQuantity_Mercury%20100%20Boulder%20Valley%20Flight%20V.xls_495fab9cb1 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 4374 .
+
+congr3:_InformationQuantity_Mercury%20100%20Northern%20Colorado%20Flight%20I.xls_761873bdb4 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 5200 .
+
+congr3:_InformationQuantity_Mercury%20100%20Northern%20Colorado%20Flight%20I.xlsx_9b9aa7c7b1 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 21053 .
+
+congr3:_InformationQuantity_Mercury%20100%20Northern%20Colorado%20Flight%20II.xls_c8fb0daf7f gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 5051 .
+
+congr3:_InformationQuantity_Mercury%20100%20Northern%20Colorado%20Flight%20III.xls_d8a0ac80f1 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 5075 .
+
+congr3:_InformationQuantity_Mercury%20100%20Northern%20Colorado%20Flight%20IV.xls_34b079291b gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 4601 .
+
+congr3:_InformationQuantity_Mercury%20100%20Northern%20Colorado%20Flight%20V.xls_c750252276 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 4413 .
+
+congr3:_InformationQuantity_Mercury%20100%20Northern%20Colorado%20Flight%20V.xlsx_9a054faa52 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 20499 .
+
+congr3:_InformationQuantity_Metrics%20Tracker.xlsx_69960c0311 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 27459 .
+
+congr3:_InformationQuantity_Misunderstood%20route%20to%20simplicity-v1-GRAV.pptx_a27263b02e gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 13194096 .
+
+congr3:_InformationQuantity_Misunderstood%20route%20to%20simplicity-v1-GRAV.pptx_ac940b7207 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 14737328 .
+
+congr3:_InformationQuantity_Misunderstood%20route%20to%20simplicity.pptx_1111f821c6 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 4338203 .
+
+congr3:_InformationQuantity_MondaySymposisum.pptx_2ac1e62b1f gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 25028661 .
+
+congr3:_InformationQuantity_Moody%27s_DiscoverOrg%5B21578%5D.pdf_b4211930ba gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 223455 .
+
+congr3:_InformationQuantity_Municipalities.xls_b5cb6a6cc9 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 9587 .
+
+congr3:_InformationQuantity_NYSE_CVS_2021.pdf_21228d5d65 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 3758749 .
+
+congr3:_InformationQuantity_Natural-Gas%20Production%20Companies.xls_1f10c10075 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 14394 .
+
+congr3:_InformationQuantity_Natural-Products%20Companies.xls_f4161b5338 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 7962 .
+
+congr3:_InformationQuantity_Next%20Generation%20Data%20Webinar%20Final%20Cut.mp4_a54d6cb8b8 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 1641589683 .
+
+congr3:_InformationQuantity_Nonprofits%2C%20Boulder%20Valley.xls_3f33585fa1 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 17537 .
+
+congr3:_InformationQuantity_Nonprofits%2C%20Northern%20Colorado.xls_1be187b02b gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 20026 .
+
+congr3:_InformationQuantity_Note%20to%20steve%20creek_01_23_23.docx_93bc570751 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 23545 .
+
+congr3:_InformationQuantity_Notes%20on%20the%20AIA%202023%20Conference.docx_ea489c3012 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 510271 .
+
+congr3:_InformationQuantity_Notes%20on%20the%20AIA%202023%20Conference2.docx_dd69e81fe1 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 506882 .
+
+congr3:_InformationQuantity_OKN%20Roadmap%20-%20Appendix%20A_v03.pdf_fa29b015c9 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 4012674 .
+
+congr3:_InformationQuantity_Office%20Furniture%20%26%20Design%20Companies.xls_40eacab1d1 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 3998 .
+
+congr3:_InformationQuantity_Oil-Production%20Companies.xls_9b8411cda4 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 14394 .
+
+congr3:_InformationQuantity_Outdoor%20Companies.xls_d71ac0649e gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 9528 .
+
+congr3:_InformationQuantity_Payroll%20Service%20Providers.xls_3f943f1b61 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 2689 .
+
+congr3:_InformationQuantity_Payroll%20Service%20Providers.xlsx_8482c3596b gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 19617 .
+
+congr3:_InformationQuantity_Phil%20Hoetger%20-%20CPS%20Cyber%20DMC%20Presentation%202023%2005.pdf_5e5fcecdd6 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 3156800 .
+
+congr3:_InformationQuantity_Physical%20Therapy%20%26%20Rehabilitation%20Centers%2C%20Boulder%20Valley.xls_3c53dcf699 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 5976 .
+
+congr3:_InformationQuantity_Physical%20Therapy%20%26%20Rehabilitation%20Centers%2C%20Northern%20Colorado.xls_8795ead623 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 5163 .
+
+congr3:_InformationQuantity_Picture1.jpg_c09c86f8ee gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 33118 .
+
+congr3:_InformationQuantity_Potential%20Book%20Reviews.xlsx_81d43a68b3 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 19537 .
+
+congr3:_InformationQuantity_Presentation%20to%20Dupont.pptx_485f3fa98a gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 470775 .
+
+congr3:_InformationQuantity_PresentationTemplate.pptx_28cc98ec1e gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 3898535 .
+
+congr3:_InformationQuantity_PresentationTemplateInvert.pptx_83ca37f200 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 3706487 .
+
+congr3:_InformationQuantity_Private%20Schools.xls_42e62c37fe gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 8675 .
+
+congr3:_InformationQuantity_Project%20Management%20Software%20Feedback.pdf_1592cbe3d7 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 284972 .
+
+congr3:_InformationQuantity_Projects%20for%20Scottish%20Govt%20proposal.docx_40d1d461b5 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 29443 .
+
+congr3:_InformationQuantity_Proposal%20to%20Assist%20Amgen%20in%20Creating%20a%20Semantic%20Layer%20for%20the%20Data%20Fabric.docx_82212fab74 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 25962 .
+
+congr3:_InformationQuantity_Proposal%20to%20assisting%20Infrabell%20Enterprise%20and%20Domain%20Ontology_03_01_23.docx_f81bee0504 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 27400 .
+
+congr3:_InformationQuantity_Proposal_Provision%20of%20Graph%20Data%20Base%20Pilot_03_20_23.pdf_182ef8f446 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 1230607 .
+
+congr3:_InformationQuantity_Public%20Companies.xls_785b4ffd25 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 7436 .
+
+congr3:_InformationQuantity_Public%20Companies.xlsx_a9352d17be gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 23959 .
+
+congr3:_InformationQuantity_Public-Sector%20Employers.xls_d3d156c2b4 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 17652 .
+
+congr3:_InformationQuantity_Public-Sector%20Employers.xlsx_7c376d632b gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 27942 .
+
+congr3:_InformationQuantity_Publication%20Award%20Offers%202023.xlsx_9365fbfb99 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 19101 .
+
+congr3:_InformationQuantity_RC%20pitch.docx_66d1005aaf gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 21038 .
+
+congr3:_InformationQuantity_RFP%20Resources.docx_824231bb9c gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 23332 .
+
+congr3:_InformationQuantity_Response%20to%20de%20Volksbank_Dan%20Carey.pptx_ffca14f63c gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 173355 .
+
+congr3:_InformationQuantity_SA22_black.pdf_9de902ae35 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 74395 .
+
+congr3:_InformationQuantity_SA22_black.svg_814f252926 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 15933 .
+
+congr3:_InformationQuantity_SA22_black_144.jpg_6cf49b8186 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 94719 .
+
+congr3:_InformationQuantity_SA22_black_144.png_17e5c18304 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 19683 .
+
+congr3:_InformationQuantity_SA22_black_266.jpg_23a669d63e gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 174649 .
+
+congr3:_InformationQuantity_SA22_black_266.png_9f0acd3afc gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 41950 .
+
+congr3:_InformationQuantity_SA22_black_600.jpg_f63430a9b2 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 451142 .
+
+congr3:_InformationQuantity_SA22_black_600.png_1e51ab7cc8 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 100252 .
+
+congr3:_InformationQuantity_SA22_black_72.jpg_c91359c0b6 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 53887 .
+
+congr3:_InformationQuantity_SA22_black_72.png_dfcabf852b gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 7491 .
+
+congr3:_InformationQuantity_SA22_color.pdf_7010621908 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 72402 .
+
+congr3:_InformationQuantity_SA22_color.svg_7cd1ab498a gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 16101 .
+
+congr3:_InformationQuantity_SA22_color_144.jpg_4973e65b15 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 114097 .
+
+congr3:_InformationQuantity_SA22_color_144.png_5200f1c1c6 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 25932 .
+
+congr3:_InformationQuantity_SA22_color_266.jpg_a1606f449c gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 207176 .
+
+congr3:_InformationQuantity_SA22_color_266.png_7b74b95417 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 51786 .
+
+congr3:_InformationQuantity_SA22_color_600.jpg_2652aa76a4 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 511648 .
+
+congr3:_InformationQuantity_SA22_color_600.png_3448c36cca gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 121331 .
+
+congr3:_InformationQuantity_SA22_color_72.jpg_8b992fb168 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 62527 .
+
+congr3:_InformationQuantity_SA22_color_72.png_5826bc26ce gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 9835 .
+
+congr3:_InformationQuantity_SA22_white.pdf_01da788ba4 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 55237 .
+
+congr3:_InformationQuantity_SA22_white.svg_511a12e9f3 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 16101 .
+
+congr3:_InformationQuantity_SA22_white_144.png_a09728bb80 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 21473 .
+
+congr3:_InformationQuantity_SA22_white_266.png_09e5328cb8 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 46532 .
+
+congr3:_InformationQuantity_SA22_white_600.png_0a25a8c2c2 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 113815 .
+
+congr3:_InformationQuantity_SA22_white_72.png_a3a618f0d2 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 8185 .
+
+congr3:_InformationQuantity_SAPresentationTheme.thmx_9f31295754 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 485359 .
+
+congr3:_InformationQuantity_SBA%20Lenders.xls_14a782361d gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 9928 .
+
+congr3:_InformationQuantity_Scottish%20Govt_KG%20POC_Resource%20Estimate%2003_09_23.xlsx_d62f30ecaa gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 22180 .
+
+congr3:_InformationQuantity_Semantic%20Arts%20logo%20in%20PPT.pptx_09e6f918fb gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 130884 .
+
+congr3:_InformationQuantity_Semantic%20Arts_%20Odase%20Ontology%20doc%20Proposal%2003_30_2023.docx_63611660cf gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 62526 .
+
+congr3:_InformationQuantity_Semantic%20Arts_FDANIH%20ontology%20round%20table_02172023.mp4_c378b346e4 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 324082980 .
+
+congr3:_InformationQuantity_SemanticArts%20-%20New%20Customer%20Administration.pptx_911ec7a7ee gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 2000853 .
+
+congr3:_InformationQuantity_Session%206%20Design%20and%20Approach.pptx_ae504342e8 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 1342349 .
+
+congr3:_InformationQuantity_Skilled-Nursing%20Facilities%2C%20Northern%20Colorado.xls_d484888c8c gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 8502 .
+
+congr3:_InformationQuantity_Small%20Group%20Health%20Insurance%20Carriers.xls_a52de8adf6 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 2641 .
+
+congr3:_InformationQuantity_Software%20Companies.xls_82986f64f3 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 14928 .
+
+congr3:_InformationQuantity_Software%20Companies.xlsx_84f532af68 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 26015 .
+
+congr3:_InformationQuantity_Surgery%20Centers%2C%20Boulder%20Valley.xls_959ab21b42 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 3819 .
+
+congr3:_InformationQuantity_Surgery%20Centers%2C%20Northern%20Colorado.xls_0a1c6ac9ee gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 5241 .
+
+congr3:_InformationQuantity_Telescope.jpg_85a5114386 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 285587 .
+
+congr3:_InformationQuantity_Thoughts%20on%20the%20Data%20Explosion.docx_f9b656b9d9 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 23499 .
+
+congr3:_InformationQuantity_Tim%20Wenzel%20-%20Patching%20the%20Human%20firewall.pptx_0da850bbeb gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 1986585 .
+
+congr3:_InformationQuantity_Top%20300%20architectural%20firms.xlsx_508c73d6e6 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 45486 .
+
+congr3:_InformationQuantity_TuesdayWorkshop.pptx_49f9d327d4 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 39341010 .
+
+congr3:_InformationQuantity_UNH-Q4-2021-Form-10-K.pdf_b883a8d6f0 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 448604 .
+
+congr3:_InformationQuantity_Understanding%20Knowledge%20Graphs.pptx_b209741174 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 11029768 .
+
+congr3:_InformationQuantity_Understanding%20Knowledge%20Graphs2%20-talk.pptx_e676ad37cf gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 11186295 .
+
+congr3:_InformationQuantity_Utility%20Providers.xls_b4c08e3ebd gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 3424 .
+
+congr3:_InformationQuantity_WMT-FY2022-Annual-Report.pdf_d2f9708b75 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 1858596 .
+
+congr3:_InformationQuantity_Wikipedia%20Copy.docx_b86f3a35e1 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 28590 .
+
+congr3:_InformationQuantity_WolterKluwer_Workplan_6_12_23.xlsx_fbd42f0815 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 23510 .
+
+congr3:_InformationQuantity_Wolters_Kluwer_SOW_6_19_2023.docx_de0e6ba504 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 1663980 .
+
+congr3:_InformationQuantity_Wolters_Kluwer_SOW_6_28_2023.docx_cc8970ca79 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 1665289 .
+
+congr3:_InformationQuantity_Women-Owned%20Businesses%20Boulder%20Valley.xls_3400ac379f gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 10857 .
+
+congr3:_InformationQuantity_Women-Owned%20Businesses%20Northern%20Colorado.xls_defa6d9478 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 14089 .
+
+congr3:_InformationQuantity_XOM%202021%2010K%200000034088-22-000011.pdf_01ed80cdd0 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 2187865 .
+
+congr3:_InformationQuantity_Zero%20copy.docx_2d0ba6b991 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 21750 .
+
+congr3:_InformationQuantity_ZeroCopyIntegration.pptx_35e916b5e9 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 10596784 .
+
+congr3:_InformationQuantity_ZeroCopyIntegration.pptx_3cfa7573ca gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 9059954 .
+
+congr3:_InformationQuantity_abstract.docx_3318989a1e gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 20707 .
+
+congr3:_InformationQuantity_ameren%2010K%202022.pdf_64c8a90d83 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 209168477 .
+
+congr3:_InformationQuantity_americaousrce%20bergen.pdf_f937a8dbc2 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 1367135 .
+
+congr3:_InformationQuantity_apple%202022.pdf_b335353665 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 840980 .
+
+congr3:_InformationQuantity_banner.png_730c0f4c86 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 362866 .
+
+congr3:_InformationQuantity_bannerSmaller.png_1506a82c7d gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 316773 .
+
+congr3:_InformationQuantity_communication.jpg_1a65d4ee95 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 23363 .
+
+congr3:_InformationQuantity_dashboard.jpg_4abdb1e5c0 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 522359 .
+
+congr3:_InformationQuantity_db%20icon.jpg_3afa62cb56 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 45024 .
+
+congr3:_InformationQuantity_deltek.jpg_cdb7749bed gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 734053 .
+
+congr3:_InformationQuantity_doctor.jpg_4ddcf50729 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 65816 .
+
+congr3:_InformationQuantity_fortune%20500.xlsx_56147440e8 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 56635 .
+
+congr3:_InformationQuantity_gears.pdf_173d539ef0 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 164065 .
+
+congr3:_InformationQuantity_generic%20person.jpg_0ac51f9361 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 33943 .
+
+congr3:_InformationQuantity_global%202000.xlsx_e40f45f5c3 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 135155 .
+
+congr3:_InformationQuantity_global%202000a.xlsx_73bb81a4ff gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 143069 .
+
+congr3:_InformationQuantity_global%202000b.xlsx_615d958bd2 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 90922 .
+
+congr3:_InformationQuantity_global%202000c.xlsx_b2fb927c54 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 90978 .
+
+congr3:_InformationQuantity_iStock-1416006689.jpg_673834b306 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 107405 .
+
+congr3:_InformationQuantity_iStock-535991075.jpg_8edceac571 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 330156 .
+
+congr3:_InformationQuantity_lawfirms.xlsx_6b98adacd6 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 26489 .
+
+congr3:_InformationQuantity_layers.pptx_f4c5e572f2 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 786593 .
+
+congr3:_InformationQuantity_nemetshcek.jpg_7e8f79fe55 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 914699 .
+
+congr3:_InformationQuantity_notes%20on%20PKG.docx_c3bd168906 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 21374 .
+
+congr3:_InformationQuantity_our%20ranking%20of%20G5000.xlsx_238892e982 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 2469219 .
+
+congr3:_InformationQuantity_patient.jpg_747449e181 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 96080 .
+
+congr3:_InformationQuantity_smaller.jpg_7b96efda10 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 10058 .
+
+congr3:_InformationQuantity_smaller.png_323629cfeb gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 14554 .
+
+congr3:_InformationQuantity_specialist.jpg_9d58b4702d gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 98169 .
+
+congr3:_InformationQuantity_targets%20in%20our%20cities.xlsx_3c250e2e20 gist:hasUnitOfMeasure xsd:byte ;
+    gist:hasValue 203778 .
+
+gist:_MediaType_applicationvnd.ms-officetheme a gist:MediaType .
+
+gist:_MediaType_textplain a gist:MediaType .
+
+congr3:_Directory_Semantic%20Arts%20Logo_fe730ff47f a gist:Location ;
+    congr:pathString ".\\Semantic Arts Logo"^^xsd:anyURI ;
+    gist:hasLocation <http://example.com/files/> ;
+    gist:name "Semantic Arts Logo"^^xsd:string .
+
+congr3:_Directory_TDAN_8c7267e320 a gist:Location ;
+    congr:pathString ".\\writing gigs\\TDAN"^^xsd:anyURI ;
+    gist:hasLocation <http://example.com/files/> ;
+    gist:name "TDAN"^^xsd:string .
+
+congr3:_Directory_Vector_989d14ba49 a gist:Location ;
+    congr:pathString ".\\Semantic Arts Logo\\White\\Vector"^^xsd:anyURI ;
+    gist:hasLocation <http://example.com/files/> ;
+    gist:name "Vector"^^xsd:string .
+
+congr3:_Directory_Vector_b4f31c3e58 a gist:Location ;
+    congr:pathString ".\\Semantic Arts Logo\\Black\\Vector"^^xsd:anyURI ;
+    gist:hasLocation <http://example.com/files/> ;
+    gist:name "Vector"^^xsd:string .
+
+congr3:_Directory_Vector_e1cd05d30d a gist:Location ;
+    congr:pathString ".\\Semantic Arts Logo\\Color\\Vector"^^xsd:anyURI ;
+    gist:hasLocation <http://example.com/files/> ;
+    gist:name "Vector"^^xsd:string .
+
+congr3:_Directory_White_c8c8d54709 a gist:Location ;
+    congr:pathString ".\\Semantic Arts Logo\\White"^^xsd:anyURI ;
+    gist:hasLocation <http://example.com/files/> ;
+    gist:name "White"^^xsd:string .
+
+congr3:_Directory_2023%20Data%20Day%20Austin_a30e938f03 a gist:Location ;
+    congr:pathString ".\\External Presentations\\2023 Data Day Austin"^^xsd:anyURI ;
+    gist:hasLocation <http://example.com/files/> ;
+    gist:name "2023 Data Day Austin"^^xsd:string .
+
+gist:_MediaType_imagesvg%2Bxml a gist:MediaType .
+
+congr3:_Directory_2023%20DMC%20Calgary_81a5262a64 a gist:Location ;
+    congr:pathString ".\\External Presentations\\2023 DMC Calgary"^^xsd:anyURI ;
+    gist:hasLocation <http://example.com/files/> ;
+    gist:name "2023 DMC Calgary"^^xsd:string .
+
+congr3:_Directory_CIMpleData_bc09f49525 a gist:Location ;
+    congr:pathString ".\\Proposals\\CIMpleData"^^xsd:anyURI ;
+    gist:hasLocation <http://example.com/files/> ;
+    gist:name "CIMpleData"^^xsd:string .
+
+congr3:_Directory_Fortune5000_74a8d49c9f a gist:Location ;
+    congr:pathString ".\\Targets\\Fortune5000"^^xsd:anyURI ;
+    gist:hasLocation <http://example.com/files/> ;
+    gist:name "Fortune5000"^^xsd:string .
+
+congr3:_Directory_JPG%20-%20Image_7dfa706cda a gist:Location ;
+    congr:pathString ".\\Semantic Arts Logo\\Black\\JPG - Image"^^xsd:anyURI ;
+    gist:hasLocation <http://example.com/files/> ;
+    gist:name "JPG - Image"^^xsd:string .
+
+congr3:_Directory_PNG%20-%20Transparent_adb189bb0b a gist:Location ;
+    congr:pathString ".\\Semantic Arts Logo\\Black\\PNG - Transparent"^^xsd:anyURI ;
+    gist:hasLocation <http://example.com/files/> ;
+    gist:name "PNG - Transparent"^^xsd:string .
+
+congr3:_Directory_PNG%20-%20Transparent_b177428db4 a gist:Location ;
+    congr:pathString ".\\Semantic Arts Logo\\White\\PNG - Transparent"^^xsd:anyURI ;
+    gist:hasLocation <http://example.com/files/> ;
+    gist:name "PNG - Transparent"^^xsd:string .
+
+congr3:_Directory_WoltersKluwer_e2fc1a5c65 a gist:Location ;
+    congr:pathString ".\\Proposals\\WoltersKluwer"^^xsd:anyURI ;
+    gist:hasLocation <http://example.com/files/> ;
+    gist:name "WoltersKluwer"^^xsd:string .
+
+gist:_MediaType_videomp4 a gist:MediaType .
+
+congr3:_Directory_EBI%20KM_3c19eae274 a gist:Location ;
+    congr:pathString ".\\writing gigs\\EBI KM"^^xsd:anyURI ;
+    gist:hasLocation <http://example.com/files/> ;
+    gist:name "EBI KM"^^xsd:string .
+
+congr3:_Directory_PNG%20-%20Transparent_e344be9103 a gist:Location ;
+    congr:pathString ".\\Semantic Arts Logo\\Color\\PNG - Transparent"^^xsd:anyURI ;
+    gist:hasLocation <http://example.com/files/> ;
+    gist:name "PNG - Transparent"^^xsd:string .
+
+congr3:_Directory_OtherPresentations_246ca346a6 a gist:Location ;
+    congr:pathString ".\\External Presentations\\2023 DMC Calgary\\OtherPresentations"^^xsd:anyURI ;
+    gist:hasLocation <http://example.com/files/> ;
+    gist:name "OtherPresentations"^^xsd:string .
+
+congr3:_Directory_2023%20Dupont%20Data%20Scientists_aedc3731d4 a gist:Location ;
+    congr:pathString ".\\External Presentations\\2023 Dupont Data Scientists"^^xsd:anyURI ;
+    gist:hasLocation <http://example.com/files/> ;
+    gist:name "2023 Dupont Data Scientists"^^xsd:string .
+
+congr3:_Directory_JPG%20-%20Image_cfe03bddc0 a gist:Location ;
+    congr:pathString ".\\Semantic Arts Logo\\Color\\JPG - Image"^^xsd:anyURI ;
+    gist:hasLocation <http://example.com/files/> ;
+    gist:name "JPG - Image"^^xsd:string .
+
+congr3:_Directory_Scottish%20Government_d2ed491fe2 a gist:Location ;
+    congr:pathString ".\\Proposals\\Scottish Government"^^xsd:anyURI ;
+    gist:hasLocation <http://example.com/files/> ;
+    gist:name "Scottish Government"^^xsd:string .
+
+congr3:_Directory_Targets_adad9036eb a gist:Location ;
+    congr:pathString ".\\Targets"^^xsd:anyURI ;
+    gist:hasLocation <http://example.com/files/> ;
+    gist:name "Targets"^^xsd:string .
+
+congr3:_Directory_Architectural%20Firm%20Market_d59c914b28 a gist:Location ;
+    congr:pathString ".\\Architectural Firm Market"^^xsd:anyURI ;
+    gist:hasLocation <http://example.com/files/> ;
+    gist:name "Architectural Firm Market"^^xsd:string .
+
+congr3:_Directory_2023%20EDW%20Spring_0a0c1d7c8a a gist:Location ;
+    congr:pathString ".\\External Presentations\\2023 EDW Spring"^^xsd:anyURI ;
+    gist:hasLocation <http://example.com/files/> ;
+    gist:name "2023 EDW Spring"^^xsd:string .
+
+congr3:_Directory_Pitch_6b30e97371 a gist:Location ;
+    congr:pathString ".\\Pitch"^^xsd:anyURI ;
+    gist:hasLocation <http://example.com/files/> ;
+    gist:name "Pitch"^^xsd:string .
+
+congr3:_Directory_Annual%20Reports_39e6dd16fc a gist:Location ;
+    congr:pathString ".\\Targets\\Fortune5000\\Annual Reports"^^xsd:anyURI ;
+    gist:hasLocation <http://example.com/files/> ;
+    gist:name "Annual Reports"^^xsd:string .
+
+congr3:_Directory_2023%20Feb%20FDA_8e760a8509 a gist:Location ;
+    congr:pathString ".\\External Presentations\\2023 Feb FDA"^^xsd:anyURI ;
+    gist:hasLocation <http://example.com/files/> ;
+    gist:name "2023 Feb FDA"^^xsd:string .
+
+gist:_MediaType_imagepng a gist:MediaType .
+
+gist:_MediaType_applicationpdf a gist:MediaType .
+
+gist:_MediaType_imagejpeg a gist:MediaType .
+
+gist:_MediaType_applicationvnd.openxmlformats-officedocument.spreadsheetml.sheet a gist:MediaType .
+
+gist:_MediaType_applicationvnd.openxmlformats-officedocument.presentationml.presentation a gist:MediaType .
+
+gist:_MediaType_applicationvnd.openxmlformats-officedocument.wordprocessingml.document a gist:MediaType .
+
+<http://example.com/files/> a gist:Location ;
+    congr:pathString "."^^xsd:anyURI ;
+    gist:name "."^^xsd:string .
+
+gist:_MediaType_applicationvnd.ms-excel a gist:MediaType .
+
+congr3:_Directory_Colorado%20Companies_cc13c65973 a gist:Location ;
+    congr:pathString ".\\Colorado Companies"^^xsd:anyURI ;
+    gist:hasLocation <http://example.com/files/> ;
+    gist:name "Colorado Companies"^^xsd:string .
+
