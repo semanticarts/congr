@@ -1,3 +1,6 @@
+# Content Grapher - Traverses a directory tree and writes metadata to a turtle file. 
+# Optionally includes file metadata and file fingerprints.
+# Steven Chalem, Semantic Arts, 2023-07-05
 import os
 import mimetypes
 import hashlib
@@ -13,11 +16,13 @@ gist = Namespace("https://w3id.org/ontology/semanticarts/gist/")
 congr = Namespace("https://ontologies.semanticarts.com/congr/")
 congr3 = Namespace("https://data.semanticarts.com/congr/")
 
+# Hashing function for file location and date/time
 def spacetime_hash(file_path, use_modify_time=False):
     datetime = str(os.path.getmtime(file_path)) if use_modify_time else str(os.path.getctime(file_path))
     input_string = file_path + datetime
     return hashlib.sha256(input_string.encode()).hexdigest()[:SPACETIME_HASH_TRUNC_LENGTH]
 
+# Hashing function for file content (fingerprints)
 def content_hash(file_path):
     hasher = hashlib.sha256()
     try:
@@ -29,6 +34,7 @@ def content_hash(file_path):
         return None
     return hasher.hexdigest()
 
+# Main loop
 def generate_file_metadata(starting_dir_path, starting_dir_node_iri=None, include_files=True, create_fingerprints=True, output_file='congr-output.ttl'):
     g = Graph()
     g.bind('gist', gist)
@@ -95,6 +101,7 @@ def generate_file_metadata(starting_dir_path, starting_dir_node_iri=None, includ
 
     g.serialize(format='turtle', destination=output_file)
 
+# Parse command line arguments and run the main loop
 def main():
     parser = argparse.ArgumentParser(description='Triplify filestore metadata.')
     parser.add_argument('starting_dir_path', type=str, nargs='?', default='C:/Users/StevenChalem/congr-test', help='Path to the starting directory.')
