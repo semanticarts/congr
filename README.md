@@ -14,15 +14,6 @@ To use `congr.py`, run it from the command line with your desired options. Here'
 
 This will generate an RDF graph of your filestore metadata, excluding file fingerprints, with the IRI for the starting directory node set to 'http://myweb.com/files/'. The output will be written to `myoutput.ttl`.
 
-Usage Examples
------
-
-In this example, the `&` in the directory name was causing problems so we ran congr.py from the directory.
-
-**`PS C:\Users\StevenChalem\semantic arts\SA Staff - Documents\Clients & Partners>`**
-
-- `python "C:/Users/StevenChalem/git/congr/congr.py" . -o "C:/Users/StevenChalem/congr-test/output1.ttl" --files --no-fingerprints`
-
 ### Arguments
 
 `congr.py` can be run from the command line using the arguments below. Arguments are case-sensitive. Arguments can be abbreviated to their shortest unique form. For example, `--files` can be abbreviated to `-f`. Arguments can be provided in any order. Default values may between releases, so it's best to specify all arguments explicitly.
@@ -40,6 +31,15 @@ In this example, the `&` in the directory name was causing problems so we ran co
 - `--no-fingerprints`: Exclude file fingerprints. **If you don't need fingerprints, choose this for better performance.**
 
 - `-o, --output`: Output file name (default: 'output/congr-output.ttl').
+
+Usage Examples
+-----
+
+In this example, the `&` in the directory name was causing problems so we ran congr.py from the directory.
+
+**`PS C:\Users\StevenChalem\semantic arts\SA Staff - Documents\Clients & Partners>`**
+
+- `python "C:/Users/StevenChalem/git/congr/congr.py" . -o "C:/Users/StevenChalem/congr-test/output1.ttl" --files --no-fingerprints`
 
 Requirements
 -----
