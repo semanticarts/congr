@@ -3,7 +3,7 @@ Content Grapher (congr)
 
 ![conger on a file cabinet](./media/conger-on-a-file-cabinet-210x210.png)
 
-Traverse a Windows or Linux directory tree and write metadata to a Turtle file. Optionally include file metadata and file fingerprints.
+Traverse a Windows or Linux directory tree and write directory metadata to a Turtle file. Optionally include file metadata and file fingerprints.
 
 Usage
 -----
