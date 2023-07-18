@@ -34,6 +34,12 @@ def content_hash(file_path):
         return None
     return hasher.hexdigest()
 
+def add_error_to_graph(g, file_path, error_message):
+    error_node = URIRef(congr3 + "_Error_" + spacetime_hash(file_path))
+    g.add((error_node, RDF.type, congr.Error))
+    g.add((error_node, gist.description, Literal(error_message, datatype=XSD.string)))
+    return g
+
 # Main loop
 def generate_file_metadata(starting_dir_path, starting_dir_node_iri=None, include_files=True, create_fingerprints=True, output_file='congr-output.ttl'):
     g = Graph()
@@ -66,28 +72,38 @@ def generate_file_metadata(starting_dir_path, starting_dir_node_iri=None, includ
 
         for filename in files:
             file_path = os.path.join(root, filename)
-            file_location_hash = spacetime_hash(file_path, use_modify_time=True)
+            try:
+                file_location_hash = spacetime_hash(file_path, use_modify_time=True)
+            except FileNotFoundError as e:
+                file_location_hash = "error"
+                error_node = URIRef(congr3 + "_Error_" + quote(str(e), safe=''))
+                g.add((error_node, RDF.type, gist.Error))
+                g.add((error_node, gist.description, Literal(str(e), datatype=XSD.string)))
+                g.add((dir_node, congr.hasError, error_node))
 
             if os.path.isfile(file_path) and include_files:
                 file_node = URIRef(congr3 + "_Content_" + quote(filename, safe='') + "_" + file_location_hash)
 
-            # If the file is in the starting directory, add a relation to starting_dir_node
             if root == starting_dir_path:
                 g.add((file_node, gist.hasLocation, starting_dir_node))
-            # Otherwise, add a relation to the actual directory that the file is in
             else:
                 g.add((file_node, gist.hasLocation, dir_node))
 
             g.add((file_node, RDF.type, gist.Content))
             g.add((file_node, gist.name, Literal(filename, datatype=XSD.string)))
 
-            size_node = URIRef(congr3 + "_InformationQuantity_" + quote(filename, safe='') + "_" + file_location_hash)
-            g.add((size_node, gist.hasUnitOfMeasure, XSD.byte))
-            g.add((size_node, gist.hasValue, Literal(os.path.getsize(file_path), datatype=XSD.integer)))
-            g.add((file_node, gist.hasMagnitude, size_node))
-
-            g.add((file_node, congr.createDateTime, Literal(datetime.fromtimestamp(os.path.getctime(file_path)).isoformat(), datatype=XSD.dateTime)))
-            g.add((file_node, congr.modifyDateTime, Literal(datetime.fromtimestamp(os.path.getmtime(file_path)).isoformat(), datatype=XSD.dateTime)))
+            try:
+                size_node = URIRef(congr3 + "_InformationQuantity_" + quote(filename, safe='') + "_" + file_location_hash)
+                g.add((size_node, gist.hasUnitOfMeasure, XSD.byte))
+                g.add((size_node, gist.hasValue, Literal(os.path.getsize(file_path), datatype=XSD.integer)))
+                g.add((file_node, gist.hasMagnitude, size_node))
+                g.add((file_node, congr.createDateTime, Literal(datetime.fromtimestamp(os.path.getctime(file_path)).isoformat(), datatype=XSD.dateTime)))
+                g.add((file_node, congr.modifyDateTime, Literal(datetime.fromtimestamp(os.path.getmtime(file_path)).isoformat(), datatype=XSD.dateTime)))
+            except FileNotFoundError as e:
+                error_node = URIRef(congr3 + "_Error_" + quote(str(e), safe=''))
+                g.add((error_node, RDF.type, gist.Error))
+                g.add((error_node, gist.description, Literal(str(e), datatype=XSD.string)))
+                g.add((file_node, congr.hasError, error_node))
 
             mime_type = mimetypes.guess_type(file_path)[0]
             if mime_type:
@@ -96,8 +112,14 @@ def generate_file_metadata(starting_dir_path, starting_dir_node_iri=None, includ
                 g.add((file_node, gist.hasMediaType, mime_type_node))
 
             if create_fingerprints:
-                fingerprint = content_hash(file_path)
-                g.add((file_node, congr.fingerprint, Literal(fingerprint, datatype=XSD.string)))
+                try:
+                    fingerprint = content_hash(file_path)
+                    g.add((file_node, congr.fingerprint, Literal(fingerprint, datatype=XSD.string)))
+                except FileNotFoundError as e:
+                    error_node = URIRef(congr3 + "_Error_" + quote(str(e), safe=''))
+                    g.add((error_node, RDF.type, gist.Error))
+                    g.add((error_node, gist.description, Literal(str(e), datatype=XSD.string)))
+                    g.add((file_node, congr.hasError, error_node))
 
     g.serialize(format='turtle', destination=output_file)
 
