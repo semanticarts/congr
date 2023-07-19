@@ -1,4 +1,4 @@
-# Content Grapher - Traverses a directory tree and writes metadata to a turtle file. 
+# Content Grapher - Traverses a directory tree and writes directory metadata to a turtle file. 
 # Optionally includes file metadata and file fingerprints.
 # Steven Chalem, Semantic Arts, 2023-07-05
 import os
@@ -10,7 +10,7 @@ from urllib.parse import quote
 import argparse
 
 SPACETIME_HASH_TRUNC_LENGTH = 10 # Length for the hash of file location and date/time
-CONTENT_HASH_CHUNK_SIZE = 4096 # Size of the chunks to read for the hash of file content
+CONTENT_HASH_CHUNK_SIZE = 4096 # Size of the chunks to read when hashing file content
 
 gist = Namespace("https://w3id.org/ontology/semanticarts/gist/")
 congr = Namespace("https://ontologies.semanticarts.com/congr/")
