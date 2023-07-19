@@ -17,8 +17,14 @@ congr = Namespace("https://ontologies.semanticarts.com/congr/")
 congr3 = Namespace("https://data.semanticarts.com/congr/")
 
 # Hashing function for file location and date/time
-def spacetime_hash(file_path, use_modify_time=False):
-    datetime = str(os.path.getmtime(file_path)) if use_modify_time else str(os.path.getctime(file_path))
+def spacetime_hash(file_path, use_modify_time=False, g=None, node=None):
+    try:
+        datetime = str(os.path.getmtime(file_path)) if use_modify_time else str(os.path.getctime(file_path))
+    except OSError as e:
+        if g is not None and node is not None:
+            g = add_error_to_graph(g, node, file_path, str(e))
+        return None
+
     input_string = file_path + datetime
     return hashlib.sha256(input_string.encode()).hexdigest()[:SPACETIME_HASH_TRUNC_LENGTH]
 
@@ -34,10 +40,11 @@ def content_hash(file_path):
         return None
     return hasher.hexdigest()
 
-def add_error_to_graph(g, file_path, error_message):
+def add_error_to_graph(g, node, file_path, error_message):
     error_node = URIRef(congr3 + "_Error_" + spacetime_hash(file_path))
     g.add((error_node, RDF.type, congr.Error))
     g.add((error_node, gist.description, Literal(error_message, datatype=XSD.string)))
+    g.add((node, congr.hasError, error_node))
     return g
 
 # Main loop
@@ -75,11 +82,7 @@ def generate_file_metadata(starting_dir_path, starting_dir_node_iri=None, includ
             try:
                 file_location_hash = spacetime_hash(file_path, use_modify_time=True)
             except FileNotFoundError as e:
-                file_location_hash = "error"
-                error_node = URIRef(congr3 + "_Error_" + quote(str(e), safe=''))
-                g.add((error_node, RDF.type, gist.Error))
-                g.add((error_node, gist.description, Literal(str(e), datatype=XSD.string)))
-                g.add((dir_node, congr.hasError, error_node))
+                g = add_error_to_graph(g, dir_node, file_path, str(e))
 
             if os.path.isfile(file_path) and include_files:
                 file_node = URIRef(congr3 + "_Content_" + quote(filename, safe='') + "_" + file_location_hash)
@@ -100,10 +103,7 @@ def generate_file_metadata(starting_dir_path, starting_dir_node_iri=None, includ
                 g.add((file_node, congr.createDateTime, Literal(datetime.fromtimestamp(os.path.getctime(file_path)).isoformat(), datatype=XSD.dateTime)))
                 g.add((file_node, congr.modifyDateTime, Literal(datetime.fromtimestamp(os.path.getmtime(file_path)).isoformat(), datatype=XSD.dateTime)))
             except FileNotFoundError as e:
-                error_node = URIRef(congr3 + "_Error_" + quote(str(e), safe=''))
-                g.add((error_node, RDF.type, gist.Error))
-                g.add((error_node, gist.description, Literal(str(e), datatype=XSD.string)))
-                g.add((file_node, congr.hasError, error_node))
+                g = add_error_to_graph(g, dir_node, file_path, str(e))
 
             mime_type = mimetypes.guess_type(file_path)[0]
             if mime_type:
@@ -116,10 +116,7 @@ def generate_file_metadata(starting_dir_path, starting_dir_node_iri=None, includ
                     fingerprint = content_hash(file_path)
                     g.add((file_node, congr.fingerprint, Literal(fingerprint, datatype=XSD.string)))
                 except FileNotFoundError as e:
-                    error_node = URIRef(congr3 + "_Error_" + quote(str(e), safe=''))
-                    g.add((error_node, RDF.type, gist.Error))
-                    g.add((error_node, gist.description, Literal(str(e), datatype=XSD.string)))
-                    g.add((file_node, congr.hasError, error_node))
+                    g = add_error_to_graph(g, dir_node, file_path, str(e))
 
     g.serialize(format='turtle', destination=output_file)
 
