@@ -81,8 +81,13 @@ def generate_file_metadata(starting_dir_path, starting_dir_node_iri=None, includ
             file_path = os.path.join(root, filename)
             try:
                 file_location_hash = spacetime_hash(file_path, use_modify_time=True)
+                if file_location_hash is None:
+                    #ToDo: handle this better (e.g. use random hash instead of None)
+                    print(f"Could not generate spacetime hash for file {file_path}. Skipping this file.")
+                    continue
             except FileNotFoundError as e:
                 g = add_error_to_graph(g, dir_node, file_path, str(e))
+                continue
 
             if os.path.isfile(file_path) and include_files:
                 file_node = URIRef(congr3 + "_Content_" + quote(filename, safe='') + "_" + file_location_hash)
