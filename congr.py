@@ -55,18 +55,9 @@ def generate_file_metadata(starting_dir_path, starting_dir_node_iri=None, includ
     g.bind('congr3', congr3)
 
     starting_dir_hash = spacetime_hash(starting_dir_path)
-
-    # Use the starting_iri if provided, otherwise generate it from the directory path
-    if starting_dir_node_iri is None:
-        starting_dir_hash = spacetime_hash(starting_dir_path)
-        starting_dir_node = URIRef(congr3 + "_Directory_" + quote(os.path.basename(starting_dir_path), safe='') + "_" + starting_dir_hash)
-    else:
-        starting_dir_node = starting_dir_node_iri
-
-    g.add((starting_dir_node, RDF.type, gist.Location))
-    g.add((starting_dir_node, gist.name, Literal(os.path.basename(starting_dir_path), datatype=XSD.string)))
-    g.add((starting_dir_node, congr.pathString, Literal(starting_dir_path, datatype=XSD.anyURI)))
-
+    starting_dir_node = starting_dir_node_iri if starting_dir_node_iri else URIRef(congr3 + "_Directory_" + quote(os.path.basename(starting_dir_path), safe='') + "_" + starting_dir_hash)
+    parent_map = {starting_dir_path: starting_dir_node}
+    
     for root, dirs, files in os.walk(starting_dir_path):
         dir_hash = spacetime_hash(root)
         dir_node = URIRef(congr3 + "_Directory_" + quote(os.path.basename(root), safe='') + "_" + dir_hash)
@@ -75,7 +66,9 @@ def generate_file_metadata(starting_dir_path, starting_dir_node_iri=None, includ
             g.add((dir_node, RDF.type, gist.Location))
             g.add((dir_node, gist.name, Literal(os.path.basename(root), datatype=XSD.string)))
             g.add((dir_node, congr.pathString, Literal(root, datatype=XSD.anyURI)))
-            g.add((dir_node, gist.hasLocation, starting_dir_node))
+            g.add((dir_node, gist.hasLocation, parent_map[os.path.dirname(root)]))
+
+        parent_map[root] = dir_node  # Add to parent_map
 
         for filename in files:
             file_path = os.path.join(root, filename)
@@ -139,6 +132,8 @@ def generate_file_metadata(starting_dir_path, starting_dir_node_iri=None, includ
                     g.add((file_node, congr.fingerprint, Literal(fingerprint, datatype=XSD.string)))
                 except FileNotFoundError as e:
                     g = add_error_to_graph(g, dir_node, file_path, str(e))
+
+            g.add((file_node, gist.hasLocation, dir_node))  # Associate file with its directory
 
     g.serialize(format='turtle', destination=output_file)
 
