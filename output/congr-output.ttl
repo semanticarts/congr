@@ -87,12 +87,8 @@ congr3:_Directory_congr_a861a6305a a gist:Location ;
 
 congr3:_Directory_pictures_402e56ae41 a gist:Location ;
     congr:pathString "C:/Users/StevenChalem/congr-test\\pictures"^^xsd:anyURI ;
-    gist:hasLocation <http://example.com/files/> ;
+    gist:hasLocation congr3:_Directory_congr-test_22f9ee58ec ;
     gist:name "pictures"^^xsd:string .
 
 gist:_MediaType_applicationmsword a gist:MediaType .
-
-<http://example.com/files/> a gist:Location ;
-    congr:pathString "C:/Users/StevenChalem/congr-test"^^xsd:anyURI ;
-    gist:name "congr-test"^^xsd:string .
 
