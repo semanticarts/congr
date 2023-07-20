@@ -82,7 +82,7 @@ def generate_file_metadata(starting_dir_path, starting_dir_node_iri=None, includ
             try:
                 file_location_hash = spacetime_hash(file_path, use_modify_time=True)
                 if file_location_hash is None:
-                    #ToDo: handle this better (e.g. use random hash instead of None)
+                    #ToDo: handle this better (e.g. use rand)
                     print(f"Could not generate spacetime hash for file {file_path}. Skipping this file.")
                     continue
             except FileNotFoundError as e:
@@ -105,10 +105,27 @@ def generate_file_metadata(starting_dir_path, starting_dir_node_iri=None, includ
                 g.add((size_node, gist.hasUnitOfMeasure, XSD.byte))
                 g.add((size_node, gist.hasValue, Literal(os.path.getsize(file_path), datatype=XSD.integer)))
                 g.add((file_node, gist.hasMagnitude, size_node))
-                g.add((file_node, congr.createDateTime, Literal(datetime.fromtimestamp(os.path.getctime(file_path)).isoformat(), datatype=XSD.dateTime)))
-                g.add((file_node, congr.modifyDateTime, Literal(datetime.fromtimestamp(os.path.getmtime(file_path)).isoformat(), datatype=XSD.dateTime)))
+                # g.add((file_node, congr.createDateTime, Literal(datetime.fromtimestamp(os.path.getctime(file_path)).isoformat(), datatype=XSD.dateTime)))
             except FileNotFoundError as e:
                 g = add_error_to_graph(g, dir_node, file_path, str(e))
+
+            try:
+                creation_time = datetime.fromtimestamp(os.path.getctime(file_path)).isoformat()
+            except OSError as e:
+                g = add_error_to_graph(g, file_node, file_path, str(e))
+                creation_time = None  # or set a default value
+
+            if creation_time is not None:
+                g.add((file_node, congr.createDateTime, Literal(creation_time, datatype=XSD.dateTime)))
+
+            try:
+                modification_time = datetime.fromtimestamp(os.path.getmtime(file_path)).isoformat()
+            except OSError as e:
+                g = add_error_to_graph(g, file_node, file_path, str(e))
+                modification_time = None  # or set a default value
+
+            if modification_time is not None:
+                g.add((file_node, congr.modifyDateTime, Literal(modification_time, datatype=XSD.dateTime)))
 
             mime_type = mimetypes.guess_type(file_path)[0]
             if mime_type:
