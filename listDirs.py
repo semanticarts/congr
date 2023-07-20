@@ -1,9 +1,17 @@
 import csv
+import os
+import re
 from rdflib import Graph, Namespace
+
+def parse_directory_name(directory_name):
+    # Use regular expression to identify CamelCased words and multiple delimiters
+    parsed = re.sub('([A-Z][a-z]+)', r' \1', re.sub('([A-Z]+)', r' \1', directory_name))
+    parsed = re.split(r'[\s_-]+', parsed)
+    return [word for word in parsed if word]
 
 # Load ttl file into a rdflib Graph
 g = Graph()
-g.parse("output/congr-output.ttl", format="turtle")
+g.parse(r"C:\Users\StevenChalem\Semantic Arts\SA Staff - Documents\InternalSystems\.congr\SharedFolders_MarketingAndSales_2023-07-19.ttl", format="turtle")
 
 # Define data namespace
 congr3 = Namespace('https://data.semanticarts.com/congr/')
@@ -22,19 +30,21 @@ qres = g.query(
     """
 )
 
-# Create a set to store unique directory names
-unique_dir_names = set()
+# To hold unique directory names
+unique_names = set()
 
-# Write the query results directly to a CSV file
-with open('output/directories.csv', 'w', newline='') as f:
+# Write the directories to a CSV file
+with open('ignore/directories.csv', 'w', newline='', encoding='utf-8') as f:
     writer = csv.DictWriter(f, fieldnames=['IRI', 'Path', 'Name'])
     writer.writeheader()
     for row in qres:
-        writer.writerow({'IRI': str(row[0]), 'Path': str(row[1]), 'Name': str(row[2])})
-        unique_dir_names.add(str(row[2]))
+        directory_name = str(row[2])
+        parsed_name = parse_directory_name(directory_name)
+        unique_names.update(parsed_name)
+        writer.writerow({'IRI': str(row[0]), 'Path': str(row[1]), 'Name': ' '.join(parsed_name)})
 
-# Write the unique directory names to a second CSV file
-with open('output/unique_directories.csv', 'w', newline='') as f:
+# Write the unique directory names to a CSV file
+with open('ignore/unique_directories.csv', 'w', newline='', encoding='utf-8') as f:
     writer = csv.writer(f)
-    for name in unique_dir_names:
+    for name in unique_names:
         writer.writerow([name])
