@@ -1,6 +1,6 @@
 # Content Grapher - Traverses a directory tree and writes directory metadata to a turtle file. 
 # Optionally includes file metadata and file fingerprints.
-# Steven Chalem, Semantic Arts, 2023-07-05
+# Steven Chalem, Semantic Arts, 2023-07-20
 import os
 import mimetypes
 import hashlib
@@ -40,6 +40,7 @@ def content_hash(file_path):
         return None
     return hasher.hexdigest()
 
+# Log an error to the graph
 def add_error_to_graph(g, node, file_path, error_message):
     error_node = URIRef(congr3 + "_Error_" + spacetime_hash(file_path))
     g.add((error_node, RDF.type, congr.Error))
@@ -49,6 +50,7 @@ def add_error_to_graph(g, node, file_path, error_message):
 
 # Main loop
 def generate_file_metadata(starting_dir_path, starting_dir_node_iri=None, include_files=True, create_fingerprints=True, output_file='congr-output.ttl'):
+    # Create the output graph and associate prefixes with namespaces
     g = Graph()
     g.bind('gist', gist)
     g.bind('congr', congr)
@@ -57,7 +59,8 @@ def generate_file_metadata(starting_dir_path, starting_dir_node_iri=None, includ
     starting_dir_hash = spacetime_hash(starting_dir_path)
     starting_dir_node = starting_dir_node_iri if starting_dir_node_iri else URIRef(congr3 + "_Directory_" + quote(os.path.basename(starting_dir_path), safe='') + "_" + starting_dir_hash)
     parent_map = {starting_dir_path: starting_dir_node}
-    
+
+    # Traverse the directory tree downward starting at starting_dir_path
     for root, dirs, files in os.walk(starting_dir_path):
         dir_hash = spacetime_hash(root)
         dir_node = URIRef(congr3 + "_Directory_" + quote(os.path.basename(root), safe='') + "_" + dir_hash)
@@ -68,9 +71,12 @@ def generate_file_metadata(starting_dir_path, starting_dir_node_iri=None, includ
             g.add((dir_node, congr.pathString, Literal(root, datatype=XSD.anyURI)))
             g.add((dir_node, gist.hasLocation, parent_map[os.path.dirname(root)]))
 
-        parent_map[root] = dir_node  # Add to parent_map
+        # Track the directory structure
+        parent_map[root] = dir_node  
 
+        # Traverse the files in the current directory
         for filename in files:
+            # Create an IRI for the file
             file_path = os.path.join(root, filename)
             try:
                 file_location_hash = spacetime_hash(file_path, use_modify_time=True)
@@ -85,23 +91,11 @@ def generate_file_metadata(starting_dir_path, starting_dir_node_iri=None, includ
             if os.path.isfile(file_path) and include_files:
                 file_node = URIRef(congr3 + "_Content_" + quote(filename, safe='') + "_" + file_location_hash)
 
-            if root == starting_dir_path:
-                g.add((file_node, gist.hasLocation, starting_dir_node))
-            else:
-                g.add((file_node, gist.hasLocation, dir_node))
-
+            # Add triples for the file
             g.add((file_node, RDF.type, gist.Content))
             g.add((file_node, gist.name, Literal(filename, datatype=XSD.string)))
 
-            try:
-                size_node = URIRef(congr3 + "_InformationQuantity_" + quote(filename, safe='') + "_" + file_location_hash)
-                g.add((size_node, gist.hasUnitOfMeasure, XSD.byte))
-                g.add((size_node, gist.hasValue, Literal(os.path.getsize(file_path), datatype=XSD.integer)))
-                g.add((file_node, gist.hasMagnitude, size_node))
-                # g.add((file_node, congr.createDateTime, Literal(datetime.fromtimestamp(os.path.getctime(file_path)).isoformat(), datatype=XSD.dateTime)))
-            except FileNotFoundError as e:
-                g = add_error_to_graph(g, dir_node, file_path, str(e))
-
+            #Add a triple for the file creation time
             try:
                 creation_time = datetime.fromtimestamp(os.path.getctime(file_path)).isoformat()
             except OSError as e:
@@ -111,6 +105,7 @@ def generate_file_metadata(starting_dir_path, starting_dir_node_iri=None, includ
             if creation_time is not None:
                 g.add((file_node, congr.createDateTime, Literal(creation_time, datatype=XSD.dateTime)))
 
+            #Add a triple for the file modification time
             try:
                 modification_time = datetime.fromtimestamp(os.path.getmtime(file_path)).isoformat()
             except OSError as e:
@@ -120,12 +115,14 @@ def generate_file_metadata(starting_dir_path, starting_dir_node_iri=None, includ
             if modification_time is not None:
                 g.add((file_node, congr.modifyDateTime, Literal(modification_time, datatype=XSD.dateTime)))
 
+            #Add a triple for the media type
             mime_type = mimetypes.guess_type(file_path)[0]
             if mime_type:
                 mime_type_node = URIRef(gist + "_MediaType_" + quote(mime_type.replace('/', ''), safe=''))
                 g.add((mime_type_node, RDF.type, gist.MediaType))
                 g.add((file_node, gist.hasMediaType, mime_type_node))
 
+            #Add a triple for the file fingerprint
             if create_fingerprints:
                 try:
                     fingerprint = content_hash(file_path)
@@ -133,7 +130,21 @@ def generate_file_metadata(starting_dir_path, starting_dir_node_iri=None, includ
                 except FileNotFoundError as e:
                     g = add_error_to_graph(g, dir_node, file_path, str(e))
 
-            g.add((file_node, gist.hasLocation, dir_node))  # Associate file with its directory
+            #Create a node for the file size and associate it with the file
+            try:
+                size_node = URIRef(congr3 + "_InformationQuantity_" + quote(filename, safe='') + "_" + file_location_hash)
+                g.add((size_node, gist.hasUnitOfMeasure, XSD.byte))
+                g.add((size_node, gist.hasValue, Literal(os.path.getsize(file_path), datatype=XSD.integer)))
+                g.add((file_node, gist.hasMagnitude, size_node))
+                # g.add((file_node, congr.createDateTime, Literal(datetime.fromtimestamp(os.path.getctime(file_path)).isoformat(), datatype=XSD.dateTime)))
+            except FileNotFoundError as e:
+                g = add_error_to_graph(g, dir_node, file_path, str(e))
+
+            # Associate the file to its location (directory)
+            if root == starting_dir_path:
+                g.add((file_node, gist.hasLocation, starting_dir_node))
+            else:
+                g.add((file_node, gist.hasLocation, dir_node))
 
     g.serialize(format='turtle', destination=output_file)
 
