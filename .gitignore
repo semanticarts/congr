@@ -2,3 +2,5 @@ old/*
 ignore/*
 *.ttl
 *.csv
+*.json
+.env

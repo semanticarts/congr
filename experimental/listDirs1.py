@@ -10,7 +10,7 @@ nlp = spacy.load("en_core_web_sm")
 
 # Load ttl file into a rdflib Graph
 g = Graph()
-g.parse(r"C:\Users\StevenChalem\Semantic Arts\SA Staff - Documents\InternalSystems\.congr\SharedFolders_MarketingAndSales_2023-07-19.ttl", format="turtle")
+g.parse(r"C:\Users\StevenChalem\Semantic Arts\SA Staff - Documents\InternalSystems\.congr\ClientsAndPartners7-20-23.ttl", format="turtle")
 
 # Define data namespace
 congr3 = Namespace('https://data.semanticarts.com/congr/')
