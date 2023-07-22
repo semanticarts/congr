@@ -1,3 +1,6 @@
+# Upload a turtle file to triple store
+# Shawn Goodwin, Steven Chalem, Semantic Arts 2023-07
+# Tested with 
 from dotenv import dotenv_values
 import requests
 import sys
