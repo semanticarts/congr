@@ -35,7 +35,7 @@ This will generate an RDF graph of your filestore metadata, excluding file finge
 Usage Examples
 -----
 
-In this example, the `&` in the directory name was causing problems so we ran congr.py from the directory.
+In this example, the `&` in the directory name was causing problems so we ran congr.py from inside the target directory.
 
 **`PS C:\Users\StevenChalem\semantic arts\SA Staff - Documents\Clients & Partners>`**
 
